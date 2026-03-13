@@ -59,8 +59,8 @@
     "subCategory": "UI 组件库",
     "maturity": "trending",
     "trendingRank": 3,
-    "github": "v0-dev/v0",
-    "link": "https://github.com/v0-dev/v0",
+    "github": "vercel/v0",
+    "link": "https://github.com/vercel/v0",
     "tags": [
       "ui",
       "ai",
@@ -139,8 +139,8 @@
     "subCategory": "高效 IDE 插件",
     "maturity": "trending",
     "trendingRank": 6,
-    "github": "codeium/windsurf",
-    "link": "https://github.com/codeium/windsurf",
+    "github": "microsoft/cline",
+    "link": "https://github.com/microsoft/cline",
     "tags": [
       "ai",
       "ide",
