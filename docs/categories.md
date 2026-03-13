@@ -1,90 +1,50 @@
 # 项目分类
 
-## 分类体系
+## 分类导航
 
-我们按照以下分类体系组织项目，确保每个项目都有明确的归属和收录标准。
+### 🤖 智能前沿 (AI & ML)
 
-### 1. 智能前沿 (AI & ML)
+LLM 框架、AI Agent、本地大模型、图像/视频生成
 
-**二级分类**：
-- LLM 框架
-- AI Agent
-- 本地大模型 (Ollama/Local)
-- 图像/视频生成
+- [Ollama](https://github.com/ollama/ollama) - 在本地运行大型语言模型
+- [Dify](https://github.com/langgenius/dify) - 开源的 LLM 应用开发平台
+- [Browse](https://github.com/browser-use/browser-use) - AI 驱动的网页浏览器
+- [Open WebUI](https://github.com/open-webui/open-webui) - 用户友好的 Web UI for LLMs
+- [ComfyUI](https://github.com/comfyanonymous/ComfyUI) - 强大的 Stable Diffusion 工作流
 
-**创新细节/收录侧重**：
-- 侧重于"一键运行"和"低门槛接入"的项目
-- 关注模型性能和易用性
-- 优先收录有实际应用场景的项目
+### 🛠️ 开发利器 (DevTools)
 
-### 2. 开发利器 (DevTools)
+终端增强、API 工具、高效 IDE 插件、测试/调试
 
-**二级分类**：
-- 终端增强 (CLI)
-- API 工具
-- 高效 IDE 插件
-- 测试/调试
+- [Cline](https://github.com/microsoft/cline) - 微软推出的 AI 编程助手
 
-**创新细节/收录侧重**：
-- 标注"提升效率百分比"，强调对工作流的改造
-- 关注工具的稳定性和可靠性
-- 优先收录能够解决实际开发痛点的项目
+### 🌐 现代 Web (Web Stack)
 
-### 3. 现代 Web (Web Stack)
+全栈框架、UI 组件库、低代码、动效/可视化
 
-**二级分类**：
-- 全栈框架
-- UI 组件库
-- 低代码 (Low-code)
-- 动效/可视化
+- [v0](https://github.com/vercel/v0) - 由 AI 生成的 UI 组件
 
-**创新细节/收录侧重**：
-- 增加"性能评分"和"设计风格"标签（如：Bento, Minimal）
-- 关注用户体验和开发效率
-- 优先收录有创新性设计的项目
+### 🏠 自托管 (Self-Hosted)
 
-### 4. 基础设施 (Infra)
+云服务替代品、家庭实验室、私人影音、自动化流
 
-**二级分类**：
-- Docker/K8s 工具
-- 数据库/存储
-- 安全/防护
-- 网络/穿透
+- [AList](https://github.com/alist-org/alist) - 支持多种存储的文件列表程序
+- [Navidrome](https://github.com/navidrome/navidrome) - 开源的音乐流媒体服务器
+- [Awesome Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - 家庭实验室技术栈集合
 
-**创新细节/收录侧重**：
-- 侧重于"高可用"和"轻量化"替代方案
-- 关注系统的稳定性和安全性
-- 优先收录能够简化基础设施管理的项目
+---
 
-### 5. 自托管 (Self-Hosted)
+## 成熟度说明
 
-**二级分类**：
-- 云服务替代品
-- 家庭实验室 (NAS)
-- 私人影音
-- 自动化流
+| 标签 | 说明 |
+|------|------|
+| 🔥 潜力股 | 近期热门，增长迅速的项目 |
+| 🌟 镇馆之宝 | 稳定可靠，社区认可的项目 |
+| 🛠️ 极客玩具 | 小众有趣，适合折腾的项目 |
 
-**创新细节/收录侧重**：
-- 核心卖点：隐私保护、数据自主、部署成本
-- 关注项目的可维护性和扩展性
-- 优先收录适合个人和小团队使用的项目
+---
 
-### 6. 终身学习 (Resources)
+## 项目提交
 
-**二级分类**：
-- 技术路线图 (Roadmap)
-- 电子书合集
-- 面试/算法
-- 优质论文
-
-**创新细节/收录侧重**：
-- 剔除单纯的链接堆砌，只收录"系统性"的项目
-- 关注内容的质量和实用性
-- 优先收录有结构化内容的项目
-
-## GitFame 分类
-
-- **一级分类**：开发利器 (DevTools)
-- **二级分类**：终端增强 (CLI)
-- **收录侧重**：提升效率百分比，强调对工作流的改造
-- **效率提升**：相比手动分析，提升效率达 95% 以上
+欢迎提交优质项目！请提交 GitHub Issue：
+[提交项目](https://github.com/cyhgls-cpu/gitfame/issues/new)
