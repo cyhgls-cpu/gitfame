@@ -41,6 +41,6 @@ gitfame --report /path/to/repository
 
 - [指南](/guide/getting-started)：详细的使用指南
 - [API](/api/core)：API 参考文档
-- [示例](/examples)：使用示例
-- [分类](/categories.vue)：项目分类体系
+- [示例](/examples/)：使用示例
+- [分类](/categories)：项目分类体系
 - [成熟度](/maturity)：项目成熟度动态视图
