@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const fetch = require('node-fetch');
+const fetch = globalThis.fetch || require('node-fetch');
 
 // 配置
 const GITHUB_TOKEN = process.env.GHKEY;

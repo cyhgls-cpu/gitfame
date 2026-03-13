@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const fetch = require('node-fetch');
+const fetch = globalThis.fetch || require('node-fetch');
 
 const QWEN_API_KEY = process.env.QWEN_API_KEY;
 const PROJECTS_FILE = path.join(__dirname, '../data/projects.json');
