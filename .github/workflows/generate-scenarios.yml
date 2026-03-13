@@ -1,0 +1,46 @@
+name: Generate Scenarios
+
+on:
+  schedule:
+    # 每周运行一次
+    - cron: '0 0 * * 0'
+  # 手动触发
+  workflow_dispatch:
+
+jobs:
+  generate-scenarios:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run scenario generation script
+        run: node scripts/generate-scenarios.js
+        env:
+          QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
+
+      - name: Update index.md with generated scenarios
+        run: |
+          # 读取生成的前端代码
+          SCENARIOS_FRONTEND=$(cat data/scenarios-frontend.md)
+          
+          # 替换 index.md 中的场景部分
+          sed -i '/## 我想做什么？/,/<\/style>/c\'"$SCENARIOS_FRONTEND"' docs/index.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add docs/index.md
+          git add data/scenarios.json
+          git add data/scenarios-frontend.md
+          git commit -m 'Update scenarios' || echo 'No changes to commit'
+          git push

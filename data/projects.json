@@ -1,0 +1,167 @@
+[
+  {
+    "id": "gitfame",
+    "name": "GitFame",
+    "description": "功能强大的 Git 仓库分析工具，帮助你了解代码贡献者的贡献情况",
+    "domain": "DevTools",
+    "subCategory": "CLI",
+    "maturity": "stable",
+    "github": "gitfame/gitfame",
+    "link": "/",
+    "efficiency": 95,
+    "features": [
+      "贡献者分析",
+      "代码热度分析",
+      "趋势图表",
+      "精确统计"
+    ],
+    "tags": [
+      "git",
+      "cli",
+      "analysis",
+      "productivity"
+    ]
+  },
+  {
+    "id": "gitfame-cli",
+    "name": "GitFame CLI",
+    "description": "GitFame 的命令行工具，提供快速的仓库分析功能",
+    "domain": "DevTools",
+    "subCategory": "CLI",
+    "maturity": "trending",
+    "trendingRank": 12,
+    "link": "/api/core",
+    "efficiency": 90,
+    "features": [
+      "快速分析",
+      "多种输出格式",
+      "灵活的筛选选项"
+    ],
+    "tags": [
+      "git",
+      "cli",
+      "terminal"
+    ]
+  },
+  {
+    "id": "gitfame-plugin",
+    "name": "GitFame Plugin",
+    "description": "GitFame 的插件系统，允许你扩展其功能",
+    "domain": "DevTools",
+    "subCategory": "API 工具",
+    "maturity": "geek",
+    "link": "/api/plugins",
+    "efficiency": 85,
+    "features": [
+      "可扩展",
+      "钩子系统",
+      "自定义功能"
+    ],
+    "tags": [
+      "plugin",
+      "extension",
+      "api"
+    ]
+  },
+  {
+    "id": "ai-assistant",
+    "name": "AI Assistant",
+    "description": "基于 LLM 的智能助手，帮助开发者解决问题",
+    "domain": "AI & ML",
+    "subCategory": "AI Agent",
+    "maturity": "trending",
+    "trendingRank": 5,
+    "link": "#",
+    "efficiency": 80,
+    "features": [
+      "代码生成",
+      "问题解答",
+      "文档生成"
+    ],
+    "tags": [
+      "ai",
+      "llm",
+      "assistant"
+    ]
+  },
+  {
+    "id": "web-framework",
+    "name": "Modern Web Framework",
+    "description": "现代化的 Web 框架，提供高效的开发体验",
+    "domain": "Web Stack",
+    "subCategory": "全栈框架",
+    "maturity": "stable",
+    "link": "#",
+    "efficiency": 75,
+    "features": [
+      "快速开发",
+      "类型安全",
+      "性能优化"
+    ],
+    "tags": [
+      "web",
+      "framework",
+      "frontend"
+    ]
+  },
+  {
+    "id": "docker-tool",
+    "name": "Docker Toolkit",
+    "description": "Docker 工具集，简化容器管理",
+    "domain": "Infra",
+    "subCategory": "Docker/K8s 工具",
+    "maturity": "stable",
+    "link": "#",
+    "efficiency": 70,
+    "features": [
+      "容器管理",
+      "编排工具",
+      "监控系统"
+    ],
+    "tags": [
+      "docker",
+      "kubernetes",
+      "infra"
+    ]
+  },
+  {
+    "id": "self-hosted-cloud",
+    "name": "Self-Hosted Cloud",
+    "description": "自托管云服务，提供数据隐私和控制",
+    "domain": "Self-Hosted",
+    "subCategory": "云服务替代品",
+    "maturity": "geek",
+    "link": "#",
+    "efficiency": 65,
+    "features": [
+      "数据隐私",
+      "自主控制",
+      "低成本"
+    ],
+    "tags": [
+      "self-hosted",
+      "cloud",
+      "privacy"
+    ]
+  },
+  {
+    "id": "tech-roadmap",
+    "name": "Tech Roadmap",
+    "description": "技术路线图，帮助开发者规划学习路径",
+    "domain": "Resources",
+    "subCategory": "技术路线图",
+    "maturity": "stable",
+    "link": "#",
+    "efficiency": 60,
+    "features": [
+      "学习路径",
+      "资源推荐",
+      "技能评估"
+    ],
+    "tags": [
+      "learning",
+      "roadmap",
+      "resources"
+    ]
+  }
+]
