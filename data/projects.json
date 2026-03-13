@@ -30,7 +30,7 @@
       "minimax"
     ],
     "starChange": 0,
-    "updatedAt": "2026-03-13T12:29:47.645Z"
+    "updatedAt": "2026-03-13T12:33:33.372Z"
   },
   {
     "id": "cursor",
@@ -49,7 +49,7 @@
       "productivity"
     ],
     "starChange": 0,
-    "updatedAt": "2026-03-13T12:29:49.258Z"
+    "updatedAt": "2026-03-13T12:33:34.991Z"
   },
   {
     "id": "v0",
@@ -92,7 +92,7 @@
       "playwright"
     ],
     "starChange": 0,
-    "updatedAt": "2026-03-13T12:29:51.997Z"
+    "updatedAt": "2026-03-13T12:33:36.738Z"
   },
   {
     "id": "dify",
@@ -129,7 +129,7 @@
       "agentic-workflow"
     ],
     "starChange": 0,
-    "updatedAt": "2026-03-13T12:29:53.606Z"
+    "updatedAt": "2026-03-13T12:33:38.358Z"
   },
   {
     "id": "windsurf",
@@ -171,7 +171,7 @@
       "free-software"
     ],
     "starChange": 0,
-    "updatedAt": "2026-03-13T12:29:56.348Z"
+    "updatedAt": "2026-03-13T12:33:40.011Z"
   },
   {
     "id": "open-webui",
@@ -200,7 +200,7 @@
       "openapi"
     ],
     "starChange": 0,
-    "updatedAt": "2026-03-13T12:29:57.974Z"
+    "updatedAt": "2026-03-13T12:33:41.988Z"
   },
   {
     "id": "comfyui",
@@ -222,7 +222,7 @@
       "comfyui"
     ],
     "starChange": 0,
-    "updatedAt": "2026-03-13T12:29:59.849Z"
+    "updatedAt": "2026-03-13T12:33:43.829Z"
   },
   {
     "id": "navidrome",
@@ -252,7 +252,7 @@
       "opensubsonic"
     ],
     "starChange": 0,
-    "updatedAt": "2026-03-13T12:30:01.460Z"
+    "updatedAt": "2026-03-13T12:33:46.299Z"
   },
   {
     "id": "alist",
@@ -275,7 +275,7 @@
       "onedrive"
     ],
     "starChange": 0,
-    "updatedAt": "2026-03-13T12:30:03.317Z"
+    "updatedAt": "2026-03-13T12:33:48.988Z"
   },
   {
     "id": "gitfame",
@@ -293,6 +293,6 @@
       "productivity"
     ],
     "starChange": 0,
-    "updatedAt": "2026-03-13T12:30:04.609Z"
+    "updatedAt": "2026-03-13T12:33:50.259Z"
   }
 ]
