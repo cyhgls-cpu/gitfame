@@ -9,7 +9,12 @@
     "trendingRank": 1,
     "github": "ollama/ollama",
     "link": "https://github.com/ollama/ollama",
-    "tags": ["llm", "local", "ai", "machine-learning"]
+    "tags": [
+      "llm",
+      "local",
+      "ai",
+      "machine-learning"
+    ]
   },
   {
     "id": "cursor",
@@ -21,7 +26,12 @@
     "trendingRank": 2,
     "github": "getcursor/cursor",
     "link": "https://github.com/getcursor/cursor",
-    "tags": ["ide", "ai", "editor", "productivity"]
+    "tags": [
+      "ide",
+      "ai",
+      "editor",
+      "productivity"
+    ]
   },
   {
     "id": "v0",
@@ -33,7 +43,12 @@
     "trendingRank": 3,
     "github": "v0-dev/v0",
     "link": "https://github.com/v0-dev/v0",
-    "tags": ["ui", "ai", "components", "react"]
+    "tags": [
+      "ui",
+      "ai",
+      "components",
+      "react"
+    ]
   },
   {
     "id": "browse",
@@ -45,7 +60,12 @@
     "trendingRank": 4,
     "github": "browser-use/browser-use",
     "link": "https://github.com/browser-use/browser-use",
-    "tags": ["ai", "agent", "browser", "automation"]
+    "tags": [
+      "ai",
+      "agent",
+      "browser",
+      "automation"
+    ]
   },
   {
     "id": "dify",
@@ -57,7 +77,12 @@
     "trendingRank": 5,
     "github": "langgenius/dify",
     "link": "https://github.com/langgenius/dify",
-    "tags": ["llm", "ai", "platform", "nlp"]
+    "tags": [
+      "llm",
+      "ai",
+      "platform",
+      "nlp"
+    ]
   },
   {
     "id": "windsurf",
@@ -69,29 +94,12 @@
     "trendingRank": 6,
     "github": "codeium/windsurf",
     "link": "https://github.com/codeium/windsurf",
-    "tags": ["ai", "ide", "copilot", "productivity"]
-  },
-  {
-    "id": "open-webui",
-    "name": "Open WebUI",
-    "description": "用户友好的 Web UI for LLMs",
-    "domain": "AI & ML",
-    "subCategory": "LLM 框架",
-    "maturity": "stable",
-    "github": "open-webui/open-webui",
-    "link": "https://github.com/open-webui/open-webui",
-    "tags": ["llm", "ui", "ai", "webui"]
-  },
-  {
-    "id": "comfyui",
-    "name": "ComfyUI",
-    "description": "强大的 Stable Diffusion 工作流",
-    "domain": "AI & ML",
-    "subCategory": "图像/视频生成",
-    "maturity": "stable",
-    "github": "comfyanonymous/ComfyUI",
-    "link": "https://github.com/comfyanonymous/ComfyUI",
-    "tags": ["ai", "image", "stable-diffusion", "gui"]
+    "tags": [
+      "ai",
+      "ide",
+      "copilot",
+      "productivity"
+    ]
   },
   {
     "id": "home-lab",
@@ -102,7 +110,44 @@
     "maturity": "geek",
     "github": "awesome-selfhosted/awesome-selfhosted",
     "link": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "tags": ["self-hosted", "homelab", "docker", "tutorial"]
+    "tags": [
+      "self-hosted",
+      "homelab",
+      "docker",
+      "tutorial"
+    ]
+  },
+  {
+    "id": "open-webui",
+    "name": "Open WebUI",
+    "description": "用户友好的 Web UI for LLMs",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "stable",
+    "github": "open-webui/open-webui",
+    "link": "https://github.com/open-webui/open-webui",
+    "tags": [
+      "llm",
+      "ui",
+      "ai",
+      "webui"
+    ]
+  },
+  {
+    "id": "comfyui",
+    "name": "ComfyUI",
+    "description": "强大的 Stable Diffusion 工作流",
+    "domain": "AI & ML",
+    "subCategory": "图像/视频生成",
+    "maturity": "stable",
+    "github": "comfyanonymous/ComfyUI",
+    "link": "https://github.com/comfyanonymous/ComfyUI",
+    "tags": [
+      "ai",
+      "image",
+      "stable-diffusion",
+      "gui"
+    ]
   },
   {
     "id": "navidrome",
@@ -113,7 +158,12 @@
     "maturity": "stable",
     "github": "navidrome/navidrome",
     "link": "https://github.com/navidrome/navidrome",
-    "tags": ["music", "streaming", "self-hosted", "docker"]
+    "tags": [
+      "music",
+      "streaming",
+      "self-hosted",
+      "docker"
+    ]
   },
   {
     "id": "alist",
@@ -124,7 +174,12 @@
     "maturity": "stable",
     "github": "alist-org/alist",
     "link": "https://github.com/alist-org/alist",
-    "tags": ["file-sharing", "storage", "self-hosted", "webdav"]
+    "tags": [
+      "file-sharing",
+      "storage",
+      "self-hosted",
+      "webdav"
+    ]
   },
   {
     "id": "gitfame",
@@ -135,6 +190,11 @@
     "maturity": "stable",
     "github": "cyhgls-cpu/gitfame",
     "link": "https://github.com/cyhgls-cpu/gitfame",
-    "tags": ["git", "cli", "analysis", "productivity"]
+    "tags": [
+      "git",
+      "cli",
+      "analysis",
+      "productivity"
+    ]
   }
 ]
