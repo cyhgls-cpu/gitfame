@@ -26,7 +26,7 @@ jobs:
         run: npm install
 
       - name: Run update script
-        run: node scripts/update-projects.js
+        run: node scripts/update-projects.cjs
         env:
           GHKEY: ${{ secrets.GHKEY }}
           QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}

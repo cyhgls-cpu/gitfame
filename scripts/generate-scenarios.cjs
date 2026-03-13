@@ -2,12 +2,10 @@ const fs = require('fs');
 const path = require('path');
 const fetch = require('node-fetch');
 
-// 配置
 const QWEN_API_KEY = process.env.QWEN_API_KEY;
 const PROJECTS_FILE = path.join(__dirname, '../data/projects.json');
 const SCENARIOS_FILE = path.join(__dirname, '../data/scenarios.json');
 
-// 读取项目数据
 function readProjects() {
   try {
     return JSON.parse(fs.readFileSync(PROJECTS_FILE, 'utf8'));
@@ -17,12 +15,10 @@ function readProjects() {
   }
 }
 
-// 保存场景数据
 function saveScenarios(scenarios) {
   fs.writeFileSync(SCENARIOS_FILE, JSON.stringify(scenarios, null, 2));
 }
 
-// 使用千问 API 生成场景
 async function generateScenariosForProject(project) {
   if (!QWEN_API_KEY) {
     console.warn('Qwen API key not set, skipping scenario generation');
@@ -39,7 +35,7 @@ async function generateScenariosForProject(project) {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'ep-20260313151840-qv5qf', // 千问模型 ID
+        model: 'ep-20260313151840-qv5qf',
         messages: [
           { role: 'system', content: 'You are a helpful assistant that generates user-centric search queries for projects.' },
           { role: 'user', content: prompt }
@@ -56,14 +52,13 @@ async function generateScenariosForProject(project) {
     const content = data.choices[0].message.content;
     const scenarios = content.trim().split('\n').filter(line => line.startsWith('我想'));
     
-    return scenarios.slice(0, 3); // 确保只返回 3 个场景
+    return scenarios.slice(0, 3);
   } catch (error) {
     console.error(`Error generating scenarios for ${project.name}:`, error);
     return [];
   }
 }
 
-// 生成场景化入口内容
 async function generateScenarios() {
   const projects = readProjects();
   const allScenarios = [];
@@ -84,11 +79,9 @@ async function generateScenarios() {
       });
     }
 
-    // 避免 API 速率限制
     await new Promise(resolve => setTimeout(resolve, 1000));
   }
 
-  // 去重场景
   const uniqueScenarios = [];
   const seenTexts = new Set();
 
@@ -99,15 +92,12 @@ async function generateScenarios() {
     }
   }
 
-  // 保存场景数据
   saveScenarios(uniqueScenarios);
   console.log(`Generated ${uniqueScenarios.length} unique scenarios`);
 
-  // 生成前端代码
   generateFrontendCode(uniqueScenarios);
 }
 
-// 生成前端代码
 function generateFrontendCode(scenarios) {
   const frontendCode = `## 我想做什么？
 
@@ -200,5 +190,4 @@ function navigate(path) {
   console.log('Generated frontend code for scenarios');
 }
 
-// 运行生成
 generateScenarios().catch(console.error);
