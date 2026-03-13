@@ -1,167 +1,140 @@
 [
   {
-    "id": "gitfame",
-    "name": "GitFame",
-    "description": "功能强大的 Git 仓库分析工具，帮助你了解代码贡献者的贡献情况",
-    "domain": "DevTools",
-    "subCategory": "CLI",
-    "maturity": "stable",
-    "github": "gitfame/gitfame",
-    "link": "/",
-    "efficiency": 95,
-    "features": [
-      "贡献者分析",
-      "代码热度分析",
-      "趋势图表",
-      "精确统计"
-    ],
-    "tags": [
-      "git",
-      "cli",
-      "analysis",
-      "productivity"
-    ]
-  },
-  {
-    "id": "gitfame-cli",
-    "name": "GitFame CLI",
-    "description": "GitFame 的命令行工具，提供快速的仓库分析功能",
-    "domain": "DevTools",
-    "subCategory": "CLI",
+    "id": "ollama",
+    "name": "Ollama",
+    "description": "在本地运行大型语言模型",
+    "domain": "AI & ML",
+    "subCategory": "本地大模型",
     "maturity": "trending",
-    "trendingRank": 12,
-    "link": "/api/core",
-    "efficiency": 90,
-    "features": [
-      "快速分析",
-      "多种输出格式",
-      "灵活的筛选选项"
-    ],
-    "tags": [
-      "git",
-      "cli",
-      "terminal"
-    ]
+    "trendingRank": 1,
+    "github": "ollama/ollama",
+    "link": "https://github.com/ollama/ollama",
+    "tags": ["llm", "local", "ai", "machine-learning"]
   },
   {
-    "id": "gitfame-plugin",
-    "name": "GitFame Plugin",
-    "description": "GitFame 的插件系统，允许你扩展其功能",
+    "id": "cursor",
+    "name": "Cursor",
+    "description": "AI 驱动的代码编辑器",
     "domain": "DevTools",
-    "subCategory": "API 工具",
-    "maturity": "geek",
-    "link": "/api/plugins",
-    "efficiency": 85,
-    "features": [
-      "可扩展",
-      "钩子系统",
-      "自定义功能"
-    ],
-    "tags": [
-      "plugin",
-      "extension",
-      "api"
-    ]
+    "subCategory": "高效 IDE 插件",
+    "maturity": "trending",
+    "trendingRank": 2,
+    "github": "getcursor/cursor",
+    "link": "https://github.com/getcursor/cursor",
+    "tags": ["ide", "ai", "editor", "productivity"]
   },
   {
-    "id": "ai-assistant",
-    "name": "AI Assistant",
-    "description": "基于 LLM 的智能助手，帮助开发者解决问题",
+    "id": "v0",
+    "name": "v0",
+    "description": "由 AI 生成的 UI 组件",
+    "domain": "Web Stack",
+    "subCategory": "UI 组件库",
+    "maturity": "trending",
+    "trendingRank": 3,
+    "github": "v0-dev/v0",
+    "link": "https://github.com/v0-dev/v0",
+    "tags": ["ui", "ai", "components", "react"]
+  },
+  {
+    "id": "browse",
+    "name": "Browse",
+    "description": "AI 驱动的网页浏览器",
     "domain": "AI & ML",
     "subCategory": "AI Agent",
     "maturity": "trending",
+    "trendingRank": 4,
+    "github": "browser-use/browser-use",
+    "link": "https://github.com/browser-use/browser-use",
+    "tags": ["ai", "agent", "browser", "automation"]
+  },
+  {
+    "id": "dify",
+    "name": "Dify",
+    "description": "开源的 LLM 应用开发平台",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
     "trendingRank": 5,
-    "link": "#",
-    "efficiency": 80,
-    "features": [
-      "代码生成",
-      "问题解答",
-      "文档生成"
-    ],
-    "tags": [
-      "ai",
-      "llm",
-      "assistant"
-    ]
+    "github": "langgenius/dify",
+    "link": "https://github.com/langgenius/dify",
+    "tags": ["llm", "ai", "platform", "nlp"]
   },
   {
-    "id": "web-framework",
-    "name": "Modern Web Framework",
-    "description": "现代化的 Web 框架，提供高效的开发体验",
-    "domain": "Web Stack",
-    "subCategory": "全栈框架",
+    "id": "windsurf",
+    "name": "Windsurf",
+    "description": "由 Codeium 推出的 AI 编程助手",
+    "domain": "DevTools",
+    "subCategory": "高效 IDE 插件",
+    "maturity": "trending",
+    "trendingRank": 6,
+    "github": "codeium/windsurf",
+    "link": "https://github.com/codeium/windsurf",
+    "tags": ["ai", "ide", "copilot", "productivity"]
+  },
+  {
+    "id": "open-webui",
+    "name": "Open WebUI",
+    "description": "用户友好的 Web UI for LLMs",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
     "maturity": "stable",
-    "link": "#",
-    "efficiency": 75,
-    "features": [
-      "快速开发",
-      "类型安全",
-      "性能优化"
-    ],
-    "tags": [
-      "web",
-      "framework",
-      "frontend"
-    ]
+    "github": "open-webui/open-webui",
+    "link": "https://github.com/open-webui/open-webui",
+    "tags": ["llm", "ui", "ai", "webui"]
   },
   {
-    "id": "docker-tool",
-    "name": "Docker Toolkit",
-    "description": "Docker 工具集，简化容器管理",
-    "domain": "Infra",
-    "subCategory": "Docker/K8s 工具",
+    "id": "comfyui",
+    "name": "ComfyUI",
+    "description": "强大的 Stable Diffusion 工作流",
+    "domain": "AI & ML",
+    "subCategory": "图像/视频生成",
     "maturity": "stable",
-    "link": "#",
-    "efficiency": 70,
-    "features": [
-      "容器管理",
-      "编排工具",
-      "监控系统"
-    ],
-    "tags": [
-      "docker",
-      "kubernetes",
-      "infra"
-    ]
+    "github": "comfyanonymous/ComfyUI",
+    "link": "https://github.com/comfyanonymous/ComfyUI",
+    "tags": ["ai", "image", "stable-diffusion", "gui"]
   },
   {
-    "id": "self-hosted-cloud",
-    "name": "Self-Hosted Cloud",
-    "description": "自托管云服务，提供数据隐私和控制",
+    "id": "home-lab",
+    "name": "Awesome Home Lab",
+    "description": "家庭实验室技术栈集合",
+    "domain": "Self-Hosted",
+    "subCategory": "家庭实验室",
+    "maturity": "geek",
+    "github": "awesome-selfhosted/awesome-selfhosted",
+    "link": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+    "tags": ["self-hosted", "homelab", "docker", "tutorial"]
+  },
+  {
+    "id": "navidrome",
+    "name": "Navidrome",
+    "description": "开源的音乐流媒体服务器",
+    "domain": "Self-Hosted",
+    "subCategory": "私人影音",
+    "maturity": "stable",
+    "github": "navidrome/navidrome",
+    "link": "https://github.com/navidrome/navidrome",
+    "tags": ["music", "streaming", "self-hosted", "docker"]
+  },
+  {
+    "id": "alist",
+    "name": "AList",
+    "description": "支持多种存储的文件列表程序",
     "domain": "Self-Hosted",
     "subCategory": "云服务替代品",
-    "maturity": "geek",
-    "link": "#",
-    "efficiency": 65,
-    "features": [
-      "数据隐私",
-      "自主控制",
-      "低成本"
-    ],
-    "tags": [
-      "self-hosted",
-      "cloud",
-      "privacy"
-    ]
+    "maturity": "stable",
+    "github": "alist-org/alist",
+    "link": "https://github.com/alist-org/alist",
+    "tags": ["file-sharing", "storage", "self-hosted", "webdav"]
   },
   {
-    "id": "tech-roadmap",
-    "name": "Tech Roadmap",
-    "description": "技术路线图，帮助开发者规划学习路径",
-    "domain": "Resources",
-    "subCategory": "技术路线图",
+    "id": "gitfame",
+    "name": "GitFame",
+    "description": "功能强大的 Git 仓库分析工具",
+    "domain": "DevTools",
+    "subCategory": "CLI",
     "maturity": "stable",
-    "link": "#",
-    "efficiency": 60,
-    "features": [
-      "学习路径",
-      "资源推荐",
-      "技能评估"
-    ],
-    "tags": [
-      "learning",
-      "roadmap",
-      "resources"
-    ]
+    "github": "cyhgls-cpu/gitfame",
+    "link": "https://github.com/cyhgls-cpu/gitfame",
+    "tags": ["git", "cli", "analysis", "productivity"]
   }
 ]
