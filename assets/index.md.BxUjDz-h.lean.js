@@ -1,1 +1,0 @@
-import{_ as i,o as s,c as t,ae as e}from"./chunks/framework.DLnLGGYb.js";const k=JSON.parse('{"title":"GitFame","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),l={name:"index.md"};function n(r,a,h,o,p,d){return s(),t("div",null,[...a[0]||(a[0]=[e("",13)])])}const c=i(l,[["render",n]]);export{k as __pageData,c as default};
