@@ -7,6 +7,9 @@ on:
   # 手动触发
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   generate-scenarios:
     runs-on: ubuntu-latest
