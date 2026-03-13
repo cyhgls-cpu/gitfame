@@ -125,7 +125,7 @@ async function translateTopics(topics) {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'ep-20260313151840-qv5qf', // 千问模型 ID
+        model: 'ep-20260313151840-qv5qf',
         messages: [
           { role: 'system', content: 'You are a helpful assistant that translates GitHub topics to Chinese sub-categories.' },
           { role: 'user', content: prompt }
@@ -155,7 +155,6 @@ async function generateProjectDescription(project, repoInfo) {
     return project;
   }
 
-  // 如果已有人工写的描述，跳过生成
   if (project.description && project.description.length > 0) {
     return project;
   }
@@ -172,7 +171,7 @@ async function generateProjectDescription(project, repoInfo) {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'ep-20260313151840-qv5qf', // 千问模型 ID
+        model: 'ep-20260313151840-qv5qf',
         messages: [
           { role: 'system', content: 'You are a helpful assistant that generates concise Chinese descriptions for GitHub projects.' },
           { role: 'user', content: prompt }
@@ -214,7 +213,7 @@ async function categorizeAndCleanProject(project, repoInfo, topics) {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'ep-20260313151840-qv5qf', // 千问模型 ID
+        model: 'ep-20260313151840-qv5qf',
         messages: [
           { role: 'system', content: 'You are a helpful assistant that categorizes and cleans GitHub project information.' },
           { role: 'user', content: prompt }
@@ -231,7 +230,6 @@ async function categorizeAndCleanProject(project, repoInfo, topics) {
     const content = data.choices[0].message.content;
     const result = JSON.parse(content);
 
-    // 更新项目信息
     if (result.primaryCategory) {
       project.domain = result.primaryCategory;
     }
@@ -264,19 +262,16 @@ function calculateStarTrend(repo, currentStars, history) {
     history[repo] = [];
   }
   
-  // 添加当前 Star 数
   history[repo].push({
     date: now.toISOString(),
     stars: currentStars
   });
   
-  // 只保留最近 30 天的数据
   history[repo] = history[repo].filter(item => {
     const itemDate = new Date(item.date);
     return itemDate >= oneWeekAgo;
   });
   
-  // 计算 7 天内的 Star 变化
   let starChange = 0;
   if (history[repo].length > 1) {
     const oldestStar = history[repo][0].stars;
@@ -304,20 +299,17 @@ async function updateProjects() {
   const projects = readProjects();
   const starsHistory = readStarsHistory();
   
-  // 按成熟度排序，优先更新潜力股
   projects.sort((a, b) => {
     const maturityOrder = { trending: 0, geek: 1, stable: 2 };
     return maturityOrder[a.maturity] - maturityOrder[b.maturity];
   });
   
-  // 限制 API 调用次数，优先更新潜力股
   const projectsToUpdate = projects.filter((project, index) => {
     if (project.maturity === 'trending') {
-      return true; // 总是更新潜力股
+      return true;
     } else if (project.maturity === 'geek') {
-      return index < 10; // 更新前 10 个极客玩具
+      return index < 10;
     } else {
-      // 镇馆之宝每周更新一次（通过 GitHub Actions 调度控制）
       return true;
     }
   });
@@ -327,20 +319,17 @@ async function updateProjects() {
     
     console.log(`Updating project: ${project.name}`);
     
-    // 获取 GitHub 仓库信息
     const repoInfo = await getGitHubRepoInfo(project.github);
     if (!repoInfo) continue;
     
-    // 检查项目是否死亡
     const isSunset = checkProjectSunset(repoInfo.pushed_at);
     if (isSunset) {
       project.tags.push('💀 停止维护');
       if (project.maturity === 'trending') {
-        project.maturity = 'geek'; // 从潜力股移到极客玩具
+        project.maturity = 'geek';
       }
     }
     
-    // 计算 Star 趋势
     const { starChange, history } = calculateStarTrend(
       project.github, 
       repoInfo.stargazers_count, 
@@ -349,32 +338,23 @@ async function updateProjects() {
     project.starChange = starChange;
     starsHistory[project.github] = history;
     
-    // 生成项目简介
     project = await generateProjectDescription(project, repoInfo);
     
-    // 获取并翻译 Topics
     const topics = await getGitHubRepoTopics(project.github);
     if (topics.length > 0) {
-      // 使用千问 API 对项目内容进行归类和清洗
       project = await categorizeAndCleanProject(project, repoInfo, topics);
-      
-      // 确保标签去重
       project.tags = [...new Set([...project.tags, ...topics])];
     }
     
-    // 更新项目信息
     project.updatedAt = new Date().toISOString();
     
-    // 避免 API 速率限制
     await new Promise(resolve => setTimeout(resolve, 1000));
   }
   
-  // 保存更新后的数据
   saveProjects(projects);
   saveStarsHistory(starsHistory);
   
   console.log('Project data updated successfully!');
 }
 
-// 运行更新
 updateProjects().catch(console.error);
