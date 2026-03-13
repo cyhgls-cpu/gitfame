@@ -13,8 +13,24 @@
       "llm",
       "local",
       "ai",
-      "machine-learning"
-    ]
+      "machine-learning",
+      "llama",
+      "llms",
+      "go",
+      "golang",
+      "ollama",
+      "mistral",
+      "gemma",
+      "llama3",
+      "deepseek",
+      "gemma3",
+      "qwen",
+      "gpt-oss",
+      "glm",
+      "minimax"
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-13T12:29:47.645Z"
   },
   {
     "id": "cursor",
@@ -31,7 +47,9 @@
       "ai",
       "editor",
       "productivity"
-    ]
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-13T12:29:49.258Z"
   },
   {
     "id": "v0",
@@ -64,8 +82,17 @@
       "ai",
       "agent",
       "browser",
-      "automation"
-    ]
+      "automation",
+      "llm",
+      "ai-agents",
+      "ai-tools",
+      "browser-automation",
+      "python",
+      "browser-use",
+      "playwright"
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-13T12:29:51.997Z"
   },
   {
     "id": "dify",
@@ -81,8 +108,28 @@
       "llm",
       "ai",
       "platform",
-      "nlp"
-    ]
+      "nlp",
+      "gpt",
+      "openai",
+      "python",
+      "rag",
+      "orchestration",
+      "gpt-4",
+      "agent",
+      "nextjs",
+      "workflow",
+      "genai",
+      "gemini",
+      "automation",
+      "low-code",
+      "mcp",
+      "no-code",
+      "agentic-ai",
+      "agentic-framework",
+      "agentic-workflow"
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-13T12:29:53.606Z"
   },
   {
     "id": "windsurf",
@@ -114,8 +161,17 @@
       "self-hosted",
       "homelab",
       "docker",
-      "tutorial"
-    ]
+      "tutorial",
+      "selfhosted",
+      "awesome",
+      "awesome-list",
+      "privacy",
+      "hosting",
+      "cloud",
+      "free-software"
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-13T12:29:56.348Z"
   },
   {
     "id": "open-webui",
@@ -130,8 +186,21 @@
       "llm",
       "ui",
       "ai",
-      "webui"
-    ]
+      "webui",
+      "ollama",
+      "ollama-webui",
+      "self-hosted",
+      "llm-ui",
+      "llm-webui",
+      "llms",
+      "rag",
+      "open-webui",
+      "openai",
+      "mcp",
+      "openapi"
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-13T12:29:57.974Z"
   },
   {
     "id": "comfyui",
@@ -146,8 +215,14 @@
       "ai",
       "image",
       "stable-diffusion",
-      "gui"
-    ]
+      "gui",
+      "pytorch",
+      "python",
+      "comfy",
+      "comfyui"
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-13T12:29:59.849Z"
   },
   {
     "id": "navidrome",
@@ -162,8 +237,22 @@
       "music",
       "streaming",
       "self-hosted",
-      "docker"
-    ]
+      "docker",
+      "subsonic-server",
+      "subsonic",
+      "music-server",
+      "airsonic",
+      "streaming-audio",
+      "streaming-api",
+      "madsonic",
+      "streamer",
+      "media-server",
+      "navidrome",
+      "raspberry-pi",
+      "opensubsonic"
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-13T12:30:01.460Z"
   },
   {
     "id": "alist",
@@ -178,8 +267,15 @@
       "file-sharing",
       "storage",
       "self-hosted",
-      "webdav"
-    ]
+      "webdav",
+      "golang",
+      "gin",
+      "solidjs",
+      "file-server",
+      "onedrive"
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-13T12:30:03.317Z"
   },
   {
     "id": "gitfame",
@@ -195,6 +291,8 @@
       "cli",
       "analysis",
       "productivity"
-    ]
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-13T12:30:04.609Z"
   }
 ]
