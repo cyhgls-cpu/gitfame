@@ -1,0 +1,1 @@
+import{_ as a,o as i,c as t,ae as n}from"./chunks/framework.DLnLGGYb.js";const c=JSON.parse('{"title":"核心 API","description":"","frontmatter":{},"headers":[],"relativePath":"api/core.md","filePath":"api/core.md"}'),e={name:"api/core.md"};function l(h,s,p,d,k,r){return i(),t("div",null,[...s[0]||(s[0]=[n("",30)])])}const E=a(e,[["render",l]]);export{c as __pageData,E as default};
