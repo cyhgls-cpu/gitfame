@@ -1,0 +1,37 @@
+name: Deploy VitePress Site
+
+on:
+  # 推送至 main 分支时触发
+  push:
+    branches:
+      - main
+  # 手动触发
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build site
+        run: npm run docs:build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GHKEY }}
+          publish_dir: ./docs/.vitepress/dist
+          cname: gitfame.cn
