@@ -314,7 +314,7 @@ async function updateProjects() {
     }
   });
   
-  for (const project of projectsToUpdate) {
+  for (let project of projectsToUpdate) {
     if (!project.github) continue;
     
     console.log(`Updating project: ${project.name}`);
