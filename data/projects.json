@@ -9,7 +9,12 @@
     "trendingRank": 1,
     "github": "ollama/ollama",
     "link": "https://github.com/ollama/ollama",
-    "tags": ["llm", "local", "ai", "machine-learning"]
+    "tags": [
+      "llm",
+      "local",
+      "ai",
+      "machine-learning"
+    ]
   },
   {
     "id": "dify",
@@ -21,7 +26,12 @@
     "trendingRank": 2,
     "github": "langgenius/dify",
     "link": "https://github.com/langgenius/dify",
-    "tags": ["llm", "ai", "platform", "nlp"]
+    "tags": [
+      "llm",
+      "ai",
+      "platform",
+      "nlp"
+    ]
   },
   {
     "id": "open-webui",
@@ -33,7 +43,12 @@
     "trendingRank": 3,
     "github": "open-webui/open-webui",
     "link": "https://github.com/open-webui/open-webui",
-    "tags": ["llm", "ui", "ai", "webui"]
+    "tags": [
+      "llm",
+      "ui",
+      "ai",
+      "webui"
+    ]
   },
   {
     "id": "comfyui",
@@ -45,7 +60,12 @@
     "trendingRank": 4,
     "github": "comfyanonymous/ComfyUI",
     "link": "https://github.com/comfyanonymous/ComfyUI",
-    "tags": ["ai", "image", "stable-diffusion", "gui"]
+    "tags": [
+      "ai",
+      "image",
+      "stable-diffusion",
+      "gui"
+    ]
   },
   {
     "id": "v0",
@@ -57,1153 +77,1539 @@
     "trendingRank": 5,
     "github": "vercel/v0",
     "link": "https://github.com/vercel/v0",
-    "tags": ["ui", "ai", "components", "react"]
+    "tags": [
+      "ui",
+      "ai",
+      "components",
+      "react"
+    ]
   },
   {
     "id": "nocobase",
     "name": "NocoBase",
-    "description": "不懂代码也能开发企业应用",
+    "description": "开源无代码/低代码平台",
     "domain": "Web Stack",
     "subCategory": "低代码",
     "maturity": "trending",
     "trendingRank": 6,
     "github": "nocobase/nocobase",
     "link": "https://github.com/nocobase/nocobase",
-    "tags": ["low-code", "nocode", "enterprise", "cms"]
+    "tags": [
+      "no-code",
+      "low-code",
+      "api",
+      "database"
+    ]
   },
   {
     "id": "cline",
     "name": "Cline",
     "description": "微软推出的 AI 编程助手",
     "domain": "DevTools",
-    "subCategory": "IDE插件",
+    "subCategory": "AI编程",
     "maturity": "trending",
     "trendingRank": 7,
     "github": "microsoft/cline",
     "link": "https://github.com/microsoft/cline",
-    "tags": ["ai", "ide", "copilot", "productivity"]
+    "tags": [
+      "ai",
+      "coding",
+      "assistant",
+      "microsoft"
+    ]
   },
   {
     "id": "cursor",
     "name": "Cursor",
     "description": "AI 驱动的代码编辑器",
     "domain": "DevTools",
-    "subCategory": "IDE插件",
+    "subCategory": "AI编程",
     "maturity": "trending",
     "trendingRank": 8,
     "github": "getcursor/cursor",
     "link": "https://github.com/getcursor/cursor",
-    "tags": ["ide", "ai", "editor", "productivity"]
+    "tags": [
+      "ai",
+      "editor",
+      "coding",
+      "vscode"
+    ]
   },
   {
     "id": "windsurf",
     "name": "Windsurf",
-    "description": "Codeium 推出的 AI 编程助手",
+    "description": "AI 驱动的代码编辑器",
     "domain": "DevTools",
-    "subCategory": "IDE插件",
+    "subCategory": "AI编程",
     "maturity": "trending",
+    "trendingRank": 9,
     "github": "codeium/windsurf",
     "link": "https://github.com/codeium/windsurf",
-    "tags": ["ai", "ide", "copilot", "productivity"]
+    "tags": [
+      "ai",
+      "editor",
+      "coding",
+      "codeium"
+    ]
   },
   {
     "id": "alist",
     "name": "AList",
     "description": "支持多种存储的文件列表程序",
     "domain": "Self-Hosted",
-    "subCategory": "云服务替代品",
+    "subCategory": "文件管理",
     "maturity": "stable",
+    "trendingRank": 10,
     "github": "alist-org/alist",
     "link": "https://github.com/alist-org/alist",
-    "tags": ["file-sharing", "storage", "self-hosted", "webdav"]
+    "tags": [
+      "storage",
+      "file",
+      "self-hosted",
+      "webdav"
+    ]
   },
   {
-    "id": "navidrome",
-    "name": "Navidrome",
-    "description": "开源的音乐流媒体服务器",
-    "domain": "Self-Hosted",
-    "subCategory": "私人影音",
-    "maturity": "stable",
-    "github": "navidrome/navidrome",
-    "link": "https://github.com/navidrome/navidrome",
-    "tags": ["music", "streaming", "self-hosted", "docker"]
-  },
-  {
-    "id": "awesome-selfhosted",
-    "name": "Awesome Self-Hosted",
-    "description": "家庭实验室技术栈集合",
-    "domain": "Self-Hosted",
-    "subCategory": "家庭实验室",
-    "maturity": "stable",
-    "github": "awesome-selfhosted/awesome-selfhosted",
-    "link": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "tags": ["self-hosted", "homelab", "docker", "tutorial"]
-  },
-  {
-    "id": "homebox",
-    "name": "HomeBox",
-    "description": "家庭资产 inventory 系统",
-    "domain": "Self-Hosted",
-    "subCategory": "家庭实验室",
+    "id": "ai-comic-factory",
+    "name": "ai-comic-factory",
+    "description": "开源免费的在线AI漫画生成工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
     "maturity": "geek",
-    "github": "hay-kot/homebox",
-    "link": "https://github.com/hay-kot/homebox",
-    "tags": ["inventory", "self-hosted", "organization"]
+    "github": "Hamzy0909/ai-comic-factory",
+    "link": "https://github.com/Hamzy0909/ai-comic-factory",
+    "tags": [
+      "ai-&-ml"
+    ]
   },
   {
-    "id": "paperless-ngx",
-    "name": "paperless-ngx",
-    "description": "开源文档管理系统",
-    "domain": "Self-Hosted",
-    "subCategory": "云服务替代品",
-    "maturity": "stable",
-    "github": "paperless-ngx/paperless-ngx",
-    "link": "https://github.com/paperless-ngx/paperless-ngx",
-    "tags": ["document", "management", "self-hosted", "archive"]
+    "id": "gptme",
+    "name": "gptme",
+    "description": "功能强大的开源终端AI助手",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "ErikBjare/gptme",
+    "link": "https://github.com/ErikBjare/gptme",
+    "tags": [
+      "ai-&-ml"
+    ]
   },
   {
-    "id": "bitwarden",
-    "name": "Bitwarden",
-    "description": "开源密码管理器",
-    "domain": "Self-Hosted",
-    "subCategory": "云服务替代品",
-    "maturity": "stable",
-    "github": "bitwarden/server",
-    "link": "https://github.com/bitwarden/server",
-    "tags": ["password", "security", "self-hosted", "vault"]
-  },
-  {
-    "id": "traefik",
-    "name": "Traefik",
-    "description": "云原生的反向代理和负载均衡器",
-    "domain": "Infra",
-    "subCategory": "Docker工具",
-    "maturity": "stable",
-    "github": "traefik/traefik",
-    "link": "https://github.com/traefik/traefik",
-    "tags": ["proxy", "load-balancer", "docker", "kubernetes"]
-  },
-  {
-    "id": "portainer",
-    "name": "Portainer",
-    "description": "Docker 可视化管理工具",
-    "domain": "Infra",
-    "subCategory": "Docker工具",
-    "maturity": "stable",
-    "github": "portainer/portainer",
-    "link": "https://github.com/portainer/portainer",
-    "tags": ["docker", "management", "ui", "containers"]
-  },
-  {
-    "id": "watchtower",
-    "name": "Watchtower",
-    "description": "自动更新 Docker 容器",
-    "domain": "Infra",
-    "subCategory": "Docker工具",
-    "maturity": "stable",
-    "github": "containrrr/watchtower",
-    "link": "https://github.com/containrrr/watchtower",
-    "tags": ["docker", "automation", "update", "containers"]
-  },
-  {
-    "id": "appflowy",
-    "name": "AppFlowy",
-    "description": "开源的 Notion 替代品",
+    "id": "zerox",
+    "name": "zerox",
+    "description": "简单易用的OCR文档工具",
     "domain": "DevTools",
-    "subCategory": "效率工具",
+    "subCategory": "开发工具",
     "maturity": "geek",
-    "github": "AppFlowy-IO/AppFlowy",
-    "link": "https://github.com/AppFlowy-IO/AppFlowy",
-    "tags": ["productivity", "notion", "替代", "workspace"]
+    "github": "getomni-ai/zerox",
+    "link": "https://github.com/getomni-ai/zerox",
+    "tags": [
+      "devtools"
+    ]
   },
   {
-    "id": "slidev",
-    "name": "Slidev",
-    "description": "开发者友好的幻灯片工具",
+    "id": "note-gen",
+    "name": "note-gen",
+    "description": "专注于记录和写作的跨端AI笔记应用",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "zhiyiYo/note-gen",
+    "link": "https://github.com/zhiyiYo/note-gen",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "realtimestt",
+    "name": "RealtimeSTT",
+    "description": "强大高效的语音转文本工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "KoljaB/RealtimeSTT",
+    "link": "https://github.com/KoljaB/RealtimeSTT",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "fullmoon-ios",
+    "name": "fullmoon-ios",
+    "description": "与本地大模型聊天对话的iOS应用",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "ivanfioravanti/fullmoon",
+    "link": "https://github.com/ivanfioravanti/fullmoon",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "agent-service-toolkit",
+    "name": "agent-service-toolkit",
+    "description": "快速构建AI智能体服务的工具包",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "agent-service-toolkit/agent-service-toolkit",
+    "link": "https://github.com/agent-service-toolkit/agent-service-toolkit",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "rtranslator",
+    "name": "RTranslator",
+    "description": "可离线使用的实时翻译AI工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "RTranslator/RTranslator",
+    "link": "https://github.com/RTranslator/RTranslator",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "resume-matcher",
+    "name": "Resume-Matcher",
+    "description": "基于AI的简历优化工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "srbhr/Resume-Matcher",
+    "link": "https://github.com/srbhr/Resume-Matcher",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "ebook2audiobookxtts",
+    "name": "ebook2audiobookXTTS",
+    "description": "电子书转有声书的开源AI工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "DrewThomasson/ebook2audiobookXTTS",
+    "link": "https://github.com/DrewThomasson/ebook2audiobookXTTS",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "ollama-ocr",
+    "name": "Ollama-OCR",
+    "description": "可离线使用的OCR工具",
     "domain": "DevTools",
-    "subCategory": "效率工具",
-    "maturity": "stable",
-    "github": "slidevjs/slidev",
-    "link": "https://github.com/slidevjs/slidev",
-    "tags": ["presentation", "slides", "markdown", "developer"]
-  },
-  {
-    "id": "immersive-translate",
-    "name": "Immersive Translate",
-    "description": "沉浸式网页翻译扩展",
-    "domain": "DevTools",
-    "subCategory": "效率工具",
-    "maturity": "stable",
-    "github": "immersive-translate/immersive-translate",
-    "link": "https://github.com/immersive-translate/immersive-translate",
-    "tags": ["translation", "browser", "extension", "productivity"]
-  },
-  {
-    "id": "threejs",
-    "name": "Three.js",
-    "description": "JavaScript 3D 库",
-    "domain": "Web Stack",
-    "subCategory": "UI组件库",
-    "maturity": "stable",
-    "github": "mrdoob/three.js",
-    "link": "https://github.com/mrdoob/three.js",
-    "tags": ["3d", "javascript", "webgl", "graphics"]
-  },
-  {
-    "id": "react",
-    "name": "React",
-    "description": "用于构建用户界面的 JavaScript 库",
-    "domain": "Web Stack",
-    "subCategory": "前端框架",
-    "maturity": "stable",
-    "github": "facebook/react",
-    "link": "https://github.com/facebook/react",
-    "tags": ["javascript", "ui", "frontend", "library"]
-  },
-  {
-    "id": "vue",
-    "name": "Vue.js",
-    "description": "渐进式 JavaScript 框架",
-    "domain": "Web Stack",
-    "subCategory": "前端框架",
-    "maturity": "stable",
-    "github": "vuejs/core",
-    "link": "https://github.com/vuejs/core",
-    "tags": ["javascript", "ui", "frontend", "framework"]
-  },
-  {
-    "id": "nextjs",
-    "name": "Next.js",
-    "description": "React 框架",
-    "domain": "Web Stack",
-    "subCategory": "全栈框架",
-    "maturity": "stable",
-    "github": "vercel/next.js",
-    "link": "https://github.com/vercel/next.js",
-    "tags": ["react", "ssr", "fullstack", "framework"]
-  },
-  {
-    "id": "twelve-factor",
-    "name": "12-Factor App",
-    "description": "构建 SaaS 应用的方法论",
-    "domain": "Resources",
-    "subCategory": "技术路线图",
-    "maturity": "stable",
-    "github": "heroku/12factor",
-    "link": "https://github.com/heroku/12factor",
-    "tags": ["architecture", "saas", "cloud", "best-practices"]
-  },
-  {
-    "id": "public-apis",
-    "name": "Public APIs",
-    "description": "免费 API 集合",
-    "domain": "Resources",
-    "subCategory": "API集合",
-    "maturity": "stable",
-    "github": "public-apis/public-apis",
-    "link": "https://github.com/public-apis/public-apis",
-    "tags": ["api", "free", "collection", "resources"]
-  },
-  {
-    "id": "free-programming-books",
-    "name": "Free Programming Books",
-    "description": "免费编程书籍集合",
-    "domain": "Resources",
-    "subCategory": "电子书",
-    "maturity": "stable",
-    "github": "EbookFoundation/free-programming-books",
-    "link": "https://github.com/EbookFoundation/free-programming-books",
-    "tags": ["books", "programming", "learning", "free"]
-  },
-  {
-    "id": "pulsar",
-    "name": "Pulsar",
-    "description": "现代化邮件客户端",
-    "domain": "Self-Hosted",
-    "subCategory": "云服务替代品",
+    "subCategory": "开发工具",
     "maturity": "geek",
-    "github": "pulsar-mails/pulsar",
-    "link": "https://github.com/pulsar-mails/pulsar",
-    "tags": ["email", "client", "self-hosted", "modern"]
+    "github": "ollama/ollama",
+    "link": "https://github.com/ollama/ollama",
+    "tags": [
+      "devtools"
+    ]
   },
   {
-    "id": "jellyfin",
-    "name": "Jellyfin",
-    "description": "开源媒体服务器",
-    "domain": "Self-Hosted",
-    "subCategory": "私人影音",
-    "maturity": "stable",
-    "github": "jellyfin/jellyfin",
-    "link": "https://github.com/jellyfin/jellyfin",
-    "tags": ["media", "streaming", "self-hosted", "video"]
-  },
-  {
-    "id": "emby",
-    "name": "Emby",
-    "description": "个人媒体服务器",
-    "domain": "Self-Hosted",
-    "subCategory": "私人影音",
-    "maturity": "stable",
-    "github": "MediaBrowser/Emby",
-    "link": "https://github.com/MediaBrowser/Emby",
-    "tags": ["media", "streaming", "self-hosted", "video"]
-  },
-  {
-    "id": "nginx-proxy-manager",
-    "name": "Nginx Proxy Manager",
-    "description": "Nginx 可视化管理工具",
-    "domain": "Infra",
-    "subCategory": "Docker工具",
-    "maturity": "stable",
-    "github": "NginxProxyManager/nginx-proxy-manager",
-    "link": "https://github.com/NginxProxyManager/nginx-proxy-manager",
-    "tags": ["nginx", "proxy", "docker", "management"]
-  },
-  {
-    "id": "weaviate",
-    "name": "Weaviate",
-    "description": "开源向量数据库",
+    "id": "khoj",
+    "name": "khoj",
+    "description": "构建个人第二大脑的AI工具",
     "domain": "AI & ML",
-    "subCategory": "向量数据库",
-    "maturity": "trending",
-    "github": "weaviate/weaviate",
-    "link": "https://github.com/weaviate/weaviate",
-    "tags": ["vector", "database", "ai", "ml"]
-  },
-  {
-    "id": "qdrant",
-    "name": "Qdrant",
-    "description": "开源向量相似度搜索引擎",
-    "domain": "AI & ML",
-    "subCategory": "向量数据库",
-    "maturity": "trending",
-    "github": "qdrant/qdrant",
-    "link": "https://github.com/qdrant/qdrant",
-    "tags": ["vector", "search", "ai", "similarity"]
-  },
-  {
-    "id": "langchain",
-    "name": "LangChain",
-    "description": "构建 LLM 应用的框架",
-    "domain": "AI & ML",
-    "subCategory": "LLM框架",
-    "maturity": "trending",
-    "github": "langchain-ai/langchain",
-    "link": "https://github.com/langchain-ai/langchain",
-    "tags": ["llm", "ai", "framework", "chain"]
-  },
-  {
-    "id": "txtai",
-    "name": "txtai",
-    "description": "开源的 AI 语义搜索平台",
-    "domain": "AI & ML",
-    "subCategory": "LLM框架",
+    "subCategory": "AI 综合",
     "maturity": "geek",
-    "github": "neuml/txtai",
-    "link": "https://github.com/neuml/txtai",
-    "tags": ["ai", "semantic", "search", "nlp"]
+    "github": "khoj-ai/khoj",
+    "link": "https://github.com/khoj-ai/khoj",
+    "tags": [
+      "ai-&-ml"
+    ]
   },
   {
-    "id": "llama-index",
-    "name": "LlamaIndex",
-    "description": "构建 LLM 应用的数据框架",
+    "id": "amurex",
+    "name": "amurex",
+    "description": "提升会议效率的AI工具",
     "domain": "AI & ML",
-    "subCategory": "LLM框架",
-    "maturity": "trending",
-    "github": "run-llama/llama_index",
-    "link": "https://github.com/run-llama/llama_index",
-    "tags": ["llm", "ai", "data", "index"]
-  },
-  {
-    "id": "ragflow",
-    "name": "RagFlow",
-    "description": "基于深度文档理解的 RAG 引擎",
-    "domain": "AI & ML",
-    "subCategory": "LLM框架",
-    "maturity": "trending",
-    "github": "infiniflow/ragflow",
-    "link": "https://github.com/infiniflow/ragflow",
-    "tags": ["rag", "llm", "ai", "document"]
-  },
-  {
-    "id": "anything-llm",
-    "name": "Anything LLM",
-    "description": "私有化的 LLM 聊天应用",
-    "domain": "AI & ML",
-    "subCategory": "LLM框架",
+    "subCategory": "AI 综合",
     "maturity": "geek",
-    "github": "Mintplex-Labs/anything-llm",
-    "link": "https://github.com/Mintplex-Labs/anything-llm",
-    "tags": ["llm", "chat", "private", "docker"]
+    "github": "getamurex/amurex",
+    "link": "https://github.com/getamurex/amurex",
+    "tags": [
+      "ai-&-ml"
+    ]
   },
   {
-    "id": "semantic-kernel",
-    "name": "Semantic Kernel",
-    "description": "微软的 AI 编排框架",
+    "id": "browser-use-webui",
+    "name": "browser-use-webui",
+    "description": "AI智能体浏览器自动化工具",
     "domain": "AI & ML",
-    "subCategory": "LLM框架",
-    "maturity": "stable",
-    "github": "microsoft/semantic-kernel",
-    "link": "https://github.com/microsoft/semantic-kernel",
-    "tags": ["ai", "llm", "microsoft", "framework"]
-  },
-  {
-    "id": "litellm",
-    "name": "LiteLLM",
-    "description": "统一 LLM API 调用",
-    "domain": "AI & ML",
-    "subCategory": "LLM框架",
-    "maturity": "trending",
-    "github": "BerriAI/litellm",
-    "link": "https://github.com/BerriAI/litellm",
-    "tags": ["llm", "api", "proxy", "openai"]
-  },
-  {
-    "id": "flowise",
-    "name": "Flowise",
-    "description": "可视化 LLM 编排工具",
-    "domain": "AI & ML",
-    "subCategory": "LLM框架",
-    "maturity": "trending",
-    "github": "FlowiseAI/Flowise",
-    "link": "https://github.com/FlowiseAI/Flowise",
-    "tags": ["llm", "flow", "visual", "no-code"]
-  },
-  {
-    "id": "browser-use",
-    "name": "Browser Use",
-    "description": "AI 驱动的网页浏览器",
-    "domain": "AI & ML",
-    "subCategory": "AI Agent",
-    "maturity": "trending",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
     "github": "browser-use/browser-use",
     "link": "https://github.com/browser-use/browser-use",
-    "tags": ["ai", "agent", "browser", "automation"]
+    "tags": [
+      "ai-&-ml"
+    ]
   },
   {
-    "id": "agentGPT",
-    "name": "AgentGPT",
-    "description": "自主 AI 代理工具",
+    "id": "miniperplx",
+    "name": "miniperplx",
+    "description": "基于AI的开源搜索引擎",
     "domain": "AI & ML",
-    "subCategory": "AI Agent",
+    "subCategory": "AI 综合",
     "maturity": "geek",
-    "github": "reworkd/AgentGPT",
-    "link": "https://github.com/reworkd/AgentGPT",
-    "tags": ["ai", "agent", "autonomous", "chatgpt"]
+    "github": "miniperplx/miniperplx",
+    "link": "https://github.com/miniperplx/miniperplx",
+    "tags": [
+      "ai-&-ml"
+    ]
   },
   {
-    "id": "autogpt",
-    "name": "AutoGPT",
-    "description": "自主 AI 代理实验",
+    "id": "gitingest",
+    "name": "gitingest",
+    "description": "帮助快速了解开源项目的工具",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "github": "gitingest/gitingest",
+    "link": "https://github.com/gitingest/gitingest",
+    "tags": [
+      "devtools"
+    ]
+  },
+  {
+    "id": "crawl4ai",
+    "name": "crawl4ai",
+    "description": "简单易用高效的网页爬虫工具",
     "domain": "AI & ML",
-    "subCategory": "AI Agent",
+    "subCategory": "AI 综合",
     "maturity": "geek",
-    "github": "Significant-Gravitas/AutoGPT",
-    "link": "https://github.com/Significant-Gravitas/AutoGPT",
-    "tags": ["ai", "agent", "autonomous", "gpt"]
+    "github": "unclecode/crawl4ai",
+    "link": "https://github.com/unclecode/crawl4ai",
+    "tags": [
+      "ai-&-ml"
+    ]
   },
   {
-    "id": "nextjs-ai-chatbot",
-    "name": "Next.js AI Chatbot",
-    "description": "AI 聊天机器人模板",
+    "id": "papermark",
+    "name": "papermark",
+    "description": "开源文档分享平台",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "github": "mfts/papermark",
+    "link": "https://github.com/mfts/papermark",
+    "tags": [
+      "devtools"
+    ]
+  },
+  {
+    "id": "openhands",
+    "name": "OpenHands",
+    "description": "AI驱动的软件开发多智能体平台",
     "domain": "AI & ML",
-    "subCategory": "LLM框架",
-    "maturity": "stable",
-    "github": "vercel/ai",
-    "link": "https://github.com/vercel/ai",
-    "tags": ["ai", "chatbot", "nextjs", "react"]
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "All-Hands-AI/OpenHands",
+    "link": "https://github.com/All-Hands-AI/OpenHands",
+    "tags": [
+      "ai-&-ml"
+    ]
   },
   {
-    "id": "text-generation-webui",
-    "name": "text-generation-webui",
-    "description": "LLM Web UI",
+    "id": "open-canvas",
+    "name": "open-canvas",
+    "description": "支持主流LLM的开源AI交互界面",
     "domain": "AI & ML",
-    "subCategory": "LLM框架",
-    "maturity": "stable",
-    "github": "oobabooga/text-generation-webui",
-    "link": "https://github.com/oobabooga/text-generation-webui",
-    "tags": ["llm", "webui", "chatbot", "local"]
-  },
-  {
-    "id": "tabby",
-    "name": "Tabby",
-    "description": "自托管 AI 编程助手",
-    "domain": "DevTools",
-    "subCategory": "IDE插件",
+    "subCategory": "AI 综合",
     "maturity": "geek",
-    "github": "TabbyAI/tabby",
-    "link": "https://github.com/TabbyAI/tabby",
-    "tags": ["ai", "copilot", "self-hosted", "ide"]
+    "github": "continuedev/open-canvas",
+    "link": "https://github.com/continuedev/open-canvas",
+    "tags": [
+      "ai-&-ml"
+    ]
   },
   {
-    "id": "dev-gpt",
-    "name": "DevGPT",
-    "description": "AI 开发者助手",
-    "domain": "DevTools",
-    "subCategory": "IDE插件",
+    "id": "harbor",
+    "name": "harbor",
+    "description": "容器化LLM工具箱",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
     "maturity": "geek",
-    "github": "gitphys/dev-gpt",
-    "link": "https://github.com/gitphys/dev-gpt",
-    "tags": ["ai", "assistant", "developer", "productivity"]
+    "github": "colbylwilliams/harbor",
+    "link": "https://github.com/colbylwilliams/harbor",
+    "tags": [
+      "ai-&-ml"
+    ]
   },
   {
-    "id": "vscode-selfhost-test-provider",
-    "name": "VS Code Selfhost Test Provider",
-    "description": "VS Code 自托管测试提供者",
-    "domain": "DevTools",
-    "subCategory": "测试工具",
+    "id": "videofusion",
+    "name": "VideoFusion",
+    "description": "一站式视频批量处理工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
     "maturity": "geek",
-    "github": "microsoft/vscode-selfhost-test-provider",
-    "link": "https://github.com/microsoft/vscode-selfhost-test-provider",
-    "tags": ["vscode", "testing", "extension", "microsoft"]
+    "github": "VideoFusion/VideoFusion",
+    "link": "https://github.com/VideoFusion/VideoFusion",
+    "tags": [
+      "ai-&-ml"
+    ]
   },
   {
-    "id": "wiz",
-    "name": "Wiz",
-    "description": "云安全态势管理",
-    "domain": "Infra",
-    "subCategory": "安全工具",
-    "maturity": "stable",
-    "github": "wizsec/wiz",
-    "link": "https://github.com/wizsec/wiz",
-    "tags": ["security", "cloud", "cspm", "infosec"]
-  },
-  {
-    "id": "trivy",
-    "name": "Trivy",
-    "description": "开源漏洞扫描器",
-    "domain": "Infra",
-    "subCategory": "安全工具",
-    "maturity": "stable",
-    "github": "aquasecurity/trivy",
-    "link": "https://github.com/aquasecurity/trivy",
-    "tags": ["security", "vulnerability", "scanner", "containers"]
-  },
-  {
-    "id": "checkov",
-    "name": "Checkov",
-    "description": "基础设施即代码扫描器",
-    "domain": "Infra",
-    "subCategory": "安全工具",
-    "maturity": "stable",
-    "github": "bridgecrewio/checkov",
-    "link": "https://github.com/bridgecrewio/checkov",
-    "tags": ["security", "iac", "scanner", "terraform"]
-  },
-  {
-    "id": "teleport",
-    "name": "Teleport",
-    "description": "基础设施访问管理",
-    "domain": "Infra",
-    "subCategory": "安全工具",
-    "maturity": "stable",
-    "github": "gravitational/teleport",
-    "link": "https://github.com/gravitational/teleport",
-    "tags": ["security", "access", "ssh", "kubernetes"]
-  },
-  {
-    "id": "infisical",
-    "name": "Infisical",
-    "description": "开源 secrets 管理平台",
-    "domain": "Infra",
-    "subCategory": "安全工具",
-    "maturity": "trending",
-    "github": "Infisical/infisical",
-    "link": "https://github.com/Infisical/infisical",
-    "tags": ["secrets", "management", "security", "vault"]
-  },
-  {
-    "id": "opentofu",
-    "name": "OpenTofu",
-    "description": "开源基础设施即代码",
-    "domain": "Infra",
-    "subCategory": "IaC工具",
-    "maturity": "trending",
-    "github": "opentofu/opentofu",
-    "link": "https://github.com/opentofu/opentofu",
-    "tags": ["terraform", "iac", "infrastructure", "cloud"]
-  },
-  {
-    "id": "ansible",
-    "name": "Ansible",
-    "description": "自动化运维工具",
-    "domain": "Infra",
-    "subCategory": "自动化工具",
-    "maturity": "stable",
-    "github": "ansible/ansible",
-    "link": "https://github.com/ansible/ansible",
-    "tags": ["automation", "devops", "config-management", "ansible"]
-  },
-  {
-    "id": "podman",
-    "name": "Podman",
-    "description": "无守护进程的容器引擎",
-    "domain": "Infra",
-    "subCategory": "Docker工具",
-    "maturity": "stable",
-    "github": "containers/podman",
-    "link": "https://github.com/containers/podman",
-    "tags": ["containers", "docker", "podman", "runtime"]
-  },
-  {
-    "id": "screenshot-to-code",
-    "name": "Screenshot to Code",
-    "description": "截图转换为代码",
-    "domain": "DevTools",
-    "subCategory": "效率工具",
-    "maturity": "trending",
-    "github": "abi/screenshot-to-code",
-    "link": "https://github.com/abi/screenshot-to-code",
-    "tags": ["ai", "screenshot", "code", "productivity"]
-  },
-  {
-    "id": "gitignore",
-    "name": "gitignore",
-    "description": "Git 忽略文件模板集合",
-    "domain": "DevTools",
-    "subCategory": "效率工具",
-    "maturity": "stable",
-    "github": "github/gitignore",
-    "link": "https://github.com/github/gitignore",
-    "tags": ["git", "template", "collection"]
-  },
-  {
-    "id": "starship",
-    "name": "Starship",
-    "description": "极简的 Shell 提示符",
-    "domain": "DevTools",
-    "subCategory": "终端增强",
-    "maturity": "stable",
-    "github": "starship/starship",
-    "link": "https://github.com/starship/starship",
-    "tags": ["shell", "prompt", "terminal", "zsh"]
-  },
-  {
-    "id": "zellij",
-    "name": "Zellij",
-    "description": "终端工作区管理器",
-    "domain": "DevTools",
-    "subCategory": "终端增强",
+    "id": "prompt-optimizer",
+    "name": "prompt-optimizer",
+    "description": "优化和测试AI提示词的工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
     "maturity": "geek",
-    "github": "zellij-org/zellij",
-    "link": "https://github.com/zellij-org/zellij",
-    "tags": ["terminal", "workspace", "multiplexer"]
+    "github": "linshenkq/prompt-optimizer",
+    "link": "https://github.com/linshenkq/prompt-optimizer",
+    "tags": [
+      "ai-&-ml"
+    ]
   },
   {
-    "id": "ghostty",
-    "name": "Ghostty",
-    "description": "现代化终端模拟器",
-    "domain": "DevTools",
-    "subCategory": "终端增强",
+    "id": "aibrix",
+    "name": "aibrix",
+    "description": "企业级GenAI推理基础设施工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
     "maturity": "geek",
-    "github": "mitchellh/ghostty",
-    "link": "https://github.com/mitchellh/ghostty",
-    "tags": ["terminal", "emulator", "macos", "linux"]
+    "github": "vllm-project/aibrix",
+    "link": "https://github.com/vllm-project/aibrix",
+    "tags": [
+      "ai-&-ml"
+    ]
   },
   {
-    "id": "wezterm",
-    "name": "WezTerm",
-    "description": "跨平台终端模拟器",
-    "domain": "DevTools",
-    "subCategory": "终端增强",
-    "maturity": "stable",
-    "github": "wez/wezterm",
-    "link": "https://github.com/wez/wezterm",
-    "tags": ["terminal", "emulator", "cross-platform"]
-  },
-  {
-    "id": "kitty",
-    "name": "Kitty",
-    "description": "现代化终端模拟器",
-    "domain": "DevTools",
-    "subCategory": "终端增强",
-    "maturity": "stable",
-    "github": "kovidgoyal/kitty",
-    "link": "https://github.com/kovidgoyal/kitty",
-    "tags": ["terminal", "emulator", "gpu", "linux"]
-  },
-  {
-    "id": "alacritty",
-    "name": "Alacritty",
-    "description": "最快的终端模拟器",
-    "domain": "DevTools",
-    "subCategory": "终端增强",
-    "maturity": "stable",
-    "github": "alacritty/alacritty",
-    "link": "https://github.com/alacritty/alacritty",
-    "tags": ["terminal", "emulator", "gpu", "rust"]
-  },
-  {
-    "id": "neovim",
-    "name": "Neovim",
-    "description": "现代化 Vim 编辑器",
-    "domain": "DevTools",
-    "subCategory": "编辑器",
-    "maturity": "stable",
-    "github": "neovim/neovim",
-    "link": "https://github.com/neovim/neovim",
-    "tags": ["editor", "vim", "neovim", "text-editor"]
-  },
-  {
-    "id": "zed",
-    "name": "Zed",
-    "description": "高性能代码编辑器",
-    "domain": "DevTools",
-    "subCategory": "编辑器",
+    "id": "claude-code",
+    "name": "claude-code",
+    "description": "终端AI编程助手",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
     "maturity": "geek",
-    "github": "zed-industries/zed",
-    "link": "https://github.com/zed-industries/zed",
-    "tags": ["editor", "code", "rust", "ai"]
+    "github": "anthropics/claude-code",
+    "link": "https://github.com/anthropics/claude-code",
+    "tags": [
+      "ai-&-ml"
+    ]
   },
   {
-    "id": "lapce",
-    "name": "Lapce",
-    "description": "现代化代码编辑器",
-    "domain": "DevTools",
-    "subCategory": "编辑器",
-    "maturity": "geek",
-    "github": "lapce/lapce",
-    "link": "https://github.com/lapce/lapce",
-    "tags": ["editor", "code", "rust", "gui"]
-  },
-  {
-    "id": "hertzbeat",
-    "name": "HertzBeat",
-    "description": "开源监控告警平台",
-    "domain": "Infra",
-    "subCategory": "监控工具",
-    "maturity": "geek",
-    "github": "dromara/hertzbeat",
-    "link": "https://github.com/dromara/hertzbeat",
-    "tags": ["monitoring", "alert", "java", "realtime"]
-  },
-  {
-    "id": " uptime-kuma",
-    "name": "Uptime Kuma",
-    "description": "自托管监控工具",
-    "domain": "Infra",
-    "subCategory": "监控工具",
-    "maturity": "stable",
-    "github": "louislam/uptime-kuma",
-    "link": "https://github.com/louislam/uptime-kuma",
-    "tags": ["monitoring", "uptime", "self-hosted", "docker"]
-  },
-  {
-    "id": "glances",
-    "name": "Glances",
-    "description": "跨平台系统监控",
-    "domain": "Infra",
-    "subCategory": "监控工具",
-    "maturity": "stable",
-    "github": "nicolargo/glances",
-    "link": "https://github.com/nicolargo/glances",
-    "tags": ["monitoring", "system", "cross-platform", "python"]
-  },
-  {
-    "id": "netdata",
-    "name": "Netdata",
-    "description": "实时性能监控",
-    "domain": "Infra",
-    "subCategory": "监控工具",
-    "maturity": "stable",
-    "github": "netdata/netdata",
-    "link": "https://github.com/netdata/netdata",
-    "tags": ["monitoring", "performance", "realtime", "docker"]
-  },
-  {
-    "id": "grafana",
-    "name": "Grafana",
-    "description": "可观测性和可视化平台",
-    "domain": "Infra",
-    "subCategory": "监控工具",
-    "maturity": "stable",
-    "github": "grafana/grafana",
-    "link": "https://github.com/grafana/grafana",
-    "tags": ["monitoring", "visualization", "dashboard", "metrics"]
-  },
-  {
-    "id": "prometheus",
-    "name": "Prometheus",
-    "description": "系统监控和告警工具包",
-    "domain": "Infra",
-    "subCategory": "监控工具",
-    "maturity": "stable",
-    "github": "prometheus/prometheus",
-    "link": "https://github.com/prometheus/prometheus",
-    "tags": ["monitoring", "metrics", "alerting", "cncf"]
-  },
-  {
-    "id": "minio",
-    "name": "MinIO",
-    "description": "高性能对象存储",
-    "domain": "Infra",
-    "subCategory": "存储工具",
-    "maturity": "stable",
-    "github": "minio/minio",
-    "link": "https://github.com/minio/minio",
-    "tags": ["storage", "s3", "object-storage", "docker"]
-  },
-  {
-    "id": "immich",
-    "name": "Immich",
-    "description": "自托管照片备份",
-    "domain": "Self-Hosted",
-    "subCategory": "家庭实验室",
-    "maturity": "trending",
-    "github": "immich-app/immich",
-    "link": "https://github.com/immich-app/immich",
-    "tags": ["photo", "backup", "self-hosted", "mobile"]
-  },
-  {
-    "id": "photoprism",
-    "name": "PhotoPrism",
-    "description": "个人照片管理",
-    "domain": "Self-Hosted",
-    "subCategory": "私人影音",
-    "maturity": "stable",
-    "github": "photoprism/photoprism",
-    "link": "https://github.com/photoprism/photoprism",
-    "tags": ["photo", "management", "self-hosted", "gallery"]
-  },
-  {
-    "id": "syncthing",
-    "name": "Syncthing",
-    "description": "开源文件同步",
-    "domain": "Self-Hosted",
-    "subCategory": "云服务替代品",
-    "maturity": "stable",
-    "github": "syncthing/syncthing",
-    "link": "https://github.com/syncthing/syncthing",
-    "tags": ["sync", "file-sharing", "p2p", "dropbox-alternative"]
-  },
-  {
-    "id": "firefly-iii",
-    "name": "Firefly III",
-    "description": "个人财务管理系统",
-    "domain": "Self-Hosted",
-    "subCategory": "云服务替代品",
-    "maturity": "stable",
-    "github": "firefly-iii/firefly-iii",
-    "link": "https://github.com/firefly-iii/firefly-iii",
-    "tags": ["finance", "personal", "accounting", "self-hosted"]
-  },
-  {
-    "id": "freshrss",
-    "name": "FreshRSS",
-    "description": "自托管 RSS 阅读器",
-    "domain": "Self-Hosted",
-    "subCategory": "云服务替代品",
-    "maturity": "stable",
-    "github": "FreshRSS/FreshRSS",
-    "link": "https://github.com/FreshRSS/FreshRSS",
-    "tags": ["rss", "reader", "self-hosted", "aggregate"]
-  },
-  {
-    "id": "miniflux",
-    "name": "Miniflux",
-    "description": "极简 RSS 阅读器",
-    "domain": "Self-Hosted",
-    "subCategory": "云服务替代品",
-    "maturity": "stable",
-    "github": "miniflux/v2",
-    "link": "https://github.com/miniflux/v2",
-    "tags": ["rss", "reader", "minimal", "self-hosted"]
-  },
-  {
-    "id": "wallabag",
-    "name": "Wallabag",
-    "description": "稍后阅读应用",
-    "domain": "Self-Hosted",
-    "subCategory": "云服务替代品",
-    "maturity": "stable",
-    "github": "wallabag/wallabag",
-    "link": "https://github.com/wallabag/wallabag",
-    "tags": ["read-it-later", "bookmarks", "self-hosted"]
-  },
-  {
-    "id": "linkding",
-    "name": "Linkding",
-    "description": "书签管理服务",
-    "domain": "Self-Hosted",
-    "subCategory": "效率工具",
-    "maturity": "stable",
-    "github": "sissbruecker/linkding",
-    "link": "https://github.com/sissbruecker/linkding",
-    "tags": ["bookmarks", "manager", "self-hosted", "docker"]
-  },
-  {
-    "id": "meilisearch",
-    "name": "MeiliSearch",
-    "description": "开源搜索引擎",
-    "domain": "Infra",
-    "subCategory": "数据库",
-    "maturity": "trending",
-    "github": "meilisearch/meilisearch",
-    "link": "https://github.com/meilisearch/meilisearch",
-    "tags": ["search", "engine", "elasticsearch-alternative", "api"]
-  },
-  {
-    "id": "supabase",
-    "name": "Supabase",
-    "description": "开源 Firebase 替代",
-    "domain": "Infra",
-    "subCategory": "数据库",
-    "maturity": "stable",
-    "github": "supabase/supabase",
-    "link": "https://github.com/supabase/supabase",
-    "tags": ["database", "backend", "firebase-alternative", "realtime"]
-  },
-  {
-    "id": "appwrite",
-    "name": "Appwrite",
-    "description": "开源后端即服务",
-    "domain": "Infra",
-    "subCategory": "数据库",
-    "maturity": "stable",
-    "github": "appwrite/appwrite",
-    "link": "https://github.com/appwrite/appwrite",
-    "tags": ["backend", "baas", "firebase-alternative", "docker"]
-  },
-  {
-    "id": "n8n",
-    "name": "n8n",
-    "description": "开源工作流自动化",
-    "domain": "Self-Hosted",
-    "subCategory": "自动化流",
-    "maturity": "trending",
-    "github": "n8n-io/n8n",
-    "link": "https://github.com/n8n-io/n8n",
-    "tags": ["automation", "workflow", "no-code", "self-hosted"]
-  },
-  {
-    "id": "pipedream",
-    "name": "Pipedream",
-    "description": "工作流自动化平台",
-    "domain": "Self-Hosted",
-    "subCategory": "自动化流",
-    "maturity": "geek",
-    "github":/Pipedream/pipedream",
-    "link": "https://github.com/Pipedream/pipedream",
-    "tags": ["automation", "workflow", "integration", "api"]
-  },
-  {
-    "id": "trigger.dev",
-    "name": "Trigger.dev",
-    "description": "开源事件驱动平台",
-    "domain": "Self-Hosted",
-    "subCategory": "自动化流",
-    "maturity": "geek",
-    "github": "triggerdotdev/trigger.dev",
-    "link": "https://github.com/triggerdotdev/trigger.dev",
-    "tags": ["automation", "events", "workflow", "developer-platform"]
-  },
-  {
-    "id": "github-advanced-security",
-    "name": "GitHub Advanced Security",
-    "description": "GitHub 安全功能",
-    "domain": "Infra",
-    "subCategory": "安全工具",
-    "maturity": "stable",
-    "github": "github/security-advisories",
-    "link": "https://github.com/github/security-advisories",
-    "tags": ["security", "vulnerability", "advisories", "github"]
-  },
-  {
-    "id": "syft",
-    "name": "Syft",
-    "description": "容器镜像 SBOM 生成器",
-    "domain": "Infra",
-    "subCategory": "安全工具",
-    "maturity": "stable",
-    "github": "anchore/syft",
-    "link": "https://github.com/anchore/syft",
-    "tags": ["sbom", "container", "security", "docker"]
-  },
-  {
-    "id": "grype",
-    "name": "Grype",
-    "description": "容器漏洞扫描器",
-    "domain": "Infra",
-    "subCategory": "安全工具",
-    "maturity": "stable",
-    "github": "anchore/grype",
-    "link": "https://github.com/anchore/grype",
-    "tags": ["vulnerability", "scanner", "container", "docker"]
-  },
-  {
-    "id": "score",
-    "name": "Score",
-    "description": "开源容器编排规范",
-    "domain": "Infra",
-    "subCategory": "Docker工具",
-    "maturity": "geek",
-    "github": "score-spec/score",
-    "link": "https://github.com/score-spec/score",
-    "tags": ["container", "orchestration", "specification", "devops"]
-  },
-  {
-    "id": "dive",
-    "name": "Dive",
-    "description": "探索 Docker 镜像",
-    "domain": "Infra",
-    "subCategory": "Docker工具",
-    "maturity": "stable",
-    "github": "wagoodman/dive",
-    "link": "https://github.com/wagoodman/dive",
-    "tags": ["docker", "image", "analysis", "tool"]
-  },
-  {
-    "id": "devcontainers",
-    "name": "Dev Containers",
-    "description": "VS Code 开发容器",
-    "domain": "DevTools",
-    "subCategory": "效率工具",
-    "maturity": "stable",
-    "github": "microsoft/vscode-dev-containers",
-    "link": "https://github.com/microsoft/vscode-dev-containers",
-    "tags": ["vscode", "devcontainer", "containers", "development"]
-  },
-  {
-    "id": "gitpod",
-    "name": "Gitpod",
-    "description": "云开发环境",
-    "domain": "DevTools",
-    "subCategory": "效率工具",
-    "maturity": "stable",
-    "github": "gitpod-io/gitpod",
-    "link": "https://github.com/gitpod-io/gitpod",
-    "tags": ["cloud", "development", "ide", "workspace"]
-  },
-  {
-    "id": "coder",
-    "name": "Coder",
-    "description": "自托管云开发环境",
-    "domain": "DevTools",
-    "subCategory": "效率工具",
-    "maturity": "geek",
-    "github": "coder/coder",
-    "link": "https://github.com/coder/coder",
-    "tags": ["cloud", "development", "workspace", "self-hosted"]
-  },
-  {
-    "id": "flightctl",
-    "name": "Flightctl",
-    "description": "设备管理平台",
-    "domain": "Infra",
-    "subCategory": "设备管理",
-    "maturity": "geek",
-    "github": "flightctl/flightctl",
-    "link": "https://github.com/flightctl/flightctl",
-    "tags": ["device", "management", "iot", "fleet"]
-  },
-  {
-    "id": "copilot-docs",
-    "name": "Copilot Docs",
-    "description": "GitHub Copilot 文档",
-    "domain": "DevTools",
-    "subCategory": "IDE插件",
-    "maturity": "stable",
-    "github": "github/copilot-docs",
-    "link": "https://github.com/github/copilot-docs",
-    "tags": ["copilot", "ai", "documentation", "github"]
-  },
-  {
-    "id": "doocs-git",
-    "name": "Doocs Git",
-    "description": "Git 学习教程",
+    "id": "deepchat",
+    "name": "deepchat",
+    "description": "DeepSeek第三方开源客户端",
     "domain": "Resources",
-    "subCategory": "技术教程",
-    "maturity": "stable",
-    "github": "doocs/git",
-    "link": "https://github.com/doocs/git",
-    "tags": ["git", "tutorial", "learning", "chinese"]
+    "subCategory": "综合资源",
+    "maturity": "geek",
+    "github": "ChatVibe/deepchat",
+    "link": "https://github.com/ChatVibe/deepchat",
+    "tags": [
+      "resources"
+    ]
   },
   {
-    "id": "cs-books",
-    "name": "CS Books",
-    "description": "计算机科学书籍",
-    "domain": "Resources",
-    "subCategory": "电子书",
-    "maturity": "stable",
-    "github": "fffaraz/awesome-cs-books",
-    "link": "https://github.com/fffaraz/awesome-cs-books",
-    "tags": ["books", "computer-science", "programming", "learning"]
+    "id": "astrbot",
+    "name": "AstrBot",
+    "description": "多平台LLM聊天机器人框架",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "Soulter/AstrBot",
+    "link": "https://github.com/Soulter/AstrBot",
+    "tags": [
+      "ai-&-ml"
+    ]
   },
   {
-    "id": "system-design-primer",
-    "name": "System Design Primer",
-    "description": "系统设计学习",
-    "domain": "Resources",
-    "subCategory": "技术路线图",
-    "maturity": "stable",
-    "github": "donnemartin/system-design-primer",
-    "link": "https://github.com/donnemartin/system-design-primer",
-    "tags": ["system-design", "architecture", "learning", "interview"]
+    "id": "aigcpanel",
+    "name": "aigcpanel",
+    "description": "一站式AI数字人系统",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "aigcpanel/aigcpanel",
+    "link": "https://github.com/aigcpanel/aigcpanel",
+    "tags": [
+      "ai-&-ml"
+    ]
   },
   {
-    "id": "build-your-own-x",
-    "name": "Build Your Own X",
-    "description": "自建各种技术",
-    "domain": "Resources",
-    "subCategory": "技术教程",
-    "maturity": "stable",
-    "github": "codecrafters-io/build-your-own-x",
-    "link": "https://github.com/codecrafters-io/build-your-own-x",
-    "tags": ["tutorial", "learning", "programming", "projects"]
+    "id": "mastra",
+    "name": "mastra",
+    "description": "快速构建AI应用的TypeScript框架",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "mastra-ai/mastra",
+    "link": "https://github.com/mastra-ai/mastra",
+    "tags": [
+      "ai-&-ml"
+    ]
   },
   {
-    "id": "the-art-of-command-line",
-    "name": "The Art of Command Line",
-    "description": "命令行艺术",
-    "domain": "Resources",
-    "subCategory": "技术教程",
-    "maturity": "stable",
-    "github": "jlevy/the-art-of-command-line",
-    "link": "https://github.com/jlevy/the-art-of-command-line",
-    "tags": ["command-line", "bash", "tutorial", "productivity"]
+    "id": "gurubase",
+    "name": "gurubase",
+    "description": "基于任何内容创建AI问答助手",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "gurubase/gurubase",
+    "link": "https://github.com/gurubase/gurubase",
+    "tags": [
+      "ai-&-ml"
+    ]
   },
   {
-    "id": "project-based-learning",
-    "name": "Project Based Learning",
-    "description": "项目驱动的学习",
-    "domain": "Resources",
-    "subCategory": "技术教程",
-    "maturity": "stable",
-    "github": "practical-tutorials/project-based-learning",
-    "link": "https://github.com/practical-tutorials/project-based-learning",
-    "tags": ["tutorial", "learning", "projects", "programming"]
+    "id": "docling",
+    "name": "docling",
+    "description": "文档处理开源框架",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "github": "DS4SD/docling",
+    "link": "https://github.com/DS4SD/docling",
+    "tags": [
+      "devtools"
+    ]
   },
   {
-    "id": "ossu-compsci",
-    "name": "OSSU Computer Science",
-    "description": "开源计算机科学学位",
-    "domain": "Resources",
-    "subCategory": "技术路线图",
-    "maturity": "stable",
-    "github": "ossu/computer-science",
-    "link": "https://github.com/ossu/computer-science",
-    "tags": ["computer-science", "degree", "curriculum", "learning"]
+    "id": "maxkb",
+    "name": "MaxKB",
+    "description": "开源AI知识库问答系统",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "1Panel-dev/MaxKB",
+    "link": "https://github.com/1Panel-dev/MaxKB",
+    "tags": [
+      "ai-&-ml"
+    ]
   },
   {
-    "id": "tech-interview-handbook",
-    "name": "Tech Interview Handbook",
-    "description": "技术面试手册",
-    "domain": "Resources",
-    "subCategory": "面试",
-    "maturity": "stable",
-    "github": "yangshun/tech-interview-handbook",
-    "link": "https://github.com/yangshun/tech-interview-handbook",
-    "tags": ["interview", "preparation", "algorithms", "coding"]
+    "id": "sidekick",
+    "name": "Sidekick",
+    "description": "适用于Mac的本地AI助手",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "sidekick-mac/sidekick",
+    "link": "https://github.com/sidekick-mac/sidekick",
+    "tags": [
+      "ai-&-ml"
+    ]
   },
   {
-    "id": "leetcode",
-    "name": "LeetCode",
-    "description": "编程刷题平台",
+    "id": "local-deep-research",
+    "name": "local-deep-research",
+    "description": "可本地运行的AI研究助手",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "dzhng/local-deep-research",
+    "link": "https://github.com/dzhng/local-deep-research",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "open-sora",
+    "name": "Open-Sora",
+    "description": "开源SOTA视频生成大模型",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "hpcaitech/Open-Sora",
+    "link": "https://github.com/hpcaitech/Open-Sora",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "agents",
+    "name": "agents",
+    "description": "构建智能有状态AI智能体框架",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "e2b-dev/agents",
+    "link": "https://github.com/e2b-dev/agents",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "rlama",
+    "name": "rlama",
+    "description": "本地文档智能问答工具",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "github": "rlama/rlama",
+    "link": "https://github.com/rlama/rlama",
+    "tags": [
+      "devtools"
+    ]
+  },
+  {
+    "id": "story-flicks",
+    "name": "story-flicks",
+    "description": "AI故事场景视频生成工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "antgroup/story-flicks",
+    "link": "https://github.com/antgroup/story-flicks",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "botgroup-chat",
+    "name": "botgroup.chat",
+    "description": "多AI角色同时参与对话的应用",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "zhayujie/botgroup.chat",
+    "link": "https://github.com/zhayujie/botgroup.chat",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "nanobrowser",
+    "name": "nanobrowser",
+    "description": "AI网页自动化工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "nanobrowser/nanobrowser",
+    "link": "https://github.com/nanobrowser/nanobrowser",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "automate",
+    "name": "autoMate",
+    "description": "AI驱动的本地自动化工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "AutoMate/AutoMate",
+    "link": "https://github.com/AutoMate/AutoMate",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "ai-hedge-fund",
+    "name": "ai-hedge-fund",
+    "description": "AI驱动对冲基金概念验证项目",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "ai-hedge-fund/ai-hedge-fund",
+    "link": "https://github.com/ai-hedge-fund/ai-hedge-fund",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "klee-client",
+    "name": "klee-client",
+    "description": "本地化AI桌面应用",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "klee-client/klee-client",
+    "link": "https://github.com/klee-client/klee-client",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "storm",
+    "name": "storm",
+    "description": "斯坦福大学AI写作工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "stanford-oval/storm",
+    "link": "https://github.com/stanford-oval/storm",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "composio",
+    "name": "composio",
+    "description": "快速构建AI智能体工具包",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "ComposioHQ/composio",
+    "link": "https://github.com/ComposioHQ/composio",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "writing-helper",
+    "name": "writing-helper",
+    "description": "AI写作助手",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "writing-helper/writing-helper",
+    "link": "https://github.com/writing-helper/writing-helper",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "viral-predictor",
+    "name": "viral-predictor",
+    "description": "社交平台爆款帖子预测工具",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "github": "viral-predictor/viral-predictor",
+    "link": "https://github.com/viral-predictor/viral-predictor",
+    "tags": [
+      "devtools"
+    ]
+  },
+  {
+    "id": "mtranserver",
+    "name": "MTranServer",
+    "description": "超低资源离线翻译服务器",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "Helsinki-NLP/MTranServer",
+    "link": "https://github.com/Helsinki-NLP/MTranServer",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "shandu",
+    "name": "shandu",
+    "description": "Deep Research开源替代工具",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "github": "shandu/shandu",
+    "link": "https://github.com/shandu/shandu",
+    "tags": [
+      "devtools"
+    ]
+  },
+  {
+    "id": "instructor",
+    "name": "instructor",
+    "description": "从LLM获取结构化数据的Python库",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "jxnl/instructor",
+    "link": "https://github.com/jxnl/instructor",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "code2prompt",
+    "name": "code2prompt",
+    "description": "代码库转换工具",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "github": "mufeedvh/code2prompt",
+    "link": "https://github.com/mufeedvh/code2prompt",
+    "tags": [
+      "devtools"
+    ]
+  },
+  {
+    "id": "gitpodcast",
+    "name": "gitpodcast",
+    "description": "GitHub项目转播客工具",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "github": "gitpodcast/gitpodcast",
+    "link": "https://github.com/gitpodcast/gitpodcast",
+    "tags": [
+      "devtools"
+    ]
+  },
+  {
+    "id": "aingdesk",
+    "name": "AingDesk",
+    "description": "本地AI模型部署工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "AingDesk/AingDesk",
+    "link": "https://github.com/AingDesk/AingDesk",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "cognita",
+    "name": "cognita",
+    "description": "开源低代码RAG框架",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "truefoundry/cognita",
+    "link": "https://github.com/truefoundry/cognita",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "langgraph-swarm",
+    "name": "langgraph-swarm",
+    "description": "多AI智能体协同工作Python库",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "langchain-ai/langgraph-swarm",
+    "link": "https://github.com/langchain-ai/langgraph-swarm",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "whisperchain",
+    "name": "WhisperChain",
+    "description": "实时语音转文字并润色工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "WhisperChain/WhisperChain",
+    "link": "https://github.com/WhisperChain/WhisperChain",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "probly",
+    "name": "probly",
+    "description": "智能电子表格工具",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "github": "probly/probly",
+    "link": "https://github.com/probly/probly",
+    "tags": [
+      "devtools"
+    ]
+  },
+  {
+    "id": "repomix",
+    "name": "repomix",
+    "description": "代码库打包成AI友好格式工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "yamadashy/repomix",
+    "link": "https://github.com/yamadashy/repomix",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "manga-image-translator",
+    "name": "manga-image-translator",
+    "description": "漫画图片翻译工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "zyddnys/manga-image-translator",
+    "link": "https://github.com/zyddnys/manga-image-translator",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "leffa",
+    "name": "Leffa",
+    "description": "Meta开源可控人物图像生成框架",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "facebookresearch/Leffa",
+    "link": "https://github.com/facebookresearch/Leffa",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "screenpipe",
+    "name": "screenpipe",
+    "description": "开源监控工具",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "github": "mediar-ai/screenpipe",
+    "link": "https://github.com/mediar-ai/screenpipe",
+    "tags": [
+      "devtools"
+    ]
+  },
+  {
+    "id": "pagetalk",
+    "name": "PageTalk",
+    "description": "浏览器AI插件",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "PageTalk/PageTalk",
+    "link": "https://github.com/PageTalk/PageTalk",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "subtitle-translator",
+    "name": "subtitle-translator",
+    "description": "批量字幕翻译工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "WEIFENG2333/subtitle-translator",
+    "link": "https://github.com/WEIFENG2333/subtitle-translator",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "bilive",
+    "name": "bilive",
+    "description": "B站直播录制开源工具",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "github": "chenfan0/bilive",
+    "link": "https://github.com/chenfan0/bilive",
+    "tags": [
+      "devtools"
+    ]
+  },
+  {
+    "id": "step1x-edit",
+    "name": "Step1X-Edit",
+    "description": "开源图像编辑模型",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "Step1X/Step1X-Edit",
+    "link": "https://github.com/Step1X/Step1X-Edit",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "kimi-audio",
+    "name": "Kimi-Audio",
+    "description": "音频基础模型",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "MoonshotAI/Kimi-Audio",
+    "link": "https://github.com/MoonshotAI/Kimi-Audio",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "open-codex",
+    "name": "open-codex",
+    "description": "完全离线运行的终端AI助手",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "open-codex/open-codex",
+    "link": "https://github.com/open-codex/open-codex",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "mad-professor-public",
+    "name": "mad-professor-public",
+    "description": "学术阅读AI辅助工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "mad-professor-public/mad-professor-public",
+    "link": "https://github.com/mad-professor-public/mad-professor-public",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "suna",
+    "name": "suna",
+    "description": "自然对话完成信息处理工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "suna/suna",
+    "link": "https://github.com/suna/suna",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "elatoai",
+    "name": "ElatoAI",
+    "description": "让玩具具备语音交互能力开源方案",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "ElatoAI/ElatoAI",
+    "link": "https://github.com/ElatoAI/ElatoAI",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "droidrun",
+    "name": "droidrun",
+    "description": "Android自动化工具",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "github": "droidrun/droidrun",
+    "link": "https://github.com/droidrun/droidrun",
+    "tags": [
+      "devtools"
+    ]
+  },
+  {
+    "id": "llplayer",
+    "name": "LLplayer",
+    "description": "专为语言学习设计的视频播放器",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "LLplayer/LLplayer",
+    "link": "https://github.com/LLplayer/LLplayer",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "secretary",
+    "name": "secretary",
+    "description": "社交媒体内容分析AI工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "secretary/secretary",
+    "link": "https://github.com/secretary/secretary",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "hyprnote",
+    "name": "hyprnote",
+    "description": "会议笔记AI工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "hyprnote/hyprnote",
+    "link": "https://github.com/hyprnote/hyprnote",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "austen",
+    "name": "austen",
+    "description": "书籍角色关系可视化工具",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "github": "austen/austen",
+    "link": "https://github.com/austen/austen",
+    "tags": [
+      "devtools"
+    ]
+  },
+  {
+    "id": "dia",
+    "name": "dia",
+    "description": "超逼真文本转语音生成模型",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "dia/dia",
+    "link": "https://github.com/dia/dia",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "webvm",
+    "name": "webvm",
+    "description": "浏览器中的Linux虚拟机",
+    "domain": "Web Stack",
+    "subCategory": "Web 开发",
+    "maturity": "geek",
+    "github": "leaningtech/webvm",
+    "link": "https://github.com/leaningtech/webvm",
+    "tags": [
+      "web-stack"
+    ]
+  },
+  {
+    "id": "bitnet",
+    "name": "BitNet",
+    "description": "微软开源高效推理框架",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "microsoft/BitNet",
+    "link": "https://github.com/microsoft/BitNet",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "watermarkremover-ai",
+    "name": "WatermarkRemover-AI",
+    "description": "AI水印移除工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "WatermarkRemover-AI/WatermarkRemover-AI",
+    "link": "https://github.com/WatermarkRemover-AI/WatermarkRemover-AI",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "inbox-zero",
+    "name": "inbox-zero",
+    "description": "AI邮件管理工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "elie222/inbox-zero",
+    "link": "https://github.com/elie222/inbox-zero",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "framepack",
+    "name": "FramePack",
+    "description": "高效视频生成框架",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "FramePack/FramePack",
+    "link": "https://github.com/FramePack/FramePack",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "bilinote",
+    "name": "BiliNote",
+    "description": "AI视频笔记助手",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "zhayujie/BiliNote",
+    "link": "https://github.com/zhayujie/BiliNote",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "llama-4-researcher",
+    "name": "llama-4-researcher",
+    "description": "基于Llama 4的AI研究助手",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "llama-4-researcher/llama-4-researcher",
+    "link": "https://github.com/llama-4-researcher/llama-4-researcher",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "codex",
+    "name": "codex",
+    "description": "轻量级终端编码助手",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "github": "codex/codex",
+    "link": "https://github.com/codex/codex",
+    "tags": [
+      "devtools"
+    ]
+  },
+  {
+    "id": "index",
+    "name": "index",
+    "description": "自动化浏览器智能体",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "index/index",
+    "link": "https://github.com/index/index",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "omnisvg",
+    "name": "OmniSVG",
+    "description": "高质量SVG矢量图生成模型",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "OmniSVG/OmniSVG",
+    "link": "https://github.com/OmniSVG/OmniSVG",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "aginews",
+    "name": "aginews",
+    "description": "自动化收集前沿AI信息工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "aginews/aginews",
+    "link": "https://github.com/aginews/aginews",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "meeting-minutes",
+    "name": "meeting-minutes",
+    "description": "会议场景AI助手",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "meeting-minutes/meeting-minutes",
+    "link": "https://github.com/meeting-minutes/meeting-minutes",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "weclone",
+    "name": "WeClone",
+    "description": "微信聊天记录微调大模型方案",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "WeClone/WeClone",
+    "link": "https://github.com/WeClone/WeClone",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "yuxi-know",
+    "name": "Yuxi-Know",
+    "description": "知识库与知识图谱问答系统",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "Yuxi-Know/Yuxi-Know",
+    "link": "https://github.com/Yuxi-Know/Yuxi-Know",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "devdocs",
+    "name": "DevDocs",
+    "description": "文档爬取和处理工具",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "github": "DevDocs/DevDocs",
+    "link": "https://github.com/DevDocs/DevDocs",
+    "tags": [
+      "devtools"
+    ]
+  },
+  {
+    "id": "5ire",
+    "name": "5ire",
+    "description": "高颜值AI助手应用",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "5ire/5ire",
+    "link": "https://github.com/5ire/5ire",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "krillinai",
+    "name": "KrillinAI",
+    "description": "本地化AI视频处理工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "KrillinAI/KrillinAI",
+    "link": "https://github.com/KrillinAI/KrillinAI",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "gemini-cli",
+    "name": "gemini-cli",
+    "description": "对标Claude Code的终端编程AI助手",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "gemini-cli/gemini-cli",
+    "link": "https://github.com/gemini-cli/gemini-cli",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "twocast",
+    "name": "Twocast",
+    "description": "AI博客生成工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "Twocast/Twocast",
+    "link": "https://github.com/Twocast/Twocast",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "opik",
+    "name": "opik",
+    "description": "LLM系统开源评估平台",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "comet-ml/opik",
+    "link": "https://github.com/comet-ml/opik",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "avante-nvim",
+    "name": "avante.nvim",
+    "description": "Neovim AI驱动代码分析插件",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "yetone/avante.nvim",
+    "link": "https://github.com/yetone/avante.nvim",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "sandbox",
+    "name": "sandbox",
+    "description": "AI Agent应用统一沙箱环境",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "sandbox/sandbox",
+    "link": "https://github.com/sandbox/sandbox",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "koboldcpp",
+    "name": "koboldcpp",
+    "description": "基于llama.cpp的大模型部署工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "LostRuins/koboldcpp",
+    "link": "https://github.com/LostRuins/koboldcpp",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "openbb",
+    "name": "OpenBB",
+    "description": "量化交易与金融分析开源平台",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "OpenBB/OpenBB",
+    "link": "https://github.com/OpenBB/OpenBB",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "qlib",
+    "name": "qlib",
+    "description": "AI量化投资平台",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "microsoft/qlib",
+    "link": "https://github.com/microsoft/qlib",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "onlook",
+    "name": "onlook",
+    "description": "专为设计师打造的AI编辑器",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "onlook-dev/onlook",
+    "link": "https://github.com/onlook-dev/onlook",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "mcp-server",
+    "name": "mcp-server",
+    "description": "网页数据抓取MCP服务器",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "github": "mcp-server/mcp-server",
+    "link": "https://github.com/mcp-server/mcp-server",
+    "tags": [
+      "devtools"
+    ]
+  },
+  {
+    "id": "autogluon",
+    "name": "autogluon",
+    "description": "让机器学习自动化框架",
     "domain": "Resources",
-    "subCategory": "面试",
-    "maturity": "stable",
-    "github": "LeetCode-OpenSource/rank",
-    "link": "https://github.com/LeetCode-OpenSource/rank",
-    "tags": ["leetcode", "algorithms", "interview", "practice"]
+    "subCategory": "综合资源",
+    "maturity": "geek",
+    "github": "autogluon/autogluon",
+    "link": "https://github.com/autogluon/autogluon",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "id": "litgpt",
+    "name": "litgpt",
+    "description": "大语言模型训练与部署工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "Lightning-AI/litgpt",
+    "link": "https://github.com/Lightning-AI/litgpt",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "gptree",
+    "name": "gptree",
+    "description": "辅助AI理解项目工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "gptree/gptree",
+    "link": "https://github.com/gptree/gptree",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "memvid",
+    "name": "memvid",
+    "description": "颠覆传统向量数据库处理方式",
+    "domain": "Resources",
+    "subCategory": "综合资源",
+    "maturity": "geek",
+    "github": "memvid/memvid",
+    "link": "https://github.com/memvid/memvid",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "id": "vosk-api",
+    "name": "vosk-api",
+    "description": "离线开源语音识别工具包",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "alphacep/vosk-api",
+    "link": "https://github.com/alphacep/vosk-api",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "librum",
+    "name": "librum",
+    "description": "个人在线图书馆管理工具",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "github": "Librum/Librum",
+    "link": "https://github.com/Librum/Librum",
+    "tags": [
+      "devtools"
+    ]
+  },
+  {
+    "id": "newelle",
+    "name": "newelle",
+    "description": "专为Linux打造的桌面AI助手",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "Newelle/Newelle",
+    "link": "https://github.com/Newelle/Newelle",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "noscribe",
+    "name": "noScribe",
+    "description": "AI语音转录工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "geek",
+    "github": "noScribe/noScribe",
+    "link": "https://github.com/noScribe/noScribe",
+    "tags": [
+      "ai-&-ml"
+    ]
   }
 ]
