@@ -13,8 +13,24 @@
       "llm",
       "local",
       "ai",
-      "machine-learning"
-    ]
+      "machine-learning",
+      "llama",
+      "llms",
+      "go",
+      "golang",
+      "ollama",
+      "mistral",
+      "gemma",
+      "llama3",
+      "deepseek",
+      "gemma3",
+      "qwen",
+      "gpt-oss",
+      "glm",
+      "minimax"
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-14T02:11:38.946Z"
   },
   {
     "id": "dify",
@@ -30,8 +46,28 @@
       "llm",
       "ai",
       "platform",
-      "nlp"
-    ]
+      "nlp",
+      "gpt",
+      "openai",
+      "python",
+      "rag",
+      "orchestration",
+      "gpt-4",
+      "agent",
+      "nextjs",
+      "workflow",
+      "genai",
+      "gemini",
+      "automation",
+      "low-code",
+      "mcp",
+      "no-code",
+      "agentic-ai",
+      "agentic-framework",
+      "agentic-workflow"
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-14T02:11:40.622Z"
   },
   {
     "id": "open-webui",
@@ -47,8 +83,21 @@
       "llm",
       "ui",
       "ai",
-      "webui"
-    ]
+      "webui",
+      "ollama",
+      "ollama-webui",
+      "self-hosted",
+      "llm-ui",
+      "llm-webui",
+      "llms",
+      "rag",
+      "open-webui",
+      "openai",
+      "mcp",
+      "openapi"
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-14T02:11:42.529Z"
   },
   {
     "id": "comfyui",
@@ -64,8 +113,14 @@
       "ai",
       "image",
       "stable-diffusion",
-      "gui"
-    ]
+      "gui",
+      "pytorch",
+      "python",
+      "comfy",
+      "comfyui"
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-14T02:11:45.305Z"
   },
   {
     "id": "v0",
@@ -98,8 +153,28 @@
       "no-code",
       "low-code",
       "api",
-      "database"
-    ]
+      "database",
+      "nocode",
+      "internal-tools",
+      "internal-tool",
+      "airtable",
+      "low-code-development-platform",
+      "no-code-platform",
+      "admin-dashboard",
+      "app-builder",
+      "crud",
+      "workflows",
+      "self-hosted",
+      "crm",
+      "salesforce",
+      "developer-tools",
+      "web-application",
+      "project-management",
+      "erp",
+      "lowcode"
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-14T02:11:47.390Z"
   },
   {
     "id": "cline",
@@ -133,7 +208,9 @@
       "editor",
       "coding",
       "vscode"
-    ]
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-14T02:11:49.161Z"
   },
   {
     "id": "windsurf",
@@ -150,23 +227,6 @@
       "editor",
       "coding",
       "codeium"
-    ]
-  },
-  {
-    "id": "alist",
-    "name": "AList",
-    "description": "支持多种存储的文件列表程序",
-    "domain": "Self-Hosted",
-    "subCategory": "文件管理",
-    "maturity": "stable",
-    "trendingRank": 10,
-    "github": "alist-org/alist",
-    "link": "https://github.com/alist-org/alist",
-    "tags": [
-      "storage",
-      "file",
-      "self-hosted",
-      "webdav"
     ]
   },
   {
@@ -1610,6 +1670,446 @@
     "link": "https://github.com/noScribe/noScribe",
     "tags": [
       "ai-&-ml"
+    ]
+  },
+  {
+    "id": "alist",
+    "name": "AList",
+    "description": "支持多种存储的文件列表程序",
+    "domain": "Self-Hosted",
+    "subCategory": "文件管理",
+    "maturity": "stable",
+    "trendingRank": 10,
+    "github": "alist-org/alist",
+    "link": "https://github.com/alist-org/alist",
+    "tags": [
+      "storage",
+      "file",
+      "self-hosted",
+      "webdav",
+      "golang",
+      "gin",
+      "solidjs",
+      "file-server",
+      "onedrive"
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-14T02:11:51.271Z"
+  },
+  {
+    "id": "openrag",
+    "name": "OpenRAG",
+    "description": "基于Langflow、Docling和Opensearch的检索增强生成平台",
+    "domain": "Resources",
+    "subCategory": "综合资源",
+    "maturity": "trending",
+    "github": "langflow-ai/openrag",
+    "link": "https://github.com/langflow-ai/openrag",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "id": "lightpanda",
+    "name": "Lightpanda",
+    "description": "专为AI和自动化设计的高性能无头浏览器",
+    "domain": "Resources",
+    "subCategory": "综合资源",
+    "maturity": "trending",
+    "github": "lightpanda-io/browser",
+    "link": "https://github.com/lightpanda-io/browser",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "id": "superpowers",
+    "name": "Superpowers",
+    "description": "有效的代理技能框架与软件开发方法",
+    "domain": "Resources",
+    "subCategory": "综合资源",
+    "maturity": "trending",
+    "github": "obra/superpowers",
+    "link": "https://github.com/obra/superpowers",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "id": "public-apis",
+    "name": "Public-APIs",
+    "description": "免费API集合列表",
+    "domain": "Resources",
+    "subCategory": "API 资源",
+    "maturity": "trending",
+    "github": "public-apis/public-apis",
+    "link": "https://github.com/public-apis/public-apis",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "id": "promptfoo",
+    "name": "promptfoo",
+    "description": "测试提示词，智能体和RAG框架的工具",
+    "domain": "Resources",
+    "subCategory": "综合资源",
+    "maturity": "trending",
+    "github": "promptfoo/promptfoo",
+    "link": "https://github.com/promptfoo/promptfoo",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "id": "agency-agents",
+    "name": "agency-agents",
+    "description": "完整的AI代理团队",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "trending",
+    "github": "msitarzewski/agency-agents",
+    "link": "https://github.com/msitarzewski/agency-agents",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "dolt",
+    "name": "Dolt",
+    "description": "Git for data - 版本控制的SQL数据库",
+    "domain": "Resources",
+    "subCategory": "综合资源",
+    "maturity": "trending",
+    "github": "dolthub/dolt",
+    "link": "https://github.com/dolthub/dolt",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "id": "a2ui",
+    "name": "A2UI",
+    "description": "Google的AI用户界面工具集",
+    "domain": "Web Stack",
+    "subCategory": "Web 开发",
+    "maturity": "trending",
+    "github": "google/A2UI",
+    "link": "https://github.com/google/A2UI",
+    "tags": [
+      "web-stack"
+    ]
+  },
+  {
+    "id": "fish-speech",
+    "name": "Fish-Speech",
+    "description": "SOTA开源TTS语音合成工具",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "trending",
+    "github": "fishaudio/fish-speech",
+    "link": "https://github.com/fishaudio/fish-speech",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "page-agent",
+    "name": "Page-Agent",
+    "description": "用自然语言控制网页界面的JavaScript代理",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "trending",
+    "github": "alibaba/page-agent",
+    "link": "https://github.com/alibaba/page-agent",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "claude-plugins",
+    "name": "Claude-Plugins",
+    "description": "Anthropic官方Claude插件",
+    "domain": "Resources",
+    "subCategory": "综合资源",
+    "maturity": "trending",
+    "github": "anthropics/claude-plugins-official",
+    "link": "https://github.com/anthropics/claude-plugins-official",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "id": "hindsight",
+    "name": "Hindsight",
+    "description": "能自主学习和进化的AI智能体记忆库",
+    "domain": "Resources",
+    "subCategory": "综合资源",
+    "maturity": "trending",
+    "github": "vectorize-io/hindsight",
+    "link": "https://github.com/vectorize-io/hindsight",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "id": "insforge",
+    "name": "InsForge",
+    "description": "为AI智能体提供全栈应用后端框架",
+    "domain": "Resources",
+    "subCategory": "综合资源",
+    "maturity": "trending",
+    "github": "InsForge/InsForge",
+    "link": "https://github.com/InsForge/InsForge",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "id": "litert",
+    "name": "LiteRT",
+    "description": "Google边缘设备AI推理运行时",
+    "domain": "Resources",
+    "subCategory": "综合资源",
+    "maturity": "trending",
+    "github": "google-ai-edge/LiteRT",
+    "link": "https://github.com/google-ai-edge/LiteRT",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "id": "mirofish",
+    "name": "MiroFish",
+    "description": "简洁通用的群体智能引擎",
+    "domain": "Resources",
+    "subCategory": "综合资源",
+    "maturity": "trending",
+    "github": "666ghj/MiroFish",
+    "link": "https://github.com/666ghj/MiroFish",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "id": "hermes-agent",
+    "name": "hermes-agent",
+    "description": "与你一起成长的AI代理",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "trending",
+    "github": "NousResearch/hermes-agent",
+    "link": "https://github.com/NousResearch/hermes-agent",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "generative-ai",
+    "name": "Generative-AI",
+    "description": "Google Cloud生成式AI示例代码",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "trending",
+    "github": "GoogleCloudPlatform/generative-ai",
+    "link": "https://github.com/GoogleCloudPlatform/generative-ai",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "nanochat",
+    "name": "nanochat",
+    "description": "仅需100美元搭建的类ChatGPT",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "trending",
+    "github": "karpathy/nanochat",
+    "link": "https://github.com/karpathy/nanochat",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "bettafish",
+    "name": "BettaFish",
+    "description": "人人可用的多Agent舆情分析助手",
+    "domain": "Resources",
+    "subCategory": "综合资源",
+    "maturity": "trending",
+    "github": "666ghj/BettaFish",
+    "link": "https://github.com/666ghj/BettaFish",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "id": "openclaw",
+    "name": "OpenClaw",
+    "description": "跨平台个人AI助手",
+    "domain": "Resources",
+    "subCategory": "综合资源",
+    "maturity": "trending",
+    "github": "openclaw/openclaw",
+    "link": "https://github.com/openclaw/openclaw",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "id": "shadcn-ui",
+    "name": "shadcn-ui",
+    "description": "精美可访问的UI组件库",
+    "domain": "Web Stack",
+    "subCategory": "Web 开发",
+    "maturity": "trending",
+    "github": "shadcn-ui/ui",
+    "link": "https://github.com/shadcn-ui/ui",
+    "tags": [
+      "web-stack"
+    ]
+  },
+  {
+    "id": "affine",
+    "name": "AFFiNE",
+    "description": "下一代知识库，融合Notion和Miro",
+    "domain": "Resources",
+    "subCategory": "综合资源",
+    "maturity": "trending",
+    "github": "toeverything/AFFiNE",
+    "link": "https://github.com/toeverything/AFFiNE",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "id": "cyberstrikeai",
+    "name": "CyberStrikeAI",
+    "description": "AI原生安全测试平台",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "trending",
+    "github": "Ed1s0nZ/CyberStrikeAI",
+    "link": "https://github.com/Ed1s0nZ/CyberStrikeAI",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "learn-claude-code",
+    "name": "Learn-Claude-Code",
+    "description": "学习Claude Code的教程",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "github": "shareAI-lab/learn-claude-code",
+    "link": "https://github.com/shareAI-lab/learn-claude-code",
+    "tags": [
+      "devtools"
+    ]
+  },
+  {
+    "id": "openai-skills",
+    "name": "OpenAI-Skills",
+    "description": "OpenAI技能系统",
+    "domain": "AI & ML",
+    "subCategory": "AI 综合",
+    "maturity": "stable",
+    "github": "openai/skills",
+    "link": "https://github.com/openai/skills",
+    "tags": [
+      "ai-&-ml"
+    ]
+  },
+  {
+    "id": "is-a-dev",
+    "name": "is-a-dev",
+    "description": "免费开发者子域名服务",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "github": "is-a-dev/register",
+    "link": "https://github.com/is-a-dev/register",
+    "tags": [
+      "devtools"
+    ]
+  },
+  {
+    "id": "notebooklm-py",
+    "name": "NotebookLM-Py",
+    "description": "NotebookLM Python库",
+    "domain": "Resources",
+    "subCategory": "综合资源",
+    "maturity": "trending",
+    "github": "teng-lin/notebooklm-py",
+    "link": "https://github.com/teng-lin/notebooklm-py",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "id": "impeccable",
+    "name": "Impeccable",
+    "description": "让AI更好地进行设计语言处理",
+    "domain": "Resources",
+    "subCategory": "综合资源",
+    "maturity": "trending",
+    "github": "pbakaus/impeccable",
+    "link": "https://github.com/pbakaus/impeccable",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "id": "claude-skills",
+    "name": "Claude-Skills",
+    "description": "Claude技能集合",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "github": "alirezarezvani/claude-skills",
+    "link": "https://github.com/alirezarezvani/claude-skills",
+    "tags": [
+      "devtools"
+    ]
+  },
+  {
+    "id": "win11debloat",
+    "name": "Win11Debloat",
+    "description": "Windows 11精简工具",
+    "domain": "Resources",
+    "subCategory": "综合资源",
+    "maturity": "trending",
+    "github": "Raphire/Win11Debloat",
+    "link": "https://github.com/Raphire/Win11Debloat",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "id": "deer-flow",
+    "name": "Deer-Flow",
+    "description": "深度研究自动化框架",
+    "domain": "Resources",
+    "subCategory": "综合资源",
+    "maturity": "trending",
+    "github": "bytedance/deer-flow",
+    "link": "https://github.com/bytedance/deer-flow",
+    "tags": [
+      "resources"
+    ]
+  },
+  {
+    "id": "iped",
+    "name": "IPED",
+    "description": "数字取证开源工具",
+    "domain": "Resources",
+    "subCategory": "综合资源",
+    "maturity": "trending",
+    "github": "sepinf-inc/IPED",
+    "link": "https://github.com/sepinf-inc/IPED",
+    "tags": [
+      "resources"
     ]
   }
 ]
