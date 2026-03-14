@@ -6,12 +6,49 @@ on:
     - cron: '0 0 * * *'
   # 手动触发
   workflow_dispatch:
+    inputs:
+      mode:
+        description: '运行模式'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - trending
+          - api
 
 permissions:
   contents: write
 
 jobs:
-  update-projects:
+  update-trending:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Scrape GitHub Trending
+        run: node scripts/scrape-trending.cjs
+        id: scrape
+
+      - name: Copy to public folder
+        run: cp data/projects.json docs/public/data/projects.json
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add data/projects.json docs/public/data/projects.json
+          git add .cache/
+          git commit -m "Update: 抓取GitHub Trending ($(node -e 'console.log(${{ steps.scrape.outputs.newProjects }} || 0)'))" || echo "No changes to commit"
+          git push
+
+  update-api:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -37,5 +74,5 @@ jobs:
           git config --global user.email 'actions@github.com'
           git add data/projects.json
           git add data/stars-history.json
-          git commit -m 'Update projects data' || echo 'No changes to commit'
+          git commit -m 'Update: API数据更新' || echo 'No changes to commit'
           git push
