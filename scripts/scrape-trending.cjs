@@ -251,9 +251,15 @@ async function scrapeAll() {
   }
   
   const existingProjects = loadExistingProjects();
-  const existingIds = new Set(existingProjects.map(p => p.id));
   
-  const newProjects = allProjects.filter(p => !existingIds.has(p.id));
+  const existingGithubPaths = new Set(existingProjects.map(p => p.github?.toLowerCase()));
+  const existingIds = new Set(existingProjects.map(p => p.id?.toLowerCase()));
+  
+  const newProjects = allProjects.filter(p => {
+    const githubKey = p.github?.toLowerCase();
+    const idKey = p.id?.toLowerCase();
+    return !existingGithubPaths.has(githubKey) && !existingIds.has(idKey);
+  });
   
   const mergedProjects = [...existingProjects, ...newProjects];
   
@@ -263,6 +269,7 @@ async function scrapeAll() {
   
   console.log('\n✅ 抓取完成！');
   console.log(`   新增项目: ${newProjects.length}`);
+  console.log(`   跳过重复: ${allProjects.length - newProjects.length}`);
   console.log(`   项目总数: ${mergedProjects.length}`);
   console.log(`   文件位置: ${PROJECTS_FILE}`);
   
