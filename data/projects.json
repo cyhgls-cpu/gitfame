@@ -13,8 +13,24 @@
       "llm",
       "local",
       "ai",
-      "machine-learning"
-    ]
+      "machine-learning",
+      "llama",
+      "llms",
+      "go",
+      "golang",
+      "ollama",
+      "mistral",
+      "gemma",
+      "llama3",
+      "deepseek",
+      "gemma3",
+      "qwen",
+      "gpt-oss",
+      "glm",
+      "minimax"
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-14T02:11:38.946Z"
   },
   {
     "id": "dify",
@@ -30,8 +46,28 @@
       "llm",
       "ai",
       "platform",
-      "nlp"
-    ]
+      "nlp",
+      "gpt",
+      "openai",
+      "python",
+      "rag",
+      "orchestration",
+      "gpt-4",
+      "agent",
+      "nextjs",
+      "workflow",
+      "genai",
+      "gemini",
+      "automation",
+      "low-code",
+      "mcp",
+      "no-code",
+      "agentic-ai",
+      "agentic-framework",
+      "agentic-workflow"
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-14T02:11:40.622Z"
   },
   {
     "id": "open-webui",
@@ -47,8 +83,21 @@
       "llm",
       "ui",
       "ai",
-      "webui"
-    ]
+      "webui",
+      "ollama",
+      "ollama-webui",
+      "self-hosted",
+      "llm-ui",
+      "llm-webui",
+      "llms",
+      "rag",
+      "open-webui",
+      "openai",
+      "mcp",
+      "openapi"
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-14T02:11:42.529Z"
   },
   {
     "id": "comfyui",
@@ -64,8 +113,14 @@
       "ai",
       "image",
       "stable-diffusion",
-      "gui"
-    ]
+      "gui",
+      "pytorch",
+      "python",
+      "comfy",
+      "comfyui"
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-14T02:11:45.305Z"
   },
   {
     "id": "v0",
@@ -98,8 +153,28 @@
       "no-code",
       "low-code",
       "api",
-      "database"
-    ]
+      "database",
+      "nocode",
+      "internal-tools",
+      "internal-tool",
+      "airtable",
+      "low-code-development-platform",
+      "no-code-platform",
+      "admin-dashboard",
+      "app-builder",
+      "crud",
+      "workflows",
+      "self-hosted",
+      "crm",
+      "salesforce",
+      "developer-tools",
+      "web-application",
+      "project-management",
+      "erp",
+      "lowcode"
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-14T02:11:47.390Z"
   },
   {
     "id": "cline",
@@ -133,7 +208,9 @@
       "editor",
       "coding",
       "vscode"
-    ]
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-14T02:11:49.161Z"
   },
   {
     "id": "windsurf",
@@ -150,23 +227,6 @@
       "editor",
       "coding",
       "codeium"
-    ]
-  },
-  {
-    "id": "alist",
-    "name": "AList",
-    "description": "支持多种存储的文件列表程序",
-    "domain": "Self-Hosted",
-    "subCategory": "文件管理",
-    "maturity": "stable",
-    "trendingRank": 10,
-    "github": "alist-org/alist",
-    "link": "https://github.com/alist-org/alist",
-    "tags": [
-      "storage",
-      "file",
-      "self-hosted",
-      "webdav"
     ]
   },
   {
@@ -1611,5 +1671,29 @@
     "tags": [
       "ai-&-ml"
     ]
+  },
+  {
+    "id": "alist",
+    "name": "AList",
+    "description": "支持多种存储的文件列表程序",
+    "domain": "Self-Hosted",
+    "subCategory": "文件管理",
+    "maturity": "stable",
+    "trendingRank": 10,
+    "github": "alist-org/alist",
+    "link": "https://github.com/alist-org/alist",
+    "tags": [
+      "storage",
+      "file",
+      "self-hosted",
+      "webdav",
+      "golang",
+      "gin",
+      "solidjs",
+      "file-server",
+      "onedrive"
+    ],
+    "starChange": 0,
+    "updatedAt": "2026-03-14T02:11:51.271Z"
   }
 ]
