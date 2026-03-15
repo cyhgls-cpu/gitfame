@@ -20,17 +20,17 @@ const categoryData = {
 
 const maturityData = {
   'trending': {
-    label: '🔥 潜力股',
+    label: '🔥',
     color: '#667eea',
     desc: '快速发展，功能创新，活跃的开发活动，良好的发展前景'
   },
   'stable': {
-    label: '🌟 镇馆之宝',
+    label: '🌟',
     color: '#f093fb',
     desc: '稳定可靠，经过长期验证，活跃的社区支持，完善的文档和测试'
   },
   'geek': {
-    label: '🛠️ 极客玩具',
+    label: '🛠️',
     color: '#4facfe',
     desc: '轻量级，专注于特定功能，适合技术爱好者尝试，可能是实验性项目'
   }
@@ -70,7 +70,7 @@ function getProjectsByMaturityAndDomain(maturity, domain) {
 
 <div v-for="(maturityInfo, maturity) in maturityData" :key="maturity" :id="maturity" style="margin-bottom: 3rem; scroll-margin-top: 80px;">
 
-## {{ maturityInfo.label }}
+## {{ maturityInfo.label }} {{ maturity }}
 
 {{ maturityInfo.desc }}
 
@@ -88,7 +88,7 @@ function getProjectsByMaturityAndDomain(maturity, domain) {
    class="maturity-card">
   <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
     <span style="font-weight: 600; color: #1f2937; font-size: 14px;">{{ p.name }}</span>
-    <span :style="'background: ' + maturityInfo.color + '; color: white; padding: 2px 8px; border-radius: 12px; font-size: 11px;'">{{ maturityInfo.label }}</span>
+    <span :style="'background: ' + maturityInfo.color + '; color: white; padding: 2px 8px; border-radius: 12px; font-size: 11px;'">{{ maturityMap[maturity] }}</span>
   </div>
   <div v-if="p.description" style="font-size: 11px; color: #6b7280; margin-top: 4px; line-height: 1.5;">
     {{ p.description }}
