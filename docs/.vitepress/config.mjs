@@ -26,51 +26,45 @@ export default defineConfig({
           ]
         },
         {
-          text: '🤖 智能前沿 (AI & ML)',
+          text: '🤖 智能前沿',
           collapsed: false,
           items: [
-            { text: 'AI 综合', link: '/?domain=AI%20%26%20ML&subCategory=AI%20%E7%BB%BC%E5%90%88' },
-            { text: 'AI Agent', link: '/?domain=AI%20%26%20ML&subCategory=AI%20Agent' },
-            { text: 'LLM 大模型', link: '/?domain=AI%20%26%20ML&subCategory=LLM%20%E5%A4%A7%E6%A8%A1%E5%9E%8B' },
-            { text: 'RAG', link: '/?domain=AI%20%26%20ML&subCategory=RAG' }
+            { text: 'AI & ML', link: '/?domain=AI%20%26%20ML' }
           ]
         },
         {
-          text: '🛠️ 开发利器 (DevTools)',
+          text: '🛠️ 开发利器',
           collapsed: false,
           items: [
-            { text: '开发工具', link: '/?domain=DevTools&subCategory=%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7' },
-            { text: '安全工具', link: '/?domain=DevTools&subCategory=%E5%AE%89%E5%85%A8%E5%B7%A5%E5%85%B7' }
+            { text: 'DevTools', link: '/?domain=DevTools' }
           ]
         },
         {
-          text: '🌐 现代 Web (Web Stack)',
+          text: '🌐 现代 Web',
           collapsed: false,
           items: [
-            { text: 'Web 开发', link: '/?domain=Web%20Stack&subCategory=Web%20%E5%BC%80%E5%8F%91' }
+            { text: 'Web Stack', link: '/?domain=Web%20Stack' }
           ]
         },
         {
-          text: '🏗️ 基础设施 (Infra)',
+          text: '🏗️ 基础设施',
           collapsed: false,
           items: [
-            { text: '数据存储', link: '/?domain=Infra&subCategory=%E6%95%B0%E6%8D%AE%E5%AD%98%E5%84%A' },
-            { text: '基础设施', link: '/?domain=Infra&subCategory=%E5%9F%BA%E7%A1%A5%E8%AE%BE%E6%96%BE' }
+            { text: 'Infra', link: '/?domain=Infra' }
           ]
         },
         {
-          text: '🏠 自托管 (Self-Hosted)',
+          text: '🏠 自托管',
           collapsed: false,
           items: [
-            { text: '自托管', link: '/?domain=Self-Hosted' }
+            { text: 'Self-Hosted', link: '/?domain=Self-Hosted' }
           ]
         },
         {
-          text: '📚 终身学习 (Resources)',
+          text: '📚 终身学习',
           collapsed: false,
           items: [
-            { text: '综合资源', link: '/?domain=Resources&subCategory=%E7%BB%BC%E5%90%88%E8%B5%84%E6%BA%90' },
-            { text: 'API 资源', link: '/?domain=Resources&subCategory=API%20%E8%B5%84%E6%BA%90' }
+            { text: 'Resources', link: '/?domain=Resources' }
           ]
         },
         {
