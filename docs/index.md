@@ -25,38 +25,71 @@ const categoryData = {
     name: '智能前沿',
     icon: '🤖',
     desc: 'LLM 框架、AI Agent、本地大模型、图像/视频生成',
-    subCategories: ['LLM 框架', 'AI Agent', '本地大模型', '图像/视频生成']
+    subCategories: ['LLM 框架', 'AI Agent', '本地大模型', '图像/视频生成'],
+    slug: 'ai-ml'
   },
   'DevTools': {
     name: '开发利器',
     icon: '🛠️',
     desc: '终端增强、API 工具、高效 IDE 插件、测试/调试',
-    subCategories: ['终端增强', 'API 工具', 'IDE 插件', '测试/调试']
+    subCategories: ['终端增强', 'API 工具', 'IDE 插件', '测试/调试'],
+    slug: 'devtools'
   },
   'Web Stack': {
     name: '现代 Web',
     icon: '🌐',
     desc: '全栈框架、UI 组件库、低代码、动效/可视化',
-    subCategories: ['全栈框架', 'UI 组件库', '低代码', '动效/可视化']
+    subCategories: ['全栈框架', 'UI 组件库', '低代码', '动效/可视化'],
+    slug: 'web-stack'
   },
   'Infra': {
     name: '基础设施',
     icon: '🏗️',
     desc: '数据库、缓存、容器、云原生',
-    subCategories: ['数据库', '缓存', '容器', '云原生']
+    subCategories: ['数据库', '缓存', '容器', '云原生'],
+    slug: 'infra'
   },
   'Self-Hosted': {
     name: '自托管',
     icon: '🏠',
     desc: '云服务替代品、家庭实验室、私人影音、自动化',
-    subCategories: ['云服务替代品', '家庭实验室', '私人影音', '自动化']
+    subCategories: ['云服务替代品', '家庭实验室', '私人影音', '自动化'],
+    slug: 'self-hosted'
   },
   'Resources': {
     name: '终身学习',
     icon: '📚',
     desc: '教程、文档、学习资源、API集合',
-    subCategories: ['教程', '文档', '学习资源', 'API集合']
+    subCategories: ['教程', '文档', '学习资源', 'API集合'],
+    slug: 'resources'
   }
+}
+
+const subCategorySlugMap = {
+  'LLM 框架': 'llm-框架',
+  'AI Agent': 'ai-agent',
+  '本地大模型': '本地大模型',
+  '图像/视频生成': '图像视频生成',
+  '终端增强': '终端增强',
+  'API 工具': 'api-工具',
+  'IDE 插件': 'ide-插件',
+  '测试/调试': '测试调试',
+  '全栈框架': '全栈框架',
+  'UI 组件库': 'ui-组件库',
+  '低代码': '低代码',
+  '动效/可视化': '动效可视化',
+  '数据库': '数据库',
+  '缓存': '缓存',
+  '容器': '容器',
+  '云原生': '云原生',
+  '云服务替代品': '云服务替代品',
+  '家庭实验室': '家庭实验室',
+  '私人影音': '私人影音',
+  '自动化': '自动化',
+  '教程': '教程',
+  '文档': '文档',
+  '学习资源': '学习资源',
+  'API集合': 'api集合'
 }
 
 const maturityMap = {
@@ -76,12 +109,12 @@ onMounted(async () => {
   }
 })
 
-function getProjectsByDomain(domain) {
-  return projects.value.filter(p => p.domain === domain).slice(0, 20)
-}
-
 function getProjectsBySubCategory(domain, subCategory) {
   return projects.value.filter(p => p.domain === domain && p.subCategory === subCategory).slice(0, 10)
+}
+
+function getSlug(subCat) {
+  return subCategorySlugMap[subCat] || subCat
 }
 </script>
 
@@ -89,13 +122,13 @@ function getProjectsBySubCategory(domain, subCategory) {
 
 <div v-if="!loading">
 
-<div v-for="(cat, domain) in categoryData" :key="domain" style="margin-bottom: 3rem;">
+<div v-for="(cat, domain) in categoryData" :key="domain" :id="cat.slug" style="margin-bottom: 3rem; scroll-margin-top: 80px;">
 
 ## {{ cat.icon }} {{ cat.name }} ({{ domain }})
 
 {{ cat.desc }}
 
-<div v-for="subCat in cat.subCategories" :key="subCat" style="margin-top: 1.5rem; margin-left: 1rem;">
+<div v-for="subCat in cat.subCategories" :key="subCat" :id="getSlug(subCat)" style="margin-top: 1.5rem; margin-left: 1rem; scroll-margin-top: 80px;">
 
 ### {{ subCat }}
 
