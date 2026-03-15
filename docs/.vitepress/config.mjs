@@ -16,6 +16,11 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '分类', link: '/categories' },
       { text: '成熟度', link: '/maturity' }
-    ]
+    ],
+    outline: {
+      level: [2, 3],
+      label: '目录'
+    },
+    outlineTitle: '目录'
   }
 })
