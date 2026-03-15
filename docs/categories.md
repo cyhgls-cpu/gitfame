@@ -70,6 +70,9 @@ function formatNumber(num) {
   <div v-if="p.description" style="font-size: 12px; color: #6b7280; margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
     {{ p.description }}
   </div>
+  <div v-if="p.github" style="margin-top: 8px;">
+    <img :src="'https://img.shields.io/github/stars/' + p.github + '?style=flat&color=yellow'" alt="stars" style="height: 18px;" />
+  </div>
 </a>
 </div>
 
