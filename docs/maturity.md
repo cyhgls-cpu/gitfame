@@ -88,7 +88,7 @@ function getProjectsByMaturityAndDomain(maturity, domain) {
    class="maturity-card">
   <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
     <span style="font-weight: 600; color: #1f2937; font-size: 14px;">{{ p.name }}</span>
-    <span :style="'background: ' + maturityInfo.color + '; color: white; padding: 2px 8px; border-radius: 12px; font-size: 11px;'">{{ maturityMap[maturity] }}</span>
+    <span style="font-size: 11px;">{{ maturityMap[maturity] }}</span>
   </div>
   <div v-if="p.description" style="font-size: 11px; color: #6b7280; margin-top: 4px; line-height: 1.5;">
     {{ p.description }}
