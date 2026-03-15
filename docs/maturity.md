@@ -4,7 +4,16 @@ title: 成熟度视图
 ---
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { onMounted, ref } from 'vue'
+
+onMounted(() => {
+  const style = document.createElement('style')
+  style.textContent = `
+    .VPSidebar { display: none !important; }
+    .VPContent.has-sidebar .VPContent__main { max-width: 100% !important; }
+  `
+  document.head.appendChild(style)
+})
 
 const projects = ref([])
 const loading = ref(true)
@@ -42,7 +51,7 @@ const maturityMap = {
   'geek': '🛠️'
 }
 
-onMounted(async () => {
+async function loadProjects() {
   try {
     const response = await fetch('/data/projects.json')
     projects.value = await response.json()
@@ -51,7 +60,9 @@ onMounted(async () => {
   } finally {
     loading.value = false
   }
-})
+}
+
+loadProjects()
 
 function getProjectsByMaturity(maturity) {
   return projects.value.filter(p => p.maturity === maturity).slice(0, 30)
@@ -70,7 +81,7 @@ function getProjectsByMaturityAndDomain(maturity, domain) {
 
 <div v-for="(maturityInfo, maturity) in maturityData" :key="maturity" :id="maturity" style="margin-bottom: 3rem; scroll-margin-top: 80px;">
 
-## {{ maturityInfo.label }} {{ maturity }}
+## {{ maturityInfo.label }}
 
 {{ maturityInfo.desc }}
 
