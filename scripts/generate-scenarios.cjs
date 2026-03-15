@@ -28,14 +28,14 @@ async function generateScenariosForProject(project) {
   const prompt = `请分析项目 ${project.name} 的功能和用途，不要告诉我它的技术栈。请告诉我，如果一个非技术背景的用户想用它，他会输入什么样的搜索词？请生成 3 个以'我想...'开头的短句。只返回这 3 个短句，每行一个，不要包含其他内容。`;
 
   try {
-    const response = await fetch('https://ark.cn-beijing.volces.com/api/v3/chat/completions', {
+    const response = await fetch('https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions', {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${QWEN_API_KEY}`,
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'ep-20260313151840-qv5qf',
+        model: 'qwen3.5-flash',
         messages: [
           { role: 'system', content: 'You are a helpful assistant that generates user-centric search queries for projects.' },
           { role: 'user', content: prompt }
