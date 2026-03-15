@@ -67,7 +67,7 @@ function formatNumber(num) {
     <span style="font-weight: 600; color: #1f2937;">{{ p.name }}</span>
     <span v-if="p.maturity" style="font-size: 12px;">{{ maturityMap[p.maturity] }}</span>
   </div>
-  <div v-if="p.description" style="font-size: 12px; color: #6b7280; margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+  <div v-if="p.description" style="font-size: 12px; color: #6b7280; margin-top: 4px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
     {{ p.description }}
   </div>
   <div v-if="p.github" style="margin-top: 8px;">

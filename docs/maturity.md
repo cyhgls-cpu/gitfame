@@ -74,7 +74,7 @@ function formatNumber(num) {
     <span style="font-weight: 600; color: #1f2937;">{{ p.name }}</span>
     <span v-if="p.trendingRank" style="background: #fef3c7; color: #92400e; padding: 2px 8px; border-radius: 12px; font-size: 11px;">#{{ p.trendingRank }}</span>
   </div>
-  <div v-if="p.description" style="font-size: 12px; color: #6b7280; margin-top: 6px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+  <div v-if="p.description" style="font-size: 12px; color: #6b7280; margin-top: 6px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
     {{ p.description }}
   </div>
   <div v-if="p.github" style="margin-top: 6px;">
