@@ -4,16 +4,7 @@ title: 成熟度视图
 ---
 
 <script setup>
-import { onMounted, ref } from 'vue'
-
-onMounted(() => {
-  const style = document.createElement('style')
-  style.textContent = `
-    .VPSidebar { display: none !important; }
-    .VPContent.has-sidebar .VPContent__main { max-width: 100% !important; }
-  `
-  document.head.appendChild(style)
-})
+import { ref } from 'vue'
 
 const projects = ref([])
 const loading = ref(true)
