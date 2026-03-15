@@ -36,6 +36,12 @@ const maturityData = {
   }
 }
 
+const maturityMap = {
+  'trending': '🔥',
+  'stable': '🌟',
+  'geek': '🛠️'
+}
+
 onMounted(async () => {
   try {
     const response = await fetch('/data/projects.json')
@@ -82,13 +88,16 @@ function getProjectsByMaturityAndDomain(maturity, domain) {
    class="maturity-card">
   <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
     <span style="font-weight: 600; color: #1f2937; font-size: 14px;">{{ p.name }}</span>
-    <span v-if="p.subCategory" style="font-size: 11px; color: #9ca3af;">{{ p.subCategory }}</span>
+    <span :style="'background: ' + maturityInfo.color + '; color: white; padding: 2px 8px; border-radius: 12px; font-size: 11px;'">{{ maturityInfo.label }}</span>
   </div>
   <div v-if="p.description" style="font-size: 11px; color: #6b7280; margin-top: 4px; line-height: 1.5;">
     {{ p.description }}
   </div>
-  <div v-if="p.github" style="margin-top: 6px;">
-    <img :src="'https://img.shields.io/github/stars/' + p.github + '?style=flat&color=yellow'" alt="stars" style="height: 16px;" />
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 6px;">
+    <span v-if="p.subCategory" style="font-size: 11px; color: #9ca3af;">{{ p.subCategory }}</span>
+    <div v-if="p.github">
+      <img :src="'https://img.shields.io/github/stars/' + p.github + '?style=flat&color=yellow'" alt="stars" style="height: 16px;" />
+    </div>
   </div>
 </a>
 </div>
