@@ -48,6 +48,33 @@ const categoryData = {
   }
 }
 
+const subCategorySlugMap = {
+  'LLM 框架': 'llm-框架',
+  'AI Agent': 'ai-agent',
+  '本地大模型': '本地大模型',
+  '图像/视频生成': '图像视频生成',
+  '终端增强': '终端增强',
+  'API 工具': 'api-工具',
+  'IDE 插件': 'ide-插件',
+  '测试/调试': '测试调试',
+  '全栈框架': '全栈框架',
+  'UI 组件库': 'ui-组件库',
+  '低代码': '低代码',
+  '动效/可视化': '动效可视化',
+  '数据库': '数据库',
+  '缓存': '缓存',
+  '容器': '容器',
+  '云原生': '云原生',
+  '云服务替代品': '云服务替代品',
+  '家庭实验室': '家庭实验室',
+  '私人影音': '私人影音',
+  '自动化': '自动化',
+  '教程': '教程',
+  '文档': '文档',
+  '学习资源': '学习资源',
+  'API集合': 'api集合'
+}
+
 const maturityMap = {
   'trending': '🔥',
   'stable': '🌟',
@@ -68,6 +95,10 @@ onMounted(async () => {
 function getProjectsBySubCategory(domain, subCategory) {
   return projects.value.filter(p => p.domain === domain && p.subCategory === subCategory).slice(0, 20)
 }
+
+function getSlug(subCat) {
+  return subCategorySlugMap[subCat] || subCat
+}
 </script>
 
 # 项目分类
@@ -82,7 +113,7 @@ function getProjectsBySubCategory(domain, subCategory) {
 
 {{ cat.desc }}
 
-<div v-for="subCat in cat.subCategories" :key="subCat" style="margin-top: 1.5rem; margin-left: 1rem;">
+<div v-for="subCat in cat.subCategories" :key="subCat" :id="getSlug(subCat)" style="margin-top: 1.5rem; margin-left: 1rem; scroll-margin-top: 80px;">
 
 ### {{ subCat }}
 
