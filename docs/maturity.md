@@ -117,7 +117,7 @@ function clearFilters() {
     <span style="font-weight: 600; color: #1f2937; font-size: 14px;">{{ p.name }}</span>
     <span v-if="p.maturity" :style="'background: ' + maturityMap[p.maturity]?.color + '; color: white; padding: 2px 8px; border-radius: 12px; font-size: 11px;'">{{ maturityMap[p.maturity]?.label }}</span>
   </div>
-  <div v-if="p.description" style="font-size: 12px; color: #6b7280; margin-top: 6px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+  <div v-if="p.description" style="font-size: 12px; color: #6b7280; margin-top: 6px; line-height: 1.5;">
     {{ p.description }}
   </div>
   <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 8px;">

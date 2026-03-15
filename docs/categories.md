@@ -123,7 +123,7 @@ function clearFilters() {
         <span style="font-weight: 600; color: #1f2937; font-size: 14px;">{{ p.name }}</span>
         <span v-if="p.maturity" style="font-size: 11px;">{{ maturityMap[p.maturity] }}</span>
       </div>
-      <div v-if="p.description" style="font-size: 11px; color: #6b7280; margin-top: 4px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+      <div v-if="p.description" style="font-size: 11px; color: #6b7280; margin-top: 4px; line-height: 1.5;">
         {{ p.description }}
       </div>
       <div v-if="p.github" style="margin-top: 6px;">
@@ -155,7 +155,7 @@ function clearFilters() {
         <span style="font-weight: 600; color: #1f2937; font-size: 14px;">{{ p.name }}</span>
         <span v-if="p.maturity" style="font-size: 11px;">{{ maturityMap[p.maturity] }}</span>
       </div>
-      <div v-if="p.description" style="font-size: 11px; color: #6b7280; margin-top: 4px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+      <div v-if="p.description" style="font-size: 11px; color: #6b7280; margin-top: 4px; line-height: 1.5;">
         {{ p.description }}
       </div>
       <div v-if="p.github" style="margin-top: 6px;">
@@ -189,7 +189,7 @@ function clearFilters() {
       <span style="font-weight: 600; color: #1f2937; font-size: 14px;">{{ p.name }}</span>
       <span v-if="p.maturity" style="font-size: 11px;">{{ maturityMap[p.maturity] }}</span>
     </div>
-    <div v-if="p.description" style="font-size: 11px; color: #6b7280; margin-top: 4px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+    <div v-if="p.description" style="font-size: 11px; color: #6b7280; margin-top: 4px; line-height: 1.5;">
       {{ p.description }}
     </div>
     <div v-if="p.github" style="margin-top: 6px;">
