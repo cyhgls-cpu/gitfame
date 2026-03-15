@@ -1,36 +1,79 @@
+---
+layout: page
+title: 项目分类
+---
+
+<script setup>
+import { ref, onMounted, computed } from 'vue'
+
+const projects = ref([])
+const loading = ref(true)
+
+const domainMap = {
+  'AI & ML': { name: '智能前沿', icon: '🤖', desc: 'LLM 框架、AI Agent、本地大模型、图像/视频生成' },
+  'DevTools': { name: '开发利器', icon: '🛠️', desc: '终端增强、API 工具、高效 IDE 插件、测试/调试' },
+  'Web Stack': { name: '现代 Web', icon: '🌐', desc: '全栈框架、UI 组件库、低代码、动效/可视化' },
+  'Infra': { name: '基础设施', icon: '🏗️', desc: '数据库、缓存、容器、云原生' },
+  'Self-Hosted': { name: '自托管', icon: '🏠', desc: '云服务替代品、家庭实验室、私人影音、自动化' },
+  'Resources': { name: '终身学习', icon: '📚', desc: '教程、文档、学习资源、API集合' }
+}
+
+const maturityMap = {
+  'trending': '🔥',
+  'stable': '🌟',
+  'geek': '🛠️'
+}
+
+onMounted(async () => {
+  try {
+    const response = await fetch('/data/projects.json')
+    projects.value = await response.json()
+  } catch (e) {
+    console.error('Failed to load projects:', e)
+  } finally {
+    loading.value = false
+  }
+})
+
+function getProjectsByDomain(domain) {
+  return projects.value.filter(p => p.domain === domain).slice(0, 20)
+}
+
+function formatNumber(num) {
+  if (!num) return '0'
+  if (num >= 1000) return (num / 1000).toFixed(1) + 'k'
+  return num
+}
+</script>
+
 # 项目分类
 
-## 分类导航
+<div v-if="loading">加载中...</div>
 
-### 🤖 智能前沿 (AI & ML)
+<div v-if="!loading">
 
-LLM 框架、AI Agent、本地大模型、图像/视频生成
+<div v-for="(info, domain) in domainMap" :key="domain" style="margin-bottom: 2rem;">
 
-- [Ollama](https://github.com/ollama/ollama) - 在本地运行大型语言模型
-- [Dify](https://github.com/langgenius/dify) - 开源的 LLM 应用开发平台
-- [Browse](https://github.com/browser-use/browser-use) - AI 驱动的网页浏览器
-- [Open WebUI](https://github.com/open-webui/open-webui) - 用户友好的 Web UI for LLMs
-- [ComfyUI](https://github.com/comfyanonymous/ComfyUI) - 强大的 Stable Diffusion 工作流
+## {{ info.icon }} {{ info.name }} ({{ domain }})
 
-### 🛠️ 开发利器 (DevTools)
+{{ info.desc }}
 
-终端增强、API 工具、高效 IDE 插件、测试/调试
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 8px; margin-top: 12px;">
+<a v-for="p in getProjectsByDomain(domain)" 
+   :href="p.link" 
+   style="display: block; padding: 10px 12px; border: 1px solid #e5e7eb; border-radius: 8px; text-decoration: none; transition: all 0.2s;"
+   class="category-card">
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <span style="font-weight: 600; color: #1f2937;">{{ p.name }}</span>
+    <span v-if="p.maturity" style="font-size: 12px;">{{ maturityMap[p.maturity] }}</span>
+  </div>
+  <div v-if="p.description" style="font-size: 12px; color: #6b7280; margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+    {{ p.description }}
+  </div>
+</a>
+</div>
 
-- [Cline](https://github.com/microsoft/cline) - 微软推出的 AI 编程助手
-
-### 🌐 现代 Web (Web Stack)
-
-全栈框架、UI 组件库、低代码、动效/可视化
-
-- [v0](https://github.com/vercel/v0) - 由 AI 生成的 UI 组件
-
-### 🏠 自托管 (Self-Hosted)
-
-云服务替代品、家庭实验室、私人影音、自动化流
-
-- [AList](https://github.com/alist-org/alist) - 支持多种存储的文件列表程序
-- [Navidrome](https://github.com/navidrome/navidrome) - 开源的音乐流媒体服务器
-- [Awesome Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - 家庭实验室技术栈集合
+</div>
 
 ---
 
@@ -48,3 +91,12 @@ LLM 框架、AI Agent、本地大模型、图像/视频生成
 
 欢迎提交优质项目！请提交 GitHub Issue：
 [提交项目](https://github.com/cyhgls-cpu/gitfame/issues/new)
+
+</div>
+
+<style>
+.category-card:hover {
+  border-color: #3b82f6 !important;
+  background: #f9fafb;
+}
+</style>

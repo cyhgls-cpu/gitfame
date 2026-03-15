@@ -20,9 +20,14 @@ on:
 permissions:
   contents: write
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   update-trending:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     if: github.event.inputs.mode == 'all' || github.event.inputs.mode == 'trending' || github.event.inputs.mode == ''
     steps:
       - name: Checkout repository
@@ -49,6 +54,8 @@ jobs:
 
   ai-summarize:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     if: github.event.inputs.mode == 'all' || github.event.inputs.mode == 'summarize' || github.event.inputs.mode == ''
     steps:
       - name: Checkout repository
@@ -77,6 +84,8 @@ jobs:
 
   update-api:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     if: github.event.inputs.mode == 'all' || github.event.inputs.mode == 'api'
     steps:
       - name: Checkout repository

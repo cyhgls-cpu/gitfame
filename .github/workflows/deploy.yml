@@ -1,15 +1,16 @@
 name: Deploy VitePress Site
 
 on:
-  # 推送至 main 分支时触发
   push:
     branches:
       - main
-  # 手动触发
   workflow_dispatch:
 
 permissions:
   contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   deploy:
