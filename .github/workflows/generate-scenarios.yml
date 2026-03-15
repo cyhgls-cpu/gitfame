@@ -35,11 +35,23 @@ jobs:
 
       - name: Update index.md with generated scenarios
         run: |
-          # 读取生成的前端代码
-          SCENARIOS_FRONTEND=$(cat data/scenarios-frontend.md)
-          
-          # 替换 index.md 中的场景部分
-          sed -i '/## 我想做什么？/,/<\/style>/c\'"$SCENARIOS_FRONTEND"' docs/index.md
+          # 使用Python来替换文件内容，更可靠
+          python3 << 'PYTHON_SCRIPT'
+          import re
+
+          with open('docs/index.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+
+          with open('data/scenarios-frontend.md', 'r', encoding='utf-8') as f:
+              new_content = f.read()
+
+          # 替换 ## 我想做什么？ 到 </style> 之间的内容
+          pattern = r'## 我想做什么？.*?</style>'
+          content = re.sub(pattern, new_content, content, flags=re.DOTALL)
+
+          with open('docs/index.md', 'w', encoding='utf-8') as f:
+              f.write(content)
+          PYTHON_SCRIPT
 
       - name: Commit and push changes
         run: |
