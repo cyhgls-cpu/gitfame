@@ -102,6 +102,8 @@ function getProjectsBySubCategory(domain, subCategory) {
 <div v-if="getProjectsBySubCategory(domain, subCat).length > 0" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; margin-top: 10px;">
 <a v-for="p in getProjectsBySubCategory(domain, subCat)" 
    :href="p.link" 
+   target="_blank"
+   rel="noopener noreferrer"
    style="display: block; padding: 10px 12px; border: 1px solid #e5e7eb; border-radius: 8px; text-decoration: none; transition: all 0.2s;"
    class="project-card">
   <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
