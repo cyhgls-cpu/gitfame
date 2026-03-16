@@ -11,7 +11,7 @@ if (!fs.existsSync(CACHE_DIR)) {
 }
 
 function getCacheKey(language, since, limit) {
-  const data = `${language || 'all'}-${since || 'daily'}-${limit || 25}`;
+  const data = `${language || 'all'}-${since}-${limit || 25}`;
   return crypto.createHash('md5').update(data).digest('hex');
 }
 
@@ -124,21 +124,65 @@ async function fetchGitHubTrending(language = '', since = 'daily', limit = 25) {
 }
 
 async function main() {
-  const language = process.argv[2] || '';
-  const since = process.argv[3] || 'daily';
-  const limit = parseInt(process.argv[4]) || 25;
+  const PROJECTS_FILE = path.join(__dirname, '../data/projects.json');
   
-  const projects = await fetchGitHubTrending(language, since, limit);
+  // 读取现有项目
+  let existingProjects = [];
+  if (fs.existsSync(PROJECTS_FILE)) {
+    existingProjects = JSON.parse(fs.readFileSync(PROJECTS_FILE, 'utf-8'));
+  }
   
-  console.log(`Fetched ${projects.length} trending projects (${language || 'all'}, ${since})`);
+  const seen = new Map();
+  existingProjects.forEach(p => seen.set(p.github.toLowerCase(), p));
   
-  projects.slice(0, 10).forEach((p, i) => {
-    console.log(`${i+1}. ${p.owner}/${p.name} - ${p.starsToday} stars today`);
-  });
+  // 分别抓取日榜、周榜、月榜
+  const timeframes = [
+    { since: 'daily', label: '日榜', maturity: 'trending' },
+    { since: 'weekly', label: '周榜', maturity: 'stable' },
+    { since: 'monthly', label: '月榜', maturity: 'geek' }
+  ];
+  
+  let totalCount = 0;
+  let newCount = 0;
+  
+  for (const { since, label, maturity } of timeframes) {
+    console.log(`\n📊 抓取 GitHub Trending ${label}...`);
+    
+    const projects = await fetchGitHubTrending('', since, 25);
+    console.log(`   获取到 ${projects.length} 个项目`);
+    
+    for (const project of projects) {
+      const key = project.github.toLowerCase();
+      
+      if (seen.has(key)) {
+        // 更新现有项目
+        const existing = seen.get(key);
+        if (!existing.maturity || existing.maturity === 'geek') {
+          existing.maturity = maturity; // 升级到更高优先级
+        }
+      } else {
+        // 添加新项目
+        const newProject = {
+          ...project,
+          maturity,
+          createdAt: new Date().toISOString()
+        };
+        existingProjects.push(newProject);
+        seen.set(key, newProject);
+        newCount++;
+        totalCount++;
+      }
+    }
+  }
+  
+  // 保存
+  fs.writeFileSync(PROJECTS_FILE, JSON.stringify(existingProjects, null, 2), 'utf-8');
+  
+  console.log(`\n✅ 完成！新增 ${totalCount} 个项目，更新 ${existingProjects.length - totalCount} 个现有项目`);
 }
 
 if (require.main === module) {
-  main();
+  main().catch(console.error);
 }
 
 module.exports = { fetchGitHubTrending, parseTrendingHTML };
