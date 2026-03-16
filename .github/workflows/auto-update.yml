@@ -1,0 +1,59 @@
+name: Auto Update Projects
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # 每 6 小时运行一次
+  workflow_dispatch:  # 允许手动触发
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install dependencies
+        run: npm install
+      
+      - name: Fetch GitHub Trending
+        run: node scripts/github-trending.cjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Process with AI
+        run: node scripts/ai-summarize.cjs
+        env:
+          QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
+      
+      - name: Generate Scenarios
+        run: node scripts/generate-scenarios.cjs
+        env:
+          QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
+      
+      - name: Build VitePress site
+        run: npm run docs:build
+      
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/.vitepress/dist
+          publish_branch: gh-pages
+      
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add -A
+          git diff --staged --quiet || git commit -m "chore: auto-update projects [skip ci]"
+          git push
