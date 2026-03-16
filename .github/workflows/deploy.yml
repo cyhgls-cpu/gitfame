@@ -2,11 +2,7 @@ name: Deploy VitePress
 
 on:
   push:
-    branches:
-      - main
-    paths:
-      - 'docs/**'
-      - 'package.json'
+    branches: [main]
   workflow_dispatch:
 
 permissions:
