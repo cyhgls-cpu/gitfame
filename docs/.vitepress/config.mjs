@@ -17,9 +17,7 @@ export default defineConfig({
       { text: '分类', link: '/categories' },
       { text: '成熟度', link: '/maturity' }
     ],
-    outline: {
-      level: [2, 3],
-      label: '目录'
-    }
+    outline: 'deep',
+    outlineTitle: '分类目录'
   }
 })
