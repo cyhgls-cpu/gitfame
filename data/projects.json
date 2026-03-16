@@ -12813,5 +12813,65 @@
     "maturity": "trending",
     "createdAt": "2026-03-16T07:41:09.358Z",
     "aiSummary": "Vite+ 是统一的前端开发工具链，整合运行时、包管理与构建工具，提升开发效率。"
+  },
+  {
+    "id": "thedotmack-claude-mem",
+    "name": "claude-mem",
+    "owner": "thedotmack",
+    "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future ses",
+    "starsToday": 1017,
+    "github": "thedotmack/claude-mem",
+    "link": "https://github.com/thedotmack/claude-mem",
+    "maturity": "trending",
+    "createdAt": "2026-03-16T13:42:22.917Z",
+    "aiSummary": "Claude-Mem是一款代码插件可自动捕获编码过程并智能压缩，提升后续会话效率。"
+  },
+  {
+    "id": "langchain-ai-deepagents",
+    "name": "deepagents",
+    "owner": "langchain-ai",
+    "description": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks.",
+    "starsToday": 444,
+    "github": "langchain-ai/deepagents",
+    "link": "https://github.com/langchain-ai/deepagents",
+    "maturity": "trending",
+    "createdAt": "2026-03-16T13:42:22.918Z",
+    "aiSummary": "基于LangChain和LangGraph构建的智能代理框架支持复杂任务处理与子代理生成。"
+  },
+  {
+    "id": "yishentu-claudian",
+    "name": "claudian",
+    "owner": "YishenTu",
+    "description": "An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault",
+    "starsToday": 109,
+    "github": "YishenTu/claudian",
+    "link": "https://github.com/YishenTu/claudian",
+    "maturity": "trending",
+    "createdAt": "2026-03-16T13:42:22.918Z",
+    "aiSummary": "将Claude代码嵌入到你的知识库中作为AI协作工具的Obsidian插件"
+  },
+  {
+    "id": "sickn33-antigravity-awesome-skills",
+    "name": "antigravity-awesome-skills",
+    "owner": "sickn33",
+    "description": "The Ultimate Collection of 1000+ Agentic Skills for Claude Code/Antigravity/Cursor. Battle-tested, high-performance skills for AI agents including official skills from Anthropic and Vercel.",
+    "starsToday": 15702,
+    "github": "sickn33/antigravity-awesome-skills",
+    "link": "https://github.com/sickn33/antigravity-awesome-skills",
+    "maturity": "geek",
+    "createdAt": "2026-03-16T13:42:25.234Z",
+    "aiSummary": "1000+高效AI代理技能集涵盖Claude Code/Antigravity/Cursor，包含官方认证技能，提升AI性能与功能。"
+  },
+  {
+    "id": "fluxerapp-fluxer",
+    "name": "fluxer",
+    "owner": "fluxerapp",
+    "description": "A free and open source instant messaging and VoIP platform built for friends, groups, and communities. Self-hosting and more activity in this repository is coming very soon! See the README.",
+    "starsToday": 4694,
+    "github": "fluxerapp/fluxer",
+    "link": "https://github.com/fluxerapp/fluxer",
+    "maturity": "geek",
+    "createdAt": "2026-03-16T13:42:25.234Z",
+    "aiSummary": "fluxer是一款开源即时通讯和语音通话平台，支持自托管，适用于朋友、群组和社区。"
   }
 ]
