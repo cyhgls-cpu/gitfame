@@ -5,30 +5,6 @@
     <h3>从用户痛点出发，找到适合你的工具</h3>
     <div class="scenario-grid">
       
-      <div class="scenario-card" @click="navigate('https://github.com/openclaw/openclaw')">
-        <div class="scenario-icon">📊</div>
-        <div class="scenario-text">我想控制一个能自动抓取物品的机器。</div>
-      </div>
-      <div class="scenario-card" @click="navigate('https://github.com/openclaw/openclaw')">
-        <div class="scenario-icon">🔍</div>
-        <div class="scenario-text">我想用这个工具来搭建一个抓娃娃机系统。</div>
-      </div>
-      <div class="scenario-card" @click="navigate('https://github.com/openclaw/openclaw')">
-        <div class="scenario-icon">🎯</div>
-        <div class="scenario-text">我想让机械手按照我的要求去拿东西。</div>
-      </div>
-      <div class="scenario-card" @click="navigate('https://github.com/koala73/worldmonitor')">
-        <div class="scenario-icon">📈</div>
-        <div class="scenario-text">我想看看我的服务在世界各个角落能不能被访问。</div>
-      </div>
-      <div class="scenario-card" @click="navigate('https://github.com/koala73/worldmonitor')">
-        <div class="scenario-icon">🔧</div>
-        <div class="scenario-text">我想比较一下不同地区的网络访问速度快慢。</div>
-      </div>
-      <div class="scenario-card" @click="navigate('https://github.com/koala73/worldmonitor')">
-        <div class="scenario-icon">⭐</div>
-        <div class="scenario-text">我想随时知道系统有没有出什么故障。</div>
-      </div>
     </div>
   </div>
 </ClientOnly>
