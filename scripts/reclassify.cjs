@@ -261,24 +261,45 @@ function classifyDomain(project) {
 function calculateMaturity(project) {
   const text = (project.name + ' ' + (project.description || '') + ' ' + (project.tags?.join(' ') || '')).toLowerCase();
   
-  const trendingKeywords = ['trending', 'popular', 'viral', 'breaking', 'new release', 'latest', 'hot', '🔥'];
-  const stableKeywords = ['stable', 'production', 'mature', 'reliable', 'widely used', 'industry standard', 'enterprise', 'battle-tested'];
-  const geekKeywords = ['experimental', 'beta', 'alpha', 'hack', 'DIY', 'research', 'prototype', 'fun', 'toy', 'minimal'];
+  const trendingKeywords = ['trending', 'popular', 'viral', 'breaking', 'new release', 'latest', 'hot', '🔥', 'new', 'v1', 'v2.0'];
+  const stableKeywords = ['stable', 'production', 'mature', 'reliable', 'widely used', 'industry standard', 'enterprise', 'battle-tested', 'production-ready', 'deprecated', 'maintained', 'LTS', 'v3', 'v4', 'v5', 'legacy'];
+  const geekKeywords = ['experimental', 'beta', 'alpha', 'hack', 'DIY', 'research', 'prototype', 'fun', 'toy', 'minimal', 'wip', 'draft', 'concept'];
   
   let trendingScore = 0, stableScore = 0, geekScore = 0;
   
   for (const kw of trendingKeywords) {
-    if (text.includes(kw)) trendingScore++;
+    if (text.includes(kw)) trendingScore += 1.5;
   }
   for (const kw of stableKeywords) {
-    if (text.includes(kw)) stableScore++;
+    if (text.includes(kw)) stableScore += 2;
   }
   for (const kw of geekKeywords) {
-    if (text.includes(kw)) geekScore++;
+    if (text.includes(kw)) geekScore += 1.5;
   }
   
-  if (project.trendingRank && project.trendingRank <= 50) trendingScore += 3;
-  if (project.starsToday && project.starsToday > 100) trendingScore += 2;
+  // Trending 排名高 = trending
+  if (project.trendingRank && project.trendingRank <= 30) trendingScore += 4;
+  else if (project.trendingRank && project.trendingRank <= 100) trendingScore += 2;
+  
+  // 今日 star 多 = trending
+  if (project.starsToday && project.starsToday > 500) trendingScore += 4;
+  else if (project.starsToday && project.starsToday > 100) trendingScore += 2;
+  
+  // 有大量 stars = stable (假设是成熟项目)
+  // 注意: 当前数据没有 totalStars 字段，需要通过 GitHub API 获取
+  // 暂时用项目名称判断是否是"经典"项目
+  const classicPatterns = ['react', 'vue', 'angular', 'node', 'django', 'rails', 'spring', 'flask', 'express', 'kubernetes', 'docker', 'nginx', 'redis', 'mysql', 'postgres', 'mongodb', 'tensorflow', 'pytorch', 'babel', 'webpack', 'vite', 'eslint', 'prettier', 'tailwind', 'bootstrap', 'lodash', 'axios', 'request', 'pm2', 'forever'];
+  for (const pattern of classicPatterns) {
+    if (project.name.toLowerCase().includes(pattern)) {
+      stableScore += 3;
+      trendingScore -= 1; // 经典项目不算 trending
+    }
+  }
+  
+  // AI/ML 领域的新项目默认 trending
+  if (project.domain === 'AI & ML' && !classicPatterns.some(p => project.name.toLowerCase().includes(p))) {
+    trendingScore += 1;
+  }
   
   if (trendingScore > stableScore && trendingScore > geekScore) return 'trending';
   if (stableScore > geekScore) return 'stable';

@@ -10,8 +10,16 @@ const projects = ref<any[]>([])
 const domains = ref<string[]>([])
 const subCategories = ref<string[]>([])
 const loading = ref(true)
+const currentPage = ref(1)
+const pageSize = 36
+const favorites = ref<string[]>([])
 
 onMounted(async () => {
+  const saved = localStorage.getItem('gitfame_favorites')
+  if (saved) {
+    favorites.value = JSON.parse(saved)
+  }
+  
   try {
     const response = await fetch('/data/projects.json')
     projects.value = await response.json()
@@ -40,14 +48,17 @@ const switchDomain = (domain: string) => {
   updateSubCategories(domain)
   activeMaturity.value = 'all'
   activeSubCategory.value = 'all'
+  currentPage.value = 1
 }
 
 const switchMaturity = (maturity: string) => {
   activeMaturity.value = maturity
+  currentPage.value = 1
 }
 
 const switchSubCategory = (sub: string) => {
   activeSubCategory.value = sub
+  currentPage.value = 1
 }
 
 const filteredProjects = computed(() => {
@@ -85,6 +96,63 @@ const filteredProjects = computed(() => {
   return result
 })
 
+const paginatedProjects = computed(() => {
+  const start = (currentPage.value - 1) * pageSize
+  return filteredProjects.value.slice(start, start + pageSize)
+})
+
+const totalPages = computed(() => Math.ceil(filteredProjects.value.length / pageSize))
+
+const pageNumbers = computed(() => {
+  const pages: number[] = []
+  const total = totalPages.value
+  const current = currentPage.value
+  
+  if (total <= 7) {
+    for (let i = 1; i <= total; i++) pages.push(i)
+  } else {
+    if (current <= 4) {
+      for (let i = 1; i <= 5; i++) pages.push(i)
+      pages.push(-1)
+      pages.push(total)
+    } else if (current >= total - 3) {
+      pages.push(1)
+      pages.push(-1)
+      for (let i = total - 4; i <= total; i++) pages.push(i)
+    } else {
+      pages.push(1)
+      pages.push(-1)
+      for (let i = current - 1; i <= current + 1; i++) pages.push(i)
+      pages.push(-1)
+      pages.push(total)
+    }
+  }
+  return pages
+})
+
+const goToPage = (page: number) => {
+  if (page > 0 && page <= totalPages.value) {
+    currentPage.value = page
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+}
+
+const toggleFavorite = (id: string) => {
+  if (favorites.value.includes(id)) {
+    favorites.value = favorites.value.filter(f => f !== id)
+  } else {
+    favorites.value.push(id)
+  }
+  localStorage.setItem('gitfame_favorites', JSON.stringify(favorites.value))
+}
+
+const isFavorite = (id: string) => favorites.value.includes(id)
+
+const clearSearch = () => {
+  searchQuery.value = ''
+  currentPage.value = 1
+}
+
 const maturityLabels: Record<string, string> = {
   stable: '🌟 镇馆之宝',
   trending: '🔥 潜力股',
@@ -95,10 +163,6 @@ const maturityColors: Record<string, string> = {
   stable: 'from-blue-900 to-blue-500',
   trending: 'from-red-600 to-orange-500',
   geek: 'from-green-800 to-green-500'
-}
-
-const clearSearch = () => {
-  searchQuery.value = ''
 }
 </script>
 
@@ -116,6 +180,7 @@ const clearSearch = () => {
           type="text" 
           placeholder="搜索项目名称、描述、标签..." 
           class="search-input"
+          @input="currentPage = 1"
         />
         <button v-if="searchQuery" @click="clearSearch" class="clear-btn">✕</button>
         <span class="result-count">{{ filteredProjects.length }} 个项目</span>
@@ -198,10 +263,18 @@ const clearSearch = () => {
       <!-- 项目列表 -->
       <div class="projects-grid">
         <div
-          v-for="project in filteredProjects"
+          v-for="project in paginatedProjects"
           :key="project.id"
           :class="['project-card', 'bg-gradient-to-r', maturityColors[project.maturity]]"
         >
+          <button 
+            class="favorite-btn" 
+            @click="toggleFavorite(project.id)"
+            :title="isFavorite(project.id) ? '取消收藏' : '收藏'"
+          >
+            {{ isFavorite(project.id) ? '❤️' : '🤍' }}
+          </button>
+          
           <div class="card-header">
             <div class="project-info">
               <span v-if="project.icon" class="project-icon">{{ project.icon }}</span>
@@ -226,6 +299,30 @@ const clearSearch = () => {
             <a :href="project.link" class="card-link" target="_blank">查看详情 →</a>
           </div>
         </div>
+      </div>
+      
+      <!-- 分页 -->
+      <div class="pagination" v-if="totalPages > 1">
+        <button 
+          class="page-btn" 
+          :disabled="currentPage === 1"
+          @click="goToPage(currentPage - 1)"
+        >上一页</button>
+        
+        <template v-for="page in pageNumbers" :key="page">
+          <span v-if="page === -1" class="page-ellipsis">...</span>
+          <button 
+            v-else
+            :class="['page-btn', { active: currentPage === page }]"
+            @click="goToPage(page)"
+          >{{ page }}</button>
+        </template>
+        
+        <button 
+          class="page-btn" 
+          :disabled="currentPage === totalPages"
+          @click="goToPage(currentPage + 1)"
+        >下一页</button>
       </div>
       
       <!-- 空状态 -->
@@ -442,13 +539,25 @@ h1 {
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
 }
 
-.animate-pulse {
-  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+.favorite-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0,0,0,0.2);
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
 }
 
-@keyframes pulse {
-  0%, 100% { box-shadow: 0 4px 6px -1px rgba(249, 115, 22, 0.4); }
-  50% { box-shadow: 0 10px 15px -3px rgba(249, 115, 22, 0.6); }
+.favorite-btn:hover {
+  transform: scale(1.1);
 }
 
 .card-header {
@@ -572,6 +681,45 @@ h1 {
 
 .card-link:hover {
   opacity: 1;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.page-btn {
+  padding: 8px 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.page-btn:hover:not(:disabled) {
+  border-color: #3b82f6;
+  color: #3b82f6;
+}
+
+.page-btn.active {
+  background: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
+
+.page-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.page-ellipsis {
+  padding: 8px;
+  color: #999;
 }
 
 .empty-state {
