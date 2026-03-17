@@ -121,16 +121,21 @@ async function translateTopics(topics) {
     const response = await fetch('https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation', {
       method: 'POST',
       headers: {
-        'Authorization': `Bearer ${QWEN_API_KEY}`,
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${QWEN_API_KEY}`
       },
       body: JSON.stringify({
         model: 'qwen-turbo',
-        messages: [
-          { role: 'system', content: 'You are a helpful assistant that translates GitHub topics to Chinese sub-categories.' },
-          { role: 'user', content: prompt }
-        ],
-        temperature: 0.3
+        input: {
+          messages: [
+            { role: 'user', content: prompt }
+          ]
+        },
+        parameters: {
+          result_format: 'message',
+          max_tokens: 100,
+          temperature: 0.3
+        }
       })
     });
 
@@ -139,8 +144,11 @@ async function translateTopics(topics) {
     }
 
     const data = await response.json();
-    const content = data.choices[0].message.content;
-    return JSON.parse(content);
+    if (data.output?.choices?.[0]?.message?.content) {
+      const content = data.output.choices[0].message.content;
+      return JSON.parse(content);
+    }
+    return [];
   } catch (error) {
     console.error('Error translating topics:', error);
     return [];
@@ -167,16 +175,21 @@ async function generateProjectDescription(project, repoInfo) {
     const response = await fetch('https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation', {
       method: 'POST',
       headers: {
-        'Authorization': `Bearer ${QWEN_API_KEY}`,
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${QWEN_API_KEY}`
       },
       body: JSON.stringify({
         model: 'qwen-turbo',
-        messages: [
-          { role: 'system', content: 'You are a helpful assistant that generates concise Chinese descriptions for GitHub projects.' },
-          { role: 'user', content: prompt }
-        ],
-        temperature: 0.3
+        input: {
+          messages: [
+            { role: 'user', content: prompt }
+          ]
+        },
+        parameters: {
+          result_format: 'message',
+          max_tokens: 100,
+          temperature: 0.3
+        }
       })
     });
 
@@ -185,8 +198,9 @@ async function generateProjectDescription(project, repoInfo) {
     }
 
     const data = await response.json();
-    const content = data.choices[0].message.content;
-    project.aiDescription = content.trim();
+    if (data.output?.choices?.[0]?.message?.content) {
+      project.aiDescription = data.output.choices[0].message.content.trim();
+    }
 
     return project;
   } catch (error) {
@@ -209,16 +223,21 @@ async function categorizeAndCleanProject(project, repoInfo, topics) {
     const response = await fetch('https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation', {
       method: 'POST',
       headers: {
-        'Authorization': `Bearer ${QWEN_API_KEY}`,
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${QWEN_API_KEY}`
       },
       body: JSON.stringify({
         model: 'qwen-turbo',
-        messages: [
-          { role: 'system', content: 'You are a helpful assistant that categorizes and cleans GitHub project information.' },
-          { role: 'user', content: prompt }
-        ],
-        temperature: 0.3
+        input: {
+          messages: [
+            { role: 'user', content: prompt }
+          ]
+        },
+        parameters: {
+          result_format: 'message',
+          max_tokens: 300,
+          temperature: 0.3
+        }
       })
     });
 
@@ -227,7 +246,10 @@ async function categorizeAndCleanProject(project, repoInfo, topics) {
     }
 
     const data = await response.json();
-    const content = data.choices[0].message.content;
+    let content = '';
+    if (data.output?.choices?.[0]?.message?.content) {
+      content = data.output.choices[0].message.content;
+    }
     const result = JSON.parse(content);
 
     if (result.primaryCategory) {
