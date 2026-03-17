@@ -118,14 +118,14 @@ async function translateTopics(topics) {
   const prompt = `Translate the following GitHub topics to Chinese sub-categories based on the mapping:\n\n${JSON.stringify(subCategoryMap, null, 2)}\n\nTopics: ${topics.join(', ')}\n\nReturn only the matching Chinese sub-categories as an array.`;
 
   try {
-    const response = await fetch('https://ark.cn-beijing.volces.com/api/v3/chat/completions', {
+    const response = await fetch('https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation', {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${QWEN_API_KEY}`,
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'ep-20260313151840-qv5qf',
+        model: 'qwen-turbo',
         messages: [
           { role: 'system', content: 'You are a helpful assistant that translates GitHub topics to Chinese sub-categories.' },
           { role: 'user', content: prompt }
@@ -164,14 +164,14 @@ async function generateProjectDescription(project, repoInfo) {
   const prompt = `你现在是一名资深的开源项目评测专家。请根据我提供的 GitHub 项目 README 内容（或项目描述），为该项目生成一个中文一句话简介。\n\n项目描述：${projectDescription}\n\n要求如下：\n\n核心价值：必须说明该项目"是什么"以及"解决了什么痛点"。\n字数限制：严格控制在 30 到 60 个汉字之间，不包含句号。\n语气：客观、专业、极简，避免使用"最强"、"第一"、"惊人"等夸张的营销词汇。\n格式：直接输出简介文本，不要包含任何前缀（如"简介："）。\n差异化：如果该项目是某个知名软件的替代品，请明确标注（例如："XXX 的轻量级开源替代方案"）。`;
 
   try {
-    const response = await fetch('https://ark.cn-beijing.volces.com/api/v3/chat/completions', {
+    const response = await fetch('https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation', {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${QWEN_API_KEY}`,
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'ep-20260313151840-qv5qf',
+        model: 'qwen-turbo',
         messages: [
           { role: 'system', content: 'You are a helpful assistant that generates concise Chinese descriptions for GitHub projects.' },
           { role: 'user', content: prompt }
@@ -206,14 +206,14 @@ async function categorizeAndCleanProject(project, repoInfo, topics) {
   const prompt = `Analyze the following GitHub project and provide a clean categorization:\n\nProject Name: ${project.name}\nProject Description: ${project.description || repoInfo?.description || ''}\nGitHub Topics: ${topics.join(', ')}\n\nBased on the following categories:\n\n一级分类：\n- 智能前沿 (AI & ML)\n- 开发利器 (DevTools)\n- 现代 Web (Web Stack)\n- 基础设施 (Infra)\n- 自托管 (Self-Hosted)\n- 终身学习 (Resources)\n\n二级分类映射：\n${JSON.stringify(subCategoryMap, null, 2)}\n\nPlease provide:\n1. The most appropriate primary category (一级分类)\n2. The most appropriate secondary category (二级分类)\n3. A cleaned and improved description in Chinese\n4. 3-5 relevant tags\n5. A simple emoji icon that represents the project\n\nReturn the result as a JSON object with keys: primaryCategory, secondaryCategory, cleanedDescription, tags, icon.`;
 
   try {
-    const response = await fetch('https://ark.cn-beijing.volces.com/api/v3/chat/completions', {
+    const response = await fetch('https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation', {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${QWEN_API_KEY}`,
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'ep-20260313151840-qv5qf',
+        model: 'qwen-turbo',
         messages: [
           { role: 'system', content: 'You are a helpful assistant that categorizes and cleans GitHub project information.' },
           { role: 'user', content: prompt }
