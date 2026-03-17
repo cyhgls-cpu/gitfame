@@ -30,6 +30,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
+      - name: Reclassify projects
+        run: node scripts/reclassify.cjs
+      
       - name: Process with AI
         run: node scripts/ai-summarize.cjs
         env:

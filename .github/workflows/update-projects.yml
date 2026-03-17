@@ -41,6 +41,9 @@ jobs:
       - name: Scrape GitHub Trending
         run: node scripts/scrape-trending.cjs
 
+      - name: Reclassify projects
+        run: node scripts/reclassify.cjs
+
       - name: Copy to public folder
         run: cp data/projects.json docs/public/data/projects.json
 
