@@ -257,7 +257,8 @@
       "ai-&-ml",
       "monthly"
     ],
-    "fetchedAt": "2026-03-17T05:52:20.783Z"
+    "fetchedAt": "2026-03-17T05:52:20.783Z",
+    "aiSummary": "ruflo是面向Claude的智能代理协调平台可部署多代理系统构建对话AI"
   },
   {
     "id": "tobi-qmd",
@@ -1215,7 +1216,8 @@
       "ai-&-ml",
       "weekly"
     ],
-    "fetchedAt": "2026-03-17T05:51:50.205Z"
+    "fetchedAt": "2026-03-17T05:51:50.205Z",
+    "aiSummary": "提升AI营销能力的工具集涵盖CRO、文案、SEO、分析与增长工程。"
   },
   {
     "id": "seerr-team-seerr",
@@ -1374,7 +1376,8 @@
       "devtools",
       "monthly"
     ],
-    "fetchedAt": "2026-03-17T05:52:23.801Z"
+    "fetchedAt": "2026-03-17T05:52:23.801Z",
+    "aiSummary": "一个强大的小型TUI框架用于构建命令行界面"
   },
   {
     "id": "entireio-cli",
@@ -1493,7 +1496,8 @@
       "ai-&-ml",
       "monthly"
     ],
-    "fetchedAt": "2026-03-17T05:52:29.140Z"
+    "fetchedAt": "2026-03-17T05:52:29.140Z",
+    "aiSummary": "astron-agent是面向企业级的商业化智能代理工作流平台用于构建下一代超级代理。"
   },
   {
     "id": "mihail911-modern-software-dev-assignments",
@@ -1552,7 +1556,8 @@
       "ai-&-ml",
       "monthly"
     ],
-    "fetchedAt": "2026-03-17T05:52:20.783Z"
+    "fetchedAt": "2026-03-17T05:52:20.783Z",
+    "aiSummary": "Oh-My-Pi 是一款终端 AI 编程助手支持代码编辑、工具整合和多语言开发。"
   },
   {
     "id": "qwenlm-qwen-agent",
@@ -2312,7 +2317,8 @@
       "ai-&-ml",
       "weekly"
     ],
-    "fetchedAt": "2026-03-17T05:51:52.263Z"
+    "fetchedAt": "2026-03-17T05:51:52.263Z",
+    "aiSummary": "plannotator是一款可视化标注和评审代码代理方案及代码差异的工具支持团队协作与一键反馈。"
   },
   {
     "id": "anthropics-claude-plugins-official",
@@ -2413,7 +2419,8 @@
       "infra",
       "weekly"
     ],
-    "fetchedAt": "2026-03-17T05:51:44.613Z"
+    "fetchedAt": "2026-03-17T05:51:44.613Z",
+    "aiSummary": "SearXNG是一款免费的元搜索引擎可聚合多个搜索源结果用户不被追踪或画像"
   },
   {
     "id": "xiaojieonly-ehviewer-cn-sxj",
@@ -2591,7 +2598,8 @@
       "devtools",
       "monthly"
     ],
-    "fetchedAt": "2026-03-17T05:52:17.733Z"
+    "fetchedAt": "2026-03-17T05:52:17.733Z",
+    "aiSummary": "godot-mcp是用于连接Godot游戏引擎的MCP服务器提供工具启动编辑器运行项目并捕获调试输出"
   },
   {
     "id": "yctimlin-mcp-excalidraw",
@@ -2890,7 +2898,8 @@
       "devtools",
       "weekly"
     ],
-    "fetchedAt": "2026-03-17T05:51:52.263Z"
+    "fetchedAt": "2026-03-17T05:51:52.263Z",
+    "aiSummary": "ccstatusline是Claude Code CLI的美观可定制状态栏支持Powerline和主题。"
   },
   {
     "id": "fengshao1227-ccg-workflow",
@@ -3546,7 +3555,8 @@
       "resources",
       "monthly"
     ],
-    "fetchedAt": "2026-03-17T05:52:17.734Z"
+    "fetchedAt": "2026-03-17T05:52:17.734Z",
+    "aiSummary": "基于独立技术的现代出版、会员、订阅和邮件服务系统"
   },
   {
     "id": "thesysdev-openui",
@@ -3786,7 +3796,8 @@
       "ai-&-ml",
       "monthly"
     ],
-    "fetchedAt": "2026-03-17T05:52:17.734Z"
+    "fetchedAt": "2026-03-17T05:52:17.734Z",
+    "aiSummary": "Firecrawl MCP服务器为Cursor、Claude等LLM客户端提供强大网络爬取与搜索功能。"
   },
   {
     "id": "marktext-marktext",
@@ -3905,7 +3916,8 @@
       "devtools",
       "monthly"
     ],
-    "fetchedAt": "2026-03-17T05:52:34.596Z"
+    "fetchedAt": "2026-03-17T05:52:34.596Z",
+    "aiSummary": "一个高性能的C语言UI布局库用于构建用户界面。"
   },
   {
     "id": "vxcontrol-pentagi",
@@ -3924,7 +3936,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:23.798Z"
+    "fetchedAt": "2026-03-17T05:51:23.798Z",
+    "aiSummary": "pentagi是自主AI代理系统可执行复杂渗透测试任务"
   },
   {
     "id": "ish-app-ish",
@@ -4302,7 +4315,8 @@
       "devtools",
       "weekly"
     ],
-    "fetchedAt": "2026-03-17T05:51:54.686Z"
+    "fetchedAt": "2026-03-17T05:51:54.686Z",
+    "aiSummary": "云服务器安全隧道工具，实现内网服务安全外网访问。"
   },
   {
     "id": "google-ai-edge-litert",
@@ -4521,7 +4535,8 @@
       "devtools",
       "monthly"
     ],
-    "fetchedAt": "2026-03-17T05:52:37.043Z"
+    "fetchedAt": "2026-03-17T05:52:37.043Z",
+    "aiSummary": "Feather是用于iOS/iPadOS的免费本地应用管理安装工具利用苹果开发者证书实现无越狱安装。"
   },
   {
     "id": "ikawrakow-ik-llama-cpp",
@@ -4701,7 +4716,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:16.900Z"
+    "fetchedAt": "2026-03-17T05:51:16.900Z",
+    "aiSummary": "基于多智能体的金融交易框架支持LLM进行自动化交易决策"
   },
   {
     "id": "crimera-piko",
@@ -5100,7 +5116,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:39.501Z"
+    "fetchedAt": "2026-03-17T05:51:39.501Z",
+    "aiSummary": "便捷管理ReVanced的安卓应用，简化视频去广告与功能增强操作。"
   },
   {
     "id": "opencv-opencv",
@@ -5198,7 +5215,8 @@
       "resources",
       "monthly"
     ],
-    "fetchedAt": "2026-03-17T05:52:34.596Z"
+    "fetchedAt": "2026-03-17T05:52:34.596Z",
+    "aiSummary": "libuv是一个跨平台的异步I/O库，用于高效处理网络和文件系统操作。"
   },
   {
     "id": "handbrake-handbrake",
@@ -5257,7 +5275,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:21.148Z"
+    "fetchedAt": "2026-03-17T05:51:21.148Z",
+    "aiSummary": "自托管的高性能照片和视频管理工具，方便用户本地存储和管理多媒体内容。"
   },
   {
     "id": "jesseduffield-lazygit",
@@ -5576,7 +5595,8 @@
       "resources",
       "monthly"
     ],
-    "fetchedAt": "2026-03-17T05:52:34.596Z"
+    "fetchedAt": "2026-03-17T05:52:34.596Z",
+    "aiSummary": "mGBA是一款高效Game Boy Advance模拟器支持多平台运行可流畅运行经典游戏。"
   },
   {
     "id": "freeok-so-novel",
@@ -5674,7 +5694,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:16.900Z"
+    "fetchedAt": "2026-03-17T05:51:16.900Z",
+    "aiSummary": "Stable Diffusion Web UI 是一个用于生成图像的网页界面工具核心功能是提供便捷的文本到图像生成服务"
   },
   {
     "id": "pingcap-tidb",
@@ -5774,7 +5795,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:16.900Z"
+    "fetchedAt": "2026-03-17T05:51:16.900Z",
+    "aiSummary": "TikTokDownloader是用于采集和下载抖音及TikTok平台视频、音乐、评论等数据的工具。"
   },
   {
     "id": "groue-grdb-swift",
@@ -5793,7 +5815,8 @@
       "devtools",
       "monthly"
     ],
-    "fetchedAt": "2026-03-17T05:52:37.043Z"
+    "fetchedAt": "2026-03-17T05:52:37.043Z",
+    "aiSummary": "GRDB.swift是专为Swift应用开发设计的SQLite数据库工具包，提供高效数据管理功能。"
   },
   {
     "id": "sxyazi-yazi",
@@ -5994,7 +6017,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:23.798Z"
+    "fetchedAt": "2026-03-17T05:51:23.798Z",
+    "aiSummary": "Fabric是一个基于AI的开源框架用于增强人类能力通过模块化系统解决特定问题并提供可随处使用的AI提示集"
   },
   {
     "id": "docmirror-dev-sidecar",
@@ -6131,7 +6155,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:32.032Z"
+    "fetchedAt": "2026-03-17T05:51:32.032Z",
+    "aiSummary": "Godot是一款多平台2D/3D游戏引擎，支持跨平台开发，功能强大且开源。"
   },
   {
     "id": "utkarshdalal-gamenative",
@@ -6470,7 +6495,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:23.798Z"
+    "fetchedAt": "2026-03-17T05:51:23.798Z",
+    "aiSummary": "本地AI开源替代方案支持自托管无需GPU运行多种模型"
   },
   {
     "id": "ankitpokhrel-jira-cli",
@@ -6509,7 +6535,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:26.260Z"
+    "fetchedAt": "2026-03-17T05:51:26.260Z",
+    "aiSummary": "清理磁盘垃圾的多功能工具可查找重复文件空文件夹相似图片等。"
   },
   {
     "id": "dolthub-dolt",
@@ -6708,7 +6735,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:23.798Z"
+    "fetchedAt": "2026-03-17T05:51:23.798Z",
+    "aiSummary": "分布式可靠的键值存储系统用于保存分布式系统的关键数据"
   },
   {
     "id": "genymobile-scrcpy",
@@ -6807,7 +6835,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:23.798Z"
+    "fetchedAt": "2026-03-17T05:51:23.798Z",
+    "aiSummary": "headscale是自托管的Tailscale控制服务器开源实现，用于管理私有网络设备的连接与安全。"
   },
   {
     "id": "songquanpeng-one-api",
@@ -7028,7 +7057,8 @@
       "resources",
       "weekly"
     ],
-    "fetchedAt": "2026-03-17T05:52:01.895Z"
+    "fetchedAt": "2026-03-17T05:52:01.895Z",
+    "aiSummary": "Dolphin是GameCube和Wii游戏模拟器可在PC上运行并优化游戏体验。"
   },
   {
     "id": "steipete-summarize",
@@ -7107,7 +7137,8 @@
       "web-stack",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:18.989Z"
+    "fetchedAt": "2026-03-17T05:51:18.989Z",
+    "aiSummary": "LinkSwift 是一个基于 JavaScript 的网盘直链下载工具，支持八大网盘文件地址获取。"
   },
   {
     "id": "pydantic-monty",
@@ -7126,7 +7157,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:26.260Z"
+    "fetchedAt": "2026-03-17T05:51:26.260Z",
+    "aiSummary": "一个用Rust编写的轻量安全Python解释器专为AI使用设计"
   },
   {
     "id": "zhukunpenglinyutong-idea-claude-code-gui",
@@ -7225,7 +7257,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:26.260Z"
+    "fetchedAt": "2026-03-17T05:51:26.260Z",
+    "aiSummary": "typst是一款基于标记的排版系统，功能强大且易于学习，适用于高效生成高质量文档。"
   },
   {
     "id": "keycloak-keycloak",
@@ -7264,7 +7297,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:23.798Z"
+    "fetchedAt": "2026-03-17T05:51:23.798Z",
+    "aiSummary": "Xray-core是功能强大的开源网络工具，支持多种协议穿透与安全通信。"
   },
   {
     "id": "lizardbyte-sunshine",
@@ -7283,7 +7317,8 @@
       "infra",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:32.032Z"
+    "fetchedAt": "2026-03-17T05:51:32.032Z",
+    "aiSummary": "Sunshine是一款自托管的Moonlight游戏流媒体主机，提供低延迟高效的游戏串流服务。"
   },
   {
     "id": "open-ani-animeko",
@@ -7302,7 +7337,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:39.501Z"
+    "fetchedAt": "2026-03-17T05:51:39.501Z",
+    "aiSummary": "animeko是集找番追番看番于一体的弹幕平台支持云收藏离线缓存和BT下载。"
   },
   {
     "id": "hathach-tinyusb",
@@ -7341,7 +7377,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:36.810Z"
+    "fetchedAt": "2026-03-17T05:51:36.810Z",
+    "aiSummary": "OmniWM是一款安全的多桌面窗口管理器，支持开发者签名和认证，适用于企业环境。"
   },
   {
     "id": "intrinsic-dev-aic",
@@ -7360,7 +7397,8 @@
       "ai-&-ml",
       "weekly"
     ],
-    "fetchedAt": "2026-03-17T05:52:01.895Z"
+    "fetchedAt": "2026-03-17T05:52:01.895Z",
+    "aiSummary": "AI工业挑战工具包，助力人工智能技术在工业场景中的应用与优化。"
   },
   {
     "id": "docker-docker-agent",
@@ -7499,7 +7537,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:26.260Z"
+    "fetchedAt": "2026-03-17T05:51:26.260Z",
+    "aiSummary": "一个高效的命令运行工具帮助快速执行和管理命令行任务"
   },
   {
     "id": "ventoy-ventoy",
@@ -7718,7 +7757,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:26.260Z"
+    "fetchedAt": "2026-03-17T05:51:26.260Z",
+    "aiSummary": "Biome是面向网页项目的工具链提供格式化和静态检查功能支持CLI和LSP。"
   },
   {
     "id": "mongodb-mongo",
@@ -7856,7 +7896,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:26.260Z"
+    "fetchedAt": "2026-03-17T05:51:26.260Z",
+    "aiSummary": "Magisk是Android系统root工具，提供隐藏root功能和模块化扩展。"
   },
   {
     "id": "andreknieriem-headunit-revived",
@@ -7976,7 +8017,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:26.260Z"
+    "fetchedAt": "2026-03-17T05:51:26.260Z",
+    "aiSummary": "tokscale是一款追踪多种AI代码模型使用情况的命令行工具，支持全球排行榜和三维可视化。"
   },
   {
     "id": "launchbadge-sqlx",
@@ -7995,7 +8037,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:26.260Z"
+    "fetchedAt": "2026-03-17T05:51:26.260Z",
+    "aiSummary": "Rust语言的SQL工具包支持异步操作，提供编译时检查的SQL查询，兼容PostgreSQL、MySQL和SQLite。"
   },
   {
     "id": "microsoft-terminal",
@@ -8154,7 +8197,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:34.437Z"
+    "fetchedAt": "2026-03-17T05:51:34.437Z",
+    "aiSummary": "Zapret是一款跨平台的DPI绕过工具主要用于网络隐私保护和访问控制。"
   },
   {
     "id": "opa334-dopamine",
@@ -8173,7 +8217,8 @@
       "ai-&-ml",
       "weekly"
     ],
-    "fetchedAt": "2026-03-17T05:52:04.796Z"
+    "fetchedAt": "2026-03-17T05:52:04.796Z",
+    "aiSummary": "Dopamine是针对iOS 15和16的半解耦越狱工具，允许用户突破系统限制。"
   },
   {
     "id": "haleclipse-ccometixline",
@@ -8292,7 +8337,8 @@
       "infra",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:23.798Z"
+    "fetchedAt": "2026-03-17T05:51:23.798Z",
+    "aiSummary": "音乐流媒体服务支持本地音乐库的远程访问和播放"
   },
   {
     "id": "eza-community-eza",
@@ -8311,7 +8357,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:26.260Z"
+    "fetchedAt": "2026-03-17T05:51:26.260Z",
+    "aiSummary": "一个现代的ls替代工具，提供更强大的文件管理功能。"
   },
   {
     "id": "surrealdb-surrealdb",
@@ -8390,7 +8437,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:28.637Z"
+    "fetchedAt": "2026-03-17T05:51:28.637Z",
+    "aiSummary": "TLA+模型检查工具用于验证系统规范，TLC和TLA+Toolbox提供高效建模与调试功能。"
   },
   {
     "id": "junkfood02-seal",
@@ -8409,7 +8457,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:39.501Z"
+    "fetchedAt": "2026-03-17T05:51:39.501Z",
+    "aiSummary": "Seal是基于yt-dlp的Android视频音频下载工具，支持多平台内容高效下载。"
   },
   {
     "id": "ai-dynamo-nixl",
@@ -8688,7 +8737,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:26.260Z"
+    "fetchedAt": "2026-03-17T05:51:26.260Z",
+    "aiSummary": "基于Rust的AI漫画翻译工具，高效准确地翻译漫画文本。"
   },
   {
     "id": "bevyengine-bevy",
@@ -8707,7 +8757,8 @@
       "web-stack",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:26.260Z"
+    "fetchedAt": "2026-03-17T05:51:26.260Z",
+    "aiSummary": "bevy是一款用Rust开发的简洁高效的数据驱动游戏引擎，适用于快速构建跨平台游戏。"
   },
   {
     "id": "eythaann-seelen-ui",
@@ -8826,7 +8877,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:32.032Z"
+    "fetchedAt": "2026-03-17T05:51:32.032Z",
+    "aiSummary": "《明日方舟》小助手全日常一键长草支持所有客户端"
   },
   {
     "id": "netdata-netdata",
@@ -8865,7 +8917,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:18.989Z"
+    "fetchedAt": "2026-03-17T05:51:18.989Z",
+    "aiSummary": "dotenvx 是安全加载环境变量的工具，用于简化配置管理提升应用安全性。"
   },
   {
     "id": "tursodatabase-turso",
@@ -8884,7 +8937,8 @@
       "infra",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:26.260Z"
+    "fetchedAt": "2026-03-17T05:51:26.260Z",
+    "aiSummary": "Turso是一款兼容SQLite的嵌入式SQL数据库，提供高效轻量的数据存储与查询功能。"
   },
   {
     "id": "cocoindex-io-cocoindex",
@@ -8964,7 +9018,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:23.798Z"
+    "fetchedAt": "2026-03-17T05:51:23.798Z",
+    "aiSummary": "一个简化Docker管理的工具核心功能是快速查看和管理容器镜像及网络。"
   },
   {
     "id": "gohugoio-hugo",
@@ -8983,7 +9038,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:23.798Z"
+    "fetchedAt": "2026-03-17T05:51:23.798Z",
+    "aiSummary": "hugo是一款快速构建网站的框架，适用于静态网站开发。"
   },
   {
     "id": "alibaba-spring-cloud-alibaba",
@@ -9002,7 +9058,8 @@
       "devtools",
       "weekly"
     ],
-    "fetchedAt": "2026-03-17T05:51:59.317Z"
+    "fetchedAt": "2026-03-17T05:51:59.317Z",
+    "aiSummary": "Spring Cloud Alibaba为分布式应用提供一站式开发解决方案，整合阿里中间件能力。"
   },
   {
     "id": "fwupd-fwupd",
@@ -9021,7 +9078,8 @@
       "resources",
       "weekly"
     ],
-    "fetchedAt": "2026-03-17T05:52:04.796Z"
+    "fetchedAt": "2026-03-17T05:52:04.796Z",
+    "aiSummary": "fwupd是一个系统守护进程用于安全更新固件提升设备兼容性与稳定性。"
   },
   {
     "id": "chromium-chromium",
@@ -9060,7 +9118,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:26.260Z"
+    "fetchedAt": "2026-03-17T05:51:26.260Z",
+    "aiSummary": "Apache Iggy 是超高效激光速度消息流系统用于实时数据传输与处理"
   },
   {
     "id": "nvidia-nemo-gym",
@@ -9199,7 +9258,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:32.032Z"
+    "fetchedAt": "2026-03-17T05:51:32.032Z",
+    "aiSummary": "FreeCAD是一款开源跨平台3D参数化建模工具，支持复杂机械设计与工程制图。"
   },
   {
     "id": "steipete-wacli",
@@ -9437,7 +9497,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:23.798Z"
+    "fetchedAt": "2026-03-17T05:51:23.798Z",
+    "aiSummary": "AI驱动的股票分析工具支持多市场选股与情绪分析数据本地化处理"
   },
   {
     "id": "openwrt-openwrt",
@@ -9477,7 +9538,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:39.501Z"
+    "fetchedAt": "2026-03-17T05:51:39.501Z",
+    "aiSummary": "ImageToolbox是一款功能强大的图像处理工具提供多种高级图像编辑功能如裁剪绘图滤镜OCR等"
   },
   {
     "id": "fishjar-kiss-translator",
@@ -9655,7 +9717,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:23.798Z"
+    "fetchedAt": "2026-03-17T05:51:23.798Z",
+    "aiSummary": "noFX是个人AI交易助手支持多市场多模型交易通过USDC支付无需API密钥"
   },
   {
     "id": "cryptomator-cryptomator",
@@ -9674,7 +9737,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:28.637Z"
+    "fetchedAt": "2026-03-17T05:51:28.637Z",
+    "aiSummary": "加密云存储客户端确保数据隐私与控制"
   },
   {
     "id": "mamiiblt-instafel",
@@ -9693,7 +9757,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:28.637Z"
+    "fetchedAt": "2026-03-17T05:51:28.637Z",
+    "aiSummary": "Instafel为用户提供快速且更新及时的Instagram Alpha体验。"
   },
   {
     "id": "ts1-bleunlock",
@@ -9712,7 +9777,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:36.810Z"
+    "fetchedAt": "2026-03-17T05:51:36.810Z",
+    "aiSummary": "通过蓝牙LE设备解锁或锁定Mac的工具"
   },
   {
     "id": "ai-dynamo-dynamo",
@@ -9970,7 +10036,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:23.798Z"
+    "fetchedAt": "2026-03-17T05:51:23.798Z",
+    "aiSummary": "direnv 用于管理项目环境变量自动加载简化开发配置流程"
   },
   {
     "id": "gofiber-fiber",
@@ -9989,7 +10056,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:23.798Z"
+    "fetchedAt": "2026-03-17T05:51:23.798Z",
+    "aiSummary": "基于Go语言的高性能Web框架功能类似Express适用于构建快速可靠的Web应用"
   },
   {
     "id": "simonschubert-kai",
@@ -10008,7 +10076,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:39.501Z"
+    "fetchedAt": "2026-03-17T05:51:39.501Z",
+    "aiSummary": "Kai是一款便携式开源抓虫工具，支持多平台快速部署与高效漏洞检测。"
   },
   {
     "id": "element-hq-element-x-ios",
@@ -10027,7 +10096,8 @@
       "devtools",
       "weekly"
     ],
-    "fetchedAt": "2026-03-17T05:52:07.253Z"
+    "fetchedAt": "2026-03-17T05:52:07.253Z",
+    "aiSummary": "基于SwiftUI和matrix-rust-sdk的下一代Matrix iOS客户端。"
   },
   {
     "id": "coolsnowwolf-lede",
@@ -10105,7 +10175,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:36.810Z"
+    "fetchedAt": "2026-03-17T05:51:36.810Z",
+    "aiSummary": "WhisperKit 是苹果芯片上本地语音识别工具，支持高效实时语音转文字。"
   },
   {
     "id": "zed-industries-claude-agent-acp",
@@ -10263,7 +10334,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:23.798Z"
+    "fetchedAt": "2026-03-17T05:51:23.798Z",
+    "aiSummary": "社区维护的域名列表用于生成V2Ray的geosite.dat文件。"
   },
   {
     "id": "wled-wled",
@@ -10282,7 +10354,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:32.032Z"
+    "fetchedAt": "2026-03-17T05:51:32.032Z",
+    "aiSummary": "基于ESP32通过WiFi控制WS2812B等数字RGB灯的项目"
   },
   {
     "id": "spring-projects-spring-framework",
@@ -10440,7 +10513,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:32.032Z"
+    "fetchedAt": "2026-03-17T05:51:32.032Z",
+    "aiSummary": "稳定扩散模型推理库支持多种模型在纯C/C++环境下的高效运行。"
   },
   {
     "id": "valdikss-goodbyedpi",
@@ -10459,7 +10533,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:34.437Z"
+    "fetchedAt": "2026-03-17T05:51:34.437Z",
+    "aiSummary": "GoodbyeDPI是一款用于绕过深度包检测的Windows工具，核心功能是突破网络审查。"
   },
   {
     "id": "aniyomiorg-aniyomi",
@@ -10478,7 +10553,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:39.501Z"
+    "fetchedAt": "2026-03-17T05:51:39.501Z",
+    "aiSummary": "一个用于阅读漫画和动漫的应用程序提供便捷的在线浏览和管理功能"
   },
   {
     "id": "protocolbuffers-protobuf",
@@ -10697,7 +10773,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:32.032Z"
+    "fetchedAt": "2026-03-17T05:51:32.032Z",
+    "aiSummary": "开源模拟经营游戏可建造运输网络并管理物流系统"
   },
   {
     "id": "jellyfin-jellyfin-desktop",
@@ -10716,7 +10793,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:32.032Z"
+    "fetchedAt": "2026-03-17T05:51:32.032Z",
+    "aiSummary": "Jellyfin桌面客户端提供媒体管理与播放功能支持多设备同步使用。"
   },
   {
     "id": "mit-pdos-xv6-riscv",
@@ -11074,7 +11152,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:36.810Z"
+    "fetchedAt": "2026-03-17T05:51:36.810Z",
+    "aiSummary": "为Android设备提供iOS应用兼容运行的开源项目"
   },
   {
     "id": "ankidroid-anki-android",
@@ -11093,7 +11172,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:39.501Z"
+    "fetchedAt": "2026-03-17T05:51:39.501Z",
+    "aiSummary": "Anki-Android是安卓版的Anki闪卡工具，帮助用户高效记忆信息提升学习效率。"
   },
   {
     "id": "eugenp-tutorials",
@@ -11251,7 +11331,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:18.989Z"
+    "fetchedAt": "2026-03-17T05:51:18.989Z",
+    "aiSummary": "Jellyfin Web是开源媒体系统官方网页客户端支持多格式播放与管理。"
   },
   {
     "id": "cabaletta-baritone",
@@ -11270,7 +11351,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:28.637Z"
+    "fetchedAt": "2026-03-17T05:51:28.637Z",
+    "aiSummary": "一个用于构建和探索区块链世界的地图工具，提供可视化交互体验。"
   },
   {
     "id": "meteordevelopment-meteor-client",
@@ -11289,7 +11371,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:28.637Z"
+    "fetchedAt": "2026-03-17T05:51:28.637Z",
+    "aiSummary": "Meteor Client是一款基于Minecraft的实用模组，提供游戏优化与便捷功能。"
   },
   {
     "id": "alexandrerouma-sdrplusplus",
@@ -11308,7 +11391,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:32.032Z"
+    "fetchedAt": "2026-03-17T05:51:32.032Z",
+    "aiSummary": "SDRPlusPlus是跨平台软件定义无线电工具，支持多种无线通信协议分析与调试。"
   },
   {
     "id": "betaflight-betaflight",
@@ -11327,7 +11411,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:34.437Z"
+    "fetchedAt": "2026-03-17T05:51:34.437Z",
+    "aiSummary": "开源飞行控制器固件用于无人机飞控系统开发与调试"
   },
   {
     "id": "arendst-tasmota",
@@ -11346,7 +11431,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:34.437Z"
+    "fetchedAt": "2026-03-17T05:51:34.437Z",
+    "aiSummary": "Tasmota是为ESP8266和ESP32设备设计的替代固件支持Web配置、OTA升级、自动化及本地MQTT控制。"
   },
   {
     "id": "fontforge-fontforge",
@@ -11365,7 +11451,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:34.437Z"
+    "fetchedAt": "2026-03-17T05:51:34.437Z",
+    "aiSummary": "字体编辑工具支持多平台用于创建和修改字体。"
   },
   {
     "id": "whisky-app-whisky",
@@ -11384,7 +11471,8 @@
       "web-stack",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:36.810Z"
+    "fetchedAt": "2026-03-17T05:51:36.810Z",
+    "aiSummary": "一款基于SwiftUI开发的现代macOS葡萄酒管理工具"
   },
   {
     "id": "libre-tube-libretube",
@@ -11403,7 +11491,8 @@
       "web-stack",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:39.501Z"
+    "fetchedAt": "2026-03-17T05:51:39.501Z",
+    "aiSummary": "开源替代YouTube的安卓前端，提供更简洁流畅的视频观看体验。"
   },
   {
     "id": "tailscale-tailscale-android",
@@ -11422,7 +11511,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:39.501Z"
+    "fetchedAt": "2026-03-17T05:51:39.501Z",
+    "aiSummary": "Tailscale Android客户端实现安全私有网络连接支持跨设备通信与远程访问。"
   },
   {
     "id": "comfy-org-comfyui-frontend",
@@ -11699,7 +11789,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:32.032Z"
+    "fetchedAt": "2026-03-17T05:51:32.032Z",
+    "aiSummary": "BambuStudio是用于BambuLab及其他3D打印机的PC软件，提供高效打印管理与控制。"
   },
   {
     "id": "lumateam-luma3ds",
@@ -11718,7 +11809,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:34.437Z"
+    "fetchedAt": "2026-03-17T05:51:34.437Z",
+    "aiSummary": "Luma3DS是用于Nintendo 3DS的自定义固件，支持游戏备份和系统功能扩展。"
   },
   {
     "id": "zmkfirmware-zmk",
@@ -11737,7 +11829,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:34.437Z"
+    "fetchedAt": "2026-03-17T05:51:34.437Z",
+    "aiSummary": "ZMK是开源键盘固件项目支持自定义键位和宏编程适用于机械键盘开发与定制"
   },
   {
     "id": "overtake-telegramswift",
@@ -11756,7 +11849,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:36.810Z"
+    "fetchedAt": "2026-03-17T05:51:36.810Z",
+    "aiSummary": "TelegramSwift是基于Swift 5.0开发的Mac版Telegram客户端核心代码。"
   },
   {
     "id": "openemu-openemu",
@@ -11775,7 +11869,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:36.810Z"
+    "fetchedAt": "2026-03-17T05:51:36.810Z",
+    "aiSummary": "OpenEmu是为macOS设计的复古游戏模拟器，支持多平台游戏运行。"
   },
   {
     "id": "home-assistant-android",
@@ -11794,7 +11889,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:39.501Z"
+    "fetchedAt": "2026-03-17T05:51:39.501Z",
+    "aiSummary": "安卓版Home Assistant伴侣应用用于远程控制智能家居设备"
   },
   {
     "id": "kotatsuapp-kotatsu",
@@ -11813,7 +11909,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:39.501Z"
+    "fetchedAt": "2026-03-17T05:51:39.501Z",
+    "aiSummary": "Kotatsu是Android平台的漫画阅读器，支持多种格式并提供流畅的阅读体验。"
   },
   {
     "id": "projectdiscovery-nuclei-templates",
@@ -12152,7 +12249,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:28.637Z"
+    "fetchedAt": "2026-03-17T05:51:28.637Z",
+    "aiSummary": "Create 是一个 NeoForge 模组提供建筑工具和美学科技，增强游戏建造体验。"
   },
   {
     "id": "home-assistant-ios",
@@ -12171,7 +12269,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:36.810Z"
+    "fetchedAt": "2026-03-17T05:51:36.810Z",
+    "aiSummary": "为苹果设备提供家庭自动化控制的iOS应用"
   },
   {
     "id": "kubernetes-sigs-gateway-api",
@@ -12529,7 +12628,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:34.437Z"
+    "fetchedAt": "2026-03-17T05:51:34.437Z",
+    "aiSummary": "u8g2是用于单色显示屏的高效图形库支持多种显示驱动实现快速界面开发"
   },
   {
     "id": "runatlantis-atlantis",
@@ -12707,7 +12807,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:28.637Z"
+    "fetchedAt": "2026-03-17T05:51:28.637Z",
+    "aiSummary": "Paper是高性能Minecraft服务器项目旨在修复游戏机制不一致问题"
   },
   {
     "id": "checkstyle-checkstyle",
@@ -12726,7 +12827,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:28.637Z"
+    "fetchedAt": "2026-03-17T05:51:28.637Z",
+    "aiSummary": "Checkstyle是用于Java代码规范检查的工具支持Google和Sun编码标准帮助开发者编写符合规范的代码。"
   },
   {
     "id": "openhab-openhab-addons",
@@ -12764,7 +12866,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:28.637Z"
+    "fetchedAt": "2026-03-17T05:51:28.637Z",
+    "aiSummary": "xDrip是开源血糖监测系统支持Android设备实时追踪血糖数据并同步至Nightscout平台。"
   },
   {
     "id": "esphome-esphome",
@@ -12783,7 +12886,8 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:32.032Z"
+    "fetchedAt": "2026-03-17T05:51:32.032Z",
+    "aiSummary": "ESPHome通过配置文件远程控制ESP32、ESP8266等设备，实现智能家居自动化。"
   },
   {
     "id": "marlinfirmware-marlin",
@@ -12802,7 +12906,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:32.032Z"
+    "fetchedAt": "2026-03-17T05:51:32.032Z",
+    "aiSummary": "Marlin是为RepRap 3D打印机优化的固件支持8和32位微控制器广泛用于商业3D打印机。"
   },
   {
     "id": "checkpoint-restore-criu",
@@ -12821,7 +12926,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:34.437Z"
+    "fetchedAt": "2026-03-17T05:51:34.437Z",
+    "aiSummary": "用于进程检查点和恢复的工具可实现程序状态保存与恢复。"
   },
   {
     "id": "eclipse-threadx-threadx",
@@ -12840,7 +12946,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:34.437Z"
+    "fetchedAt": "2026-03-17T05:51:34.437Z",
+    "aiSummary": "Eclipse ThreadX 是专为深度嵌入式应用设计的高级实时操作系统核心功能用于高效任务管理和资源调度"
   },
   {
     "id": "armel-uv-k1-k5v3-firmware-custom",
@@ -12880,7 +12987,8 @@
       "ai-&-ml",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:36.810Z"
+    "fetchedAt": "2026-03-17T05:51:36.810Z",
+    "aiSummary": "基于MLX Swift的LLMs和VLMs模型库，提供高效推理与部署能力。"
   },
   {
     "id": "ollama",
@@ -15239,7 +15347,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:28.637Z"
+    "fetchedAt": "2026-03-17T05:51:28.637Z",
+    "aiSummary": "GT5-Unofficial是未官方授权的GT5.07.07游戏反编译修改版本，用于游戏开发与研究。"
   },
   {
     "id": "simulationcraft-simc",
@@ -15258,7 +15367,8 @@
       "web-stack",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:32.033Z"
+    "fetchedAt": "2026-03-17T05:51:32.033Z",
+    "aiSummary": "simc是用于魔兽世界装备模拟的引擎和图形界面工具。"
   },
   {
     "id": "tsudakageyu-minhook",
@@ -15277,7 +15387,8 @@
       "devtools",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:34.437Z"
+    "fetchedAt": "2026-03-17T05:51:34.437Z",
+    "aiSummary": "一个用于Windows的轻量级x86/x64 API钩子库实现函数拦截与修改功能"
   },
   {
     "id": "whoeevee-eeveespotifyreborn",
@@ -15296,6 +15407,7 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:36.810Z"
+    "fetchedAt": "2026-03-17T05:51:36.810Z",
+    "aiSummary": "EeveeSpotifyReborn是优化Spotify体验的插件，提升播放和界面交互功能。"
   }
 ]
