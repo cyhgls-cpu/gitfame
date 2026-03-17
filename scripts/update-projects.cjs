@@ -250,7 +250,16 @@ async function categorizeAndCleanProject(project, repoInfo, topics) {
     if (data.output?.choices?.[0]?.message?.content) {
       content = data.output.choices[0].message.content;
     }
-    const result = JSON.parse(content);
+    // 清理 Markdown 代码块
+    content = content.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
+    
+    let result;
+    try {
+      result = JSON.parse(content);
+    } catch (e) {
+      console.error('Failed to parse JSON:', content.slice(0, 200));
+      return project;
+    }
 
     if (result.primaryCategory) {
       project.domain = result.primaryCategory;
