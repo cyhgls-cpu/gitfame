@@ -400,6 +400,25 @@
     "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
+    "id": "jimliu-baoyu-skills",
+    "name": "baoyu-skills",
+    "description": "",
+    "domain": "Resources",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 330,
+    "since": "monthly",
+    "language": "typescript",
+    "starsToday": 4612,
+    "github": "JimLiu/baoyu-skills",
+    "link": "https://github.com/JimLiu/baoyu-skills",
+    "tags": [
+      "resources",
+      "monthly"
+    ],
+    "fetchedAt": "2026-03-17T07:28:49.942Z"
+  },
+  {
     "id": "steipete-gogcli",
     "name": "gogcli",
     "description": "Google Suite CLI: Gmail, GCal, GDrive, GContacts.",
@@ -3023,7 +3042,7 @@
     "createdAt": "2026-03-16T07:41:09.358Z",
     "aiSummary": "GitNexus是浏览器端代码智能引擎可创建知识图谱支持GitHub仓库或ZIP文件分析。",
     "domain": "DevTools",
-    "subCategory": "终端增强",
+    "subCategory": "开发工具",
     "tags": [
       "DevTools",
       "终端增强",
