@@ -5,6 +5,7 @@ export default defineConfig({
   description: '发现优质 GitHub 项目',
   lang: 'zh-CN',
   base: '/',
+  appearance: 'dark',
   themeConfig: {
     logo: '/logo.svg',
     siteTitle: 'GitFame',
