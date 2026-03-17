@@ -2,12 +2,18 @@ name: Auto Update Projects
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # 每 6 小时运行一次
-  workflow_dispatch:  # 允许手动触发
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
   actions: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: auto-update
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -16,47 +22,96 @@ jobs:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
       
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
       
       - name: Install dependencies
-        run: npm install
+        run: npm install --prefer-offline
       
       - name: Fetch GitHub Trending
         run: node scripts/github-trending.cjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
+        id: scrape
+      
+      - name: Handle scrape failure
+        if: steps.scrape.outcome == 'failure'
+        run: echo "::warning::Scrape failed, continuing with existing data"
       
       - name: Reclassify projects
         run: node scripts/reclassify.cjs
+        continue-on-error: true
       
       - name: Process with AI
         run: node scripts/ai-summarize.cjs
         env:
           QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
+        continue-on-error: true
+        id: ai-summarize
+      
+      - name: Handle AI failure
+        if: steps.ai-summarize.outcome == 'failure'
+        run: echo "::warning::AI summarize failed, continuing"
+      
+      - name: Validate data
+        run: |
+          node -e "
+            const data = require('./data/projects.json');
+            const invalid = data.filter(p => !p.name || !p.github);
+            if (invalid.length > 0) {
+              console.error('Invalid projects:', invalid.length);
+              process.exit(1);
+            }
+            console.log('Valid projects:', data.length);
+          "
       
       - name: Generate Scenarios
         run: node scripts/generate-scenarios.cjs
         env:
           QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
+        continue-on-error: true
       
       - name: Build VitePress site
         run: npm run docs:build
+        continue-on-error: true
+        id: build
+      
+      - name: Handle build failure
+        if: steps.build.outcome == 'failure'
+        run: |
+          echo "::warning::Build failed, committing data changes only"
       
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+        if: steps.build.outcome == 'success'
+        uses: actions/configure-pages@v5
+        continue-on-error: true
+      
+      - name: Upload artifact
+        if: steps.build.outcome == 'success'
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/.vitepress/dist
-          publish_branch: gh-pages
+          path: './docs/.vitepress/dist'
+        continue-on-error: true
+      
+      - name: Deploy to GitHub Pages
+        if: steps.build.outcome == 'success'
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
       
       - name: Commit and push if changed
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
           git add -A
-          git diff --staged --quiet || git commit -m "chore: auto-update projects [skip ci]"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: auto-update projects [skip ci] ($(date +%Y-%m-%d-%H:%M))"
+            git push
+          fi
