@@ -71,7 +71,13 @@
     "createdAt": "2026-03-16T13:42:25.234Z",
     "aiSummary": "1000+高效AI代理技能集涵盖Claude Code/Antigravity/Cursor，包含官方认证技能，提升AI性能与功能。",
     "domain": "AI & ML",
-    "subCategory": "AI Agent"
+    "subCategory": "AI Agent",
+    "tags": [
+      "AI & ML",
+      "AI Agent",
+      "开源"
+    ],
+    "updatedAt": "2026-03-17T07:05:04.840Z"
   },
   {
     "id": "keygraphhq-shannon",
@@ -190,7 +196,9 @@
       "resources",
       "monthly"
     ],
-    "fetchedAt": "2026-03-14T02:48:23.550Z"
+    "fetchedAt": "2026-03-14T02:48:23.550Z",
+    "aiSummary": "技术学习资源集合",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "ruvnet-ruview",
@@ -383,7 +391,13 @@
     "createdAt": "2026-03-16T13:42:25.234Z",
     "aiSummary": "fluxer是一款开源即时通讯和语音通话平台，支持自托管，适用于朋友、群组和社区。",
     "domain": "Web Stack",
-    "subCategory": "图像/视频生成"
+    "subCategory": "图像/视频生成",
+    "tags": [
+      "Web Stack",
+      "图像/视频生成",
+      "开源"
+    ],
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "steipete-gogcli",
@@ -1673,7 +1687,13 @@
     "createdAt": "2026-03-16T13:42:22.917Z",
     "aiSummary": "Claude-Mem是一款代码插件可自动捕获编码过程并智能压缩，提升后续会话效率。",
     "domain": "AI & ML",
-    "subCategory": "LLM 框架"
+    "subCategory": "LLM 框架",
+    "tags": [
+      "AI & ML",
+      "LLM 框架",
+      "开源"
+    ],
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "usebruno-bruno",
@@ -1852,7 +1872,9 @@
       "resources",
       "monthly"
     ],
-    "fetchedAt": "2026-03-14T02:48:36.028Z"
+    "fetchedAt": "2026-03-14T02:48:36.028Z",
+    "aiSummary": "RAG 向量检索与知识库",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "charmbracelet-glow",
@@ -2310,7 +2332,9 @@
       "devtools",
       "monthly"
     ],
-    "fetchedAt": "2026-03-14T02:48:44.801Z"
+    "fetchedAt": "2026-03-14T02:48:44.801Z",
+    "aiSummary": "开发者工具集",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "databricks-solutions-ai-dev-kit",
@@ -2349,7 +2373,9 @@
       "web-stack",
       "daily"
     ],
-    "fetchedAt": "2026-03-14T02:47:27.959Z"
+    "fetchedAt": "2026-03-14T02:47:27.959Z",
+    "aiSummary": "UI 组件库/设计系统",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "searxng-searxng",
@@ -2625,7 +2651,9 @@
       "resources",
       "monthly"
     ],
-    "fetchedAt": "2026-03-14T02:48:36.029Z"
+    "fetchedAt": "2026-03-14T02:48:36.029Z",
+    "aiSummary": "技术学习资源集合",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "fishaudio-fish-speech",
@@ -2995,7 +3023,13 @@
     "createdAt": "2026-03-16T07:41:09.358Z",
     "aiSummary": "GitNexus是浏览器端代码智能引擎可创建知识图谱支持GitHub仓库或ZIP文件分析。",
     "domain": "DevTools",
-    "subCategory": "终端增强"
+    "subCategory": "终端增强",
+    "tags": [
+      "DevTools",
+      "终端增强",
+      "开源"
+    ],
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "expo-skills",
@@ -3029,7 +3063,13 @@
     "createdAt": "2026-03-16T13:42:22.918Z",
     "aiSummary": "基于LangChain和LangGraph构建的智能代理框架支持复杂任务处理与子代理生成。",
     "domain": "AI & ML",
-    "subCategory": "AI Agent"
+    "subCategory": "AI Agent",
+    "tags": [
+      "AI & ML",
+      "AI Agent",
+      "开源"
+    ],
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "eslint-eslint",
@@ -3268,7 +3308,9 @@
       "resources",
       "monthly"
     ],
-    "fetchedAt": "2026-03-14T02:48:39.180Z"
+    "fetchedAt": "2026-03-14T02:48:39.180Z",
+    "aiSummary": "技术学习资源集合",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "orcaslicer-orcaslicer",
@@ -3544,7 +3586,9 @@
       "resources",
       "monthly"
     ],
-    "fetchedAt": "2026-03-14T02:48:44.801Z"
+    "fetchedAt": "2026-03-14T02:48:44.801Z",
+    "aiSummary": "技术学习资源集合",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "ggml-org-ggml",
@@ -3598,7 +3642,13 @@
     "createdAt": "2026-03-16T07:41:09.358Z",
     "aiSummary": "Vite+ 是统一的前端开发工具链，整合运行时、包管理与构建工具，提升开发效率。",
     "domain": "AI & ML",
-    "subCategory": "开发工具"
+    "subCategory": "开发工具",
+    "tags": [
+      "AI & ML",
+      "开发工具",
+      "开源"
+    ],
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "nagi-ovo-gemini-voyager",
@@ -4551,7 +4601,9 @@
       "devtools",
       "monthly"
     ],
-    "fetchedAt": "2026-03-14T02:48:44.801Z"
+    "fetchedAt": "2026-03-14T02:48:44.801Z",
+    "aiSummary": "开发者工具集",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "topoteretes-cognee",
@@ -5359,7 +5411,13 @@
     "createdAt": "2026-03-16T13:42:22.918Z",
     "aiSummary": "将Claude代码嵌入到你的知识库中作为AI协作工具的Obsidian插件",
     "domain": "AI & ML",
-    "subCategory": "LLM 框架"
+    "subCategory": "LLM 框架",
+    "tags": [
+      "AI & ML",
+      "LLM 框架",
+      "开源"
+    ],
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "alibaba-mnn",
@@ -5478,7 +5536,9 @@
       "resources",
       "monthly"
     ],
-    "fetchedAt": "2026-03-14T02:48:39.180Z"
+    "fetchedAt": "2026-03-14T02:48:39.180Z",
+    "aiSummary": "技术学习资源集合",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "mgba-emu-mgba",
@@ -5674,7 +5734,9 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-15T02:54:51.255Z"
+    "fetchedAt": "2026-03-15T02:54:51.255Z",
+    "aiSummary": "技术学习资源集合",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "joeanamier-tiktokdownloader",
@@ -5771,7 +5833,9 @@
       "resources",
       "monthly"
     ],
-    "fetchedAt": "2026-03-15T02:55:42.159Z"
+    "fetchedAt": "2026-03-15T02:55:42.159Z",
+    "aiSummary": "技术学习资源集合",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "kestra-io-kestra",
@@ -5830,7 +5894,9 @@
       "resources",
       "weekly"
     ],
-    "fetchedAt": "2026-03-14T02:48:13.122Z"
+    "fetchedAt": "2026-03-14T02:48:13.122Z",
+    "aiSummary": "技术学习资源集合",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "klzgrad-naiveproxy",
@@ -6522,7 +6588,9 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-14T02:47:42.678Z"
+    "fetchedAt": "2026-03-14T02:47:42.678Z",
+    "aiSummary": "技术学习资源集合",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "tmux-tmux",
@@ -6560,7 +6628,9 @@
       "devtools",
       "monthly"
     ],
-    "fetchedAt": "2026-03-14T02:48:49.949Z"
+    "fetchedAt": "2026-03-14T02:48:49.949Z",
+    "aiSummary": "开发者工具集",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "libaxuan-cursor2api-go",
@@ -6757,7 +6827,9 @@
       "resources",
       "weekly"
     ],
-    "fetchedAt": "2026-03-14T02:48:13.122Z"
+    "fetchedAt": "2026-03-14T02:48:13.122Z",
+    "aiSummary": "技术学习资源集合",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "xemu-project-xemu",
@@ -6896,7 +6968,9 @@
       "ai-&-ml",
       "weekly"
     ],
-    "fetchedAt": "2026-03-14T02:48:13.122Z"
+    "fetchedAt": "2026-03-14T02:48:13.122Z",
+    "aiSummary": "LLM 大语言模型开发框架",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "alibaba-nacos",
@@ -7682,7 +7756,9 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-14T02:47:45.436Z"
+    "fetchedAt": "2026-03-14T02:47:45.436Z",
+    "aiSummary": "技术学习资源集合",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "cromaguy-rhythm",
@@ -7840,7 +7916,9 @@
       "ai-&-ml",
       "weekly"
     ],
-    "fetchedAt": "2026-03-14T02:48:09.966Z"
+    "fetchedAt": "2026-03-14T02:48:09.966Z",
+    "aiSummary": "AI 智能体/Agent 开发框架",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "iree-org-iree",
@@ -8351,7 +8429,9 @@
       "resources",
       "weekly"
     ],
-    "fetchedAt": "2026-03-14T02:48:18.647Z"
+    "fetchedAt": "2026-03-14T02:48:18.647Z",
+    "aiSummary": "技术学习资源集合",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "alam00000-bentopdf",
@@ -8844,7 +8924,9 @@
       "resources",
       "weekly"
     ],
-    "fetchedAt": "2026-03-15T02:55:25.810Z"
+    "fetchedAt": "2026-03-15T02:55:25.810Z",
+    "aiSummary": "私人媒体服务器",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "jesseduffield-lazydocker",
@@ -9355,7 +9437,9 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:34.437Z"
+    "fetchedAt": "2026-03-17T05:51:34.437Z",
+    "aiSummary": "技术学习资源集合",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "t8rin-imagetoolbox",
@@ -10454,7 +10538,9 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-14T02:47:50.220Z"
+    "fetchedAt": "2026-03-14T02:47:50.220Z",
+    "aiSummary": "技术学习资源集合",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "kotlin-kotlin-lsp",
@@ -10909,7 +10995,9 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-15T02:55:04.461Z"
+    "fetchedAt": "2026-03-15T02:55:04.461Z",
+    "aiSummary": "技术学习资源集合",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "apache-cloudstack",
@@ -11985,7 +12073,9 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-15T02:55:00.939Z"
+    "fetchedAt": "2026-03-15T02:55:00.939Z",
+    "aiSummary": "技术学习资源集合",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "mit-pdos-xv6-public",
@@ -12750,7 +12840,9 @@
       "resources",
       "daily"
     ],
-    "fetchedAt": "2026-03-17T05:51:34.437Z"
+    "fetchedAt": "2026-03-17T05:51:34.437Z",
+    "aiSummary": "技术学习资源集合",
+    "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
     "id": "ml-explore-mlx-swift-lm",
