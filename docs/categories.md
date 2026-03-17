@@ -11,7 +11,7 @@ const domains = ref<string[]>([])
 const subCategories = ref<string[]>([])
 const loading = ref(true)
 const currentPage = ref(1)
-const pageSize = 36
+const pageSize = 52
 const favorites = ref<string[]>([])
 
 onMounted(async () => {
