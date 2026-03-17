@@ -4,7 +4,7 @@ title: 成熟度视图
 ---
 
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 
 const projects = ref([])
 const loading = ref(true)
@@ -53,7 +53,9 @@ async function loadProjects() {
   }
 }
 
-loadProjects()
+onMounted(() => {
+  loadProjects()
+})
 
 function getProjectsByMaturity(maturity) {
   return projects.value.filter(p => p.maturity === maturity).slice(0, 30)

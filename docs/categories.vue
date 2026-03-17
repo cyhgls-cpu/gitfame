@@ -1,56 +1,45 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
-import type { Project } from '../.vitepress/projects.data'
-import { loadProjects, getDomains, getSubCategories, getProjectsByDomain } from '../.vitepress/projects.data'
 
-// 状态管理
 const activeDomain = ref<string>('')
 const activeMaturity = ref<string>('all')
-const projects = ref<Project[]>([])
+const projects = ref<any[]>([])
 const domains = ref<string[]>([])
 const subCategories = ref<string[]>([])
 
-// 加载数据
 onMounted(async () => {
   try {
-    // 加载所有项目
-    const loadedProjects = loadProjects()
-    projects.value = loadedProjects
+    const response = await fetch('/data/projects.json')
+    projects.value = await response.json()
     
-    // 获取所有一级分类
-    const loadedDomains = getDomains()
-    domains.value = loadedDomains
+    const uniqueDomains = [...new Set(projects.value.map(p => p.domain))]
+    domains.value = uniqueDomains
     
-    // 默认选择第一个分类
-    if (loadedDomains.length > 0) {
-      activeDomain.value = loadedDomains[0]
-      updateSubCategories(loadedDomains[0])
+    if (domains.value.length > 0) {
+      activeDomain.value = domains.value[0]
+      updateSubCategories(domains.value[0])
     }
   } catch (error) {
     console.error('Error loading projects:', error)
   }
 })
 
-// 更新二级分类
 const updateSubCategories = (domain: string) => {
-  subCategories.value = getSubCategories(domain)
+  subCategories.value = [...new Set(projects.value.filter(p => p.domain === domain).map(p => p.subCategory))]
 }
 
-// 切换一级分类
 const switchDomain = (domain: string) => {
   activeDomain.value = domain
   updateSubCategories(domain)
   activeMaturity.value = 'all'
 }
 
-// 切换成熟度筛选
 const switchMaturity = (maturity: string) => {
   activeMaturity.value = maturity
 }
 
-// 过滤后的项目
 const filteredProjects = computed(() => {
-  let result = getProjectsByDomain(activeDomain.value)
+  let result = projects.value.filter(p => p.domain === activeDomain.value)
   
   if (activeMaturity.value !== 'all') {
     result = result.filter(project => project.maturity === activeMaturity.value)
@@ -59,14 +48,12 @@ const filteredProjects = computed(() => {
   return result
 })
 
-// 成熟度标签映射
 const maturityLabels = {
   stable: '🌟 镇馆之宝',
   trending: '🔥 潜力股',
   geek: '🛠️ 极客玩具'
 }
 
-// 成熟度颜色映射
 const maturityColors = {
   stable: 'bg-gradient-to-r from-blue-900 to-blue-500',
   trending: 'bg-gradient-to-r from-red-600 to-orange-500 animate-pulse',
