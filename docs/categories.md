@@ -256,7 +256,7 @@ const maturityColors: Record<string, string> = {
   --cat-bg: #1a1a1a;
   --cat-bg-soft: #252525;
 }
-.categories-page { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+.categories-page { max-width: 100%; margin: 0 auto; padding: 2rem; box-sizing: border-box; }
 h1 { font-size: 2.5rem; font-weight: bold; margin-bottom: 2rem; text-align: center; color: var(--cat-text-primary); }
 .loading { text-align: center; padding: 4rem; color: var(--cat-text-secondary); }
 .search-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 1rem; position: relative; }
@@ -282,7 +282,7 @@ h1 { font-size: 2.5rem; font-weight: bold; margin-bottom: 2rem; text-align: cent
 .maturity-btn { padding: 8px 16px; border: 1px solid var(--cat-border); border-radius: 20px; background: var(--cat-bg); cursor: pointer; transition: all 0.3s ease; font-size: 0.9rem; color: var(--cat-text-primary); }
 .maturity-btn:hover { border-color: #3b82f6; color: #3b82f6; }
 .maturity-btn.active { background: #3b82f6; color: white; border-color: #3b82f6; }
-.projects-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 2rem; }
+.projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; margin-bottom: 2rem; }
 .project-card { border-radius: 12px; padding: 20px; color: white; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); transition: all 0.3s ease; position: relative; overflow: hidden; }
 .project-card:hover { transform: translateY(-5px); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2); }
 .favorite-btn { position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.2); border: none; border-radius: 50%; width: 32px; height: 32px; cursor: pointer; font-size: 1rem; display: flex; align-items: center; justify-content: center; transition: transform 0.2s; }
@@ -314,11 +314,16 @@ h1 { font-size: 2.5rem; font-weight: bold; margin-bottom: 2rem; text-align: cent
 .empty-state { text-align: center; padding: 4rem 2rem; background: var(--cat-bg-soft); border-radius: 8px; color: var(--cat-text-secondary); }
 .clear-search-btn { margin-top: 1rem; padding: 8px 16px; background: #3b82f6; color: white; border: none; border-radius: 8px; cursor: pointer; }
 @media (max-width: 768px) {
-  .categories-page { padding: 1rem; }
-  h1 { font-size: 2rem; }
-  .projects-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .categories-page { padding: 0.5rem; }
+  .projects-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  .project-card { padding: 12px; }
+  .card-header h3 { font-size: 0.9rem; }
+  .card-description { font-size: 0.75rem; -webkit-line-clamp: 1; }
   .domain-nav, .maturity-filter, .sub-category-nav { justify-content: flex-start; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 10px; }
   .search-bar { flex-direction: column; align-items: stretch; }
   .result-count { text-align: center; }
+}
+@media (max-width: 480px) {
+  .projects-grid { grid-template-columns: 1fr; }
 }
 </style>
