@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "GitFame",
   description: "发现优质 GitHub 项目",
+  cleanUrls: true,
   appearance: 'dark',
   head: [
     ['link', { rel: 'icon', href: '/logo.svg' }],

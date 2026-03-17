@@ -263,8 +263,8 @@ const maturityColors: Record<string, string> = {
       <!-- 项目列表 -->
       <div class="projects-grid">
         <div
-          v-for="project in paginatedProjects"
-          :key="project.id"
+          v-for="project in paginatedProjects || []"
+          :key="project?.id || project?.name"
           :class="['project-card', 'bg-gradient-to-r', maturityColors[project.maturity]]"
         >
           <button 
