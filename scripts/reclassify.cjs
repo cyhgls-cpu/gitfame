@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const data = JSON.parse(fs.readFileSync('./docs/public/data/projects.json', 'utf8'));
+const data = JSON.parse(fs.readFileSync('./data/projects.json', 'utf8'));
 
 const subCategoryRules = {
   // AI & ML
@@ -121,6 +121,9 @@ for (const project of data) {
 
 console.log(`处理完成，共 ${data.length} 个项目，更新了 ${updatedCount} 个项目的分类`);
 
-// 保存
+// 保存到两个位置
+fs.writeFileSync('./data/projects.json', JSON.stringify(data, null, 2), 'utf8');
+console.log('已保存到 data/projects.json');
+
 fs.writeFileSync('./docs/public/data/projects.json', JSON.stringify(data, null, 2), 'utf8');
 console.log('已保存到 docs/public/data/projects.json');
