@@ -1,12 +1,14 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
+import { inBrowser } from 'vitepress'
+import { data as projectsData } from './projects.data.js'
 
 const activeDomain = ref<string>('')
 const activeMaturity = ref<string>('all')
 const activeSubCategory = ref<string>('all')
 const searchQuery = ref<string>('')
 const sortBy = ref<string>('name')
-const projects = ref<any[]>([])
+const projects = ref<any[]>(projectsData || [])
 const domains = ref<string[]>([])
 const subCategories = ref<string[]>([])
 const loading = ref(true)
@@ -15,6 +17,8 @@ const pageSize = 36
 const favorites = ref<string[]>([])
 
 onMounted(async () => {
+  loading.value = true
+  
   const saved = localStorage.getItem('gitfame_favorites')
   if (saved) {
     favorites.value = JSON.parse(saved)
@@ -138,6 +142,7 @@ const goToPage = (page: number) => {
 }
 
 const toggleFavorite = (id: string) => {
+  if (!id) return
   if (favorites.value.includes(id)) {
     favorites.value = favorites.value.filter(f => f !== id)
   } else {
@@ -146,7 +151,7 @@ const toggleFavorite = (id: string) => {
   localStorage.setItem('gitfame_favorites', JSON.stringify(favorites.value))
 }
 
-const isFavorite = (id: string) => favorites.value.includes(id)
+const isFavorite = (id: string) => id ? favorites.value.includes(id) : false
 
 const clearSearch = () => {
   searchQuery.value = ''
@@ -166,171 +171,170 @@ const maturityColors: Record<string, string> = {
 }
 </script>
 
-<template>
-  <div class="categories-page">
-    <h1>项目分类</h1>
-    
-    <div v-if="loading" class="loading">加载中...</div>
-    
-    <div v-else>
-      <!-- 搜索栏 -->
-      <div class="search-bar">
-        <input 
-          v-model="searchQuery"
-          type="text" 
-          placeholder="搜索项目名称、描述、标签..." 
-          class="search-input"
-          @input="currentPage = 1"
-        />
-        <button v-if="searchQuery" @click="clearSearch" class="clear-btn">✕</button>
-        <span class="result-count">{{ filteredProjects.length }} 个项目</span>
-      </div>
+# 项目分类
+
+<div v-if="loading" class="loading">加载中...</div>
+
+<template v-if="!loading">
+  <!-- 搜索栏 -->
+  <div class="search-bar">
+    <input 
+      v-model="searchQuery"
+      type="text" 
+      placeholder="搜索项目名称、描述、标签..." 
+      class="search-input"
+      @input="currentPage = 1"
+    />
+    <button v-if="searchQuery" @click="clearSearch" class="clear-btn">✕</button>
+    <span class="result-count">{{ filteredProjects.length }} 个项目</span>
+  </div>
+  
+  <!-- 排序 -->
+  <div class="sort-bar">
+    <span class="sort-label">排序:</span>
+    <button 
+      :class="['sort-btn', { active: sortBy === 'name' }]"
+      @click="sortBy = 'name'"
+    >名称</button>
+    <button 
+      :class="['sort-btn', { active: sortBy === 'stars' }]"
+      @click="sortBy = 'stars'"
+    >今日 Star</button>
+    <button 
+      :class="['sort-btn', { active: sortBy === 'trending' }]"
+      @click="sortBy = 'trending'"
+    >Trending 排名</button>
+  </div>
+
+  <!-- 一级分类导航 -->
+  <div class="domain-nav">
+    <button
+      v-for="domain in domains"
+      :key="domain"
+      :class="['domain-btn', { active: activeDomain === domain }]"
+      @click="switchDomain(domain)"
+    >
+      {{ domain }}
+      <span class="domain-count">({{ projects.filter(p => p.domain === domain).length }})</span>
+    </button>
+  </div>
+  
+  <!-- 二级分类筛选 -->
+  <div class="sub-category-nav" v-if="subCategories.length > 0">
+    <button
+      :class="['sub-btn', { active: activeSubCategory === 'all' }]"
+      @click="switchSubCategory('all')"
+    >全部</button>
+    <button
+      v-for="sub in subCategories"
+      :key="sub"
+      :class="['sub-btn', { active: activeSubCategory === sub }]"
+      @click="switchSubCategory(sub)"
+    >
+      {{ sub }}
+    </button>
+  </div>
+  
+  <!-- 成熟度筛选 -->
+  <div class="maturity-filter">
+    <button
+      :class="['maturity-btn', { active: activeMaturity === 'all' }]"
+      @click="switchMaturity('all')"
+    >
+      全部
+    </button>
+    <button
+      :class="['maturity-btn', { active: activeMaturity === 'stable' }]"
+      @click="switchMaturity('stable')"
+    >
+      🌟 稳定
+    </button>
+    <button
+      :class="['maturity-btn', { active: activeMaturity === 'trending' }]"
+      @click="switchMaturity('trending')"
+    >
+      🔥 热门
+    </button>
+    <button
+      :class="['maturity-btn', { active: activeMaturity === 'geek' }]"
+      @click="switchMaturity('geek')"
+    >
+      🛠️ 极客
+    </button>
+  </div>
+
+  <!-- 项目列表 -->
+  <div class="projects-grid" v-if="!loading && paginatedProjects && paginatedProjects.length">
+    <div
+      v-for="(project, index) in paginatedProjects"
+      :key="(project?.id || project?.name || index)"
+      :class="['project-card', 'bg-gradient-to-r', project ? maturityColors[project.maturity] : 'from-gray-800 to-gray-600']"
+    >
+      <button 
+        v-if="project"
+        class="favorite-btn" 
+        @click="toggleFavorite(project.id)"
+        :title="isFavorite(project.id) ? '取消收藏' : '收藏'"
+      >
+        {{ isFavorite(project.id) ? '❤️' : '🤍' }}
+      </button>
       
-      <!-- 排序 -->
-      <div class="sort-bar">
-        <span class="sort-label">排序:</span>
-        <button 
-          :class="['sort-btn', { active: sortBy === 'name' }]"
-          @click="sortBy = 'name'"
-        >名称</button>
-        <button 
-          :class="['sort-btn', { active: sortBy === 'stars' }]"
-          @click="sortBy = 'stars'"
-        >今日 Star</button>
-        <button 
-          :class="['sort-btn', { active: sortBy === 'trending' }]"
-          @click="sortBy = 'trending'"
-        >Trending 排名</button>
-      </div>
-    
-      <!-- 一级分类导航 -->
-      <div class="domain-nav">
-        <button
-          v-for="domain in domains"
-          :key="domain"
-          :class="['domain-btn', { active: activeDomain === domain }]"
-          @click="switchDomain(domain)"
-        >
-          {{ domain }}
-          <span class="domain-count">({{ projects.filter(p => p.domain === domain).length }})</span>
-        </button>
-      </div>
-      
-      <!-- 二级分类筛选 -->
-      <div class="sub-category-nav" v-if="subCategories.length > 0">
-        <button
-          :class="['sub-btn', { active: activeSubCategory === 'all' }]"
-          @click="switchSubCategory('all')"
-        >全部</button>
-        <button
-          v-for="sub in subCategories"
-          :key="sub"
-          :class="['sub-btn', { active: activeSubCategory === sub }]"
-          @click="switchSubCategory(sub)"
-        >
-          {{ sub }}
-        </button>
-      </div>
-      
-      <!-- 成熟度筛选 -->
-      <div class="maturity-filter">
-        <button
-          :class="['maturity-btn', { active: activeMaturity === 'all' }]"
-          @click="switchMaturity('all')"
-        >
-          全部
-        </button>
-        <button
-          :class="['maturity-btn', { active: activeMaturity === 'stable' }]"
-          @click="switchMaturity('stable')"
-        >
-          🌟 稳定
-        </button>
-        <button
-          :class="['maturity-btn', { active: activeMaturity === 'trending' }]"
-          @click="switchMaturity('trending')"
-        >
-          🔥 热门
-        </button>
-        <button
-          :class="['maturity-btn', { active: activeMaturity === 'geek' }]"
-          @click="switchMaturity('geek')"
-        >
-          🛠️ 极客
-        </button>
-      </div>
-    
-      <!-- 项目列表 -->
-      <div class="projects-grid">
-        <div
-          v-for="project in paginatedProjects || []"
-          :key="project?.id || project?.name"
-          :class="['project-card', 'bg-gradient-to-r', maturityColors[project.maturity]]"
-        >
-          <button 
-            class="favorite-btn" 
-            @click="toggleFavorite(project.id)"
-            :title="isFavorite(project.id) ? '取消收藏' : '收藏'"
-          >
-            {{ isFavorite(project.id) ? '❤️' : '🤍' }}
-          </button>
-          
-          <div class="card-header">
-            <div class="project-info">
-              <span v-if="project.icon" class="project-icon">{{ project.icon }}</span>
-              <h3><a :href="project.link" class="project-name" target="_blank">{{ project.name }}</a></h3>
-            </div>
-            <div class="header-badges">
-              <span v-if="project.trendingRank && project.trendingRank <= 100" class="trending-badge">
-                #{{ project.trendingRank }}
-              </span>
-              <img v-if="project.github" :src="`https://img.shields.io/github/stars/${project.github}?style=flat-square&color=white`" :alt="`${project.name} stars`" class="star-badge" />
-            </div>
-          </div>
-          <p class="card-description">{{ project.description || project.aiDescription || '暂无描述' }}</p>
-          <div class="card-tags" v-if="project.tags?.length">
-            <span v-for="tag in project.tags.slice(0, 3)" :key="tag" class="tag">{{ tag }}</span>
-          </div>
-          <div class="card-footer">
-            <div class="card-meta">
-              <span class="maturity-label">{{ maturityLabels[project.maturity] }}</span>
-              <span v-if="project.subCategory" class="sub-category">{{ project.subCategory }}</span>
-            </div>
-            <a :href="project.link" class="card-link" target="_blank">查看详情 →</a>
-          </div>
+      <template v-if="project">
+      <div class="card-header">
+        <div class="project-info">
+          <span v-if="project.icon" class="project-icon">{{ project.icon }}</span>
+          <h3><a :href="project.link" class="project-name" target="_blank">{{ project.name }}</a></h3>
+        </div>
+        <div class="header-badges">
+          <span v-if="project.trendingRank && project.trendingRank <= 100" class="trending-badge">
+            #{{ project.trendingRank }}
+          </span>
+          <img v-if="project.github" :src="`https://img.shields.io/github/stars/${project.github}?style=flat-square&color=white`" :alt="`${project.name} stars`" class="star-badge" />
         </div>
       </div>
-      
-      <!-- 分页 -->
-      <div class="pagination" v-if="totalPages > 1">
-        <button 
-          class="page-btn" 
-          :disabled="currentPage === 1"
-          @click="goToPage(currentPage - 1)"
-        >上一页</button>
-        
-        <template v-for="page in pageNumbers" :key="page">
-          <span v-if="page === -1" class="page-ellipsis">...</span>
-          <button 
-            v-else
-            :class="['page-btn', { active: currentPage === page }]"
-            @click="goToPage(page)"
-          >{{ page }}</button>
-        </template>
-        
-        <button 
-          class="page-btn" 
-          :disabled="currentPage === totalPages"
-          @click="goToPage(currentPage + 1)"
-        >下一页</button>
+      <p class="card-description">{{ project.description || project.aiDescription || '暂无描述' }}</p>
+      <div class="card-tags" v-if="project.tags && project.tags.length">
+        <span v-for="tag in project.tags.slice(0, 3)" :key="tag" class="tag">{{ tag }}</span>
       </div>
-      
-      <!-- 空状态 -->
-      <div class="empty-state" v-if="filteredProjects.length === 0">
-        <p>暂无符合条件的项目</p>
-        <button v-if="searchQuery" @click="clearSearch" class="clear-search-btn">清除搜索</button>
+      <div class="card-footer">
+        <div class="card-meta">
+          <span class="maturity-label">{{ maturityLabels[project.maturity] }}</span>
+          <span v-if="project.subCategory" class="sub-category">{{ project.subCategory }}</span>
+        </div>
+        <a :href="project.link" class="card-link" target="_blank">查看详情 →</a>
       </div>
+      </template>
     </div>
+  </div>
+  
+  <!-- 分页 -->
+  <div class="pagination" v-if="totalPages > 1">
+    <button 
+      class="page-btn" 
+      :disabled="currentPage === 1"
+      @click="goToPage(currentPage - 1)"
+    >上一页</button>
+    
+    <template v-for="page in pageNumbers" :key="page">
+      <span v-if="page === -1" class="page-ellipsis">...</span>
+      <button 
+        v-else
+        :class="['page-btn', { active: currentPage === page }]"
+        @click="goToPage(page)"
+      >{{ page }}</button>
+    </template>
+    
+    <button 
+      class="page-btn" 
+      :disabled="currentPage === totalPages"
+      @click="goToPage(currentPage + 1)"
+    >下一页</button>
+  </div>
+  
+  <!-- 空状态 -->
+  <div class="empty-state" v-if="filteredProjects.length === 0">
+    <p>暂无符合条件的项目</p>
+    <button v-if="searchQuery" @click="clearSearch" class="clear-search-btn">清除搜索</button>
   </div>
 </template>
 
