@@ -36,7 +36,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 24
-          cache: 'npm'
 
       - name: Install dependencies
         run: npm install --prefer-offline
@@ -96,7 +95,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 24
-          cache: 'npm'
 
       - name: Install dependencies
         run: npm install --prefer-offline
@@ -142,7 +140,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 24
-          cache: 'npm'
 
       - name: Install dependencies
         run: npm install --prefer-offline
@@ -156,7 +153,7 @@ jobs:
         id: api-update
 
       - name: Handle API failure
-        if: steps.api-update.outout == 'failure'
+        if: steps.api-update.outcome == 'failure'
         run: echo "::warning::API update failed"
 
       - name: Commit and push changes
