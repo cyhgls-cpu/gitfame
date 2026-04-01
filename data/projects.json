@@ -2358,6 +2358,25 @@
     "aiSummary": "glow是一款在命令行中渲染Markdown的工具，让文本展示更生动美观。"
   },
   {
+    "id": "jwasham-coding-interview-university",
+    "name": "coding-interview-university",
+    "description": "A complete computer science study plan to become a software engineer.",
+    "domain": "DevTools",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 7,
+    "since": "daily",
+    "language": "all",
+    "starsToday": 873,
+    "github": "jwasham/coding-interview-university",
+    "link": "https://github.com/jwasham/coding-interview-university",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:11.011Z"
+  },
+  {
     "id": "apple-container",
     "name": "container",
     "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
@@ -3955,6 +3974,25 @@
     "updatedAt": "2026-03-17T07:05:04.841Z"
   },
   {
+    "id": "paddlepaddle-paddleocr",
+    "name": "PaddleOCR",
+    "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+    "domain": "AI & ML",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 9,
+    "since": "daily",
+    "language": "all",
+    "starsToday": 439,
+    "github": "PaddlePaddle/PaddleOCR",
+    "link": "https://github.com/PaddlePaddle/PaddleOCR",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:11.011Z"
+  },
+  {
     "id": "eslint-eslint",
     "name": "eslint",
     "description": "Find and fix problems in your JavaScript code.",
@@ -4190,6 +4228,25 @@
     ],
     "fetchedAt": "2026-03-14T02:48:39.180Z",
     "aiSummary": "GmsCore是谷歌服务的开源实现旨在替代官方Play服务提供核心功能。"
+  },
+  {
+    "id": "composiohq-awesome-claude-skills",
+    "name": "awesome-claude-skills",
+    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+    "domain": "AI & ML",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 18,
+    "since": "daily",
+    "language": "python",
+    "starsToday": 374,
+    "github": "ComposioHQ/awesome-claude-skills",
+    "link": "https://github.com/ComposioHQ/awesome-claude-skills",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:13.043Z"
   },
   {
     "id": "geode-sdk-geode",
@@ -6550,6 +6607,25 @@
     "aiSummary": "在安卓设备上通过高通NPU加速运行Stable Diffusion支持CPU/GPU推理。"
   },
   {
+    "id": "google-deepmind-mujoco",
+    "name": "mujoco",
+    "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+    "domain": "Resources",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 253,
+    "since": "weekly",
+    "language": "c++",
+    "starsToday": 155,
+    "github": "google-deepmind/mujoco",
+    "link": "https://github.com/google-deepmind/mujoco",
+    "tags": [
+      "resources",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-01T03:22:49.263Z"
+  },
+  {
     "id": "jqlang-jq",
     "name": "jq",
     "description": "Command-line JSON processor",
@@ -7465,6 +7541,25 @@
     "fetchedAt": "2026-03-31T02:52:33.511Z"
   },
   {
+    "id": "amir20-dozzle",
+    "name": "dozzle",
+    "description": "Realtime log viewer for containers. Supports Docker, Swarm and K8s.",
+    "domain": "AI & ML",
+    "subCategory": "容器",
+    "maturity": "trending",
+    "trendingRank": 215,
+    "since": "weekly",
+    "language": "go",
+    "starsToday": 123,
+    "github": "amir20/dozzle",
+    "link": "https://github.com/amir20/dozzle",
+    "tags": [
+      "ai-&-ml",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-01T03:22:42.038Z"
+  },
+  {
     "id": "yunaiv-ruoyi-vue-pro",
     "name": "ruoyi-vue-pro",
     "description": "🔥 官方推荐 🔥 RuoYi-Vue 全新 Pro 版本，优化重构所有功能。基于 Spring Boot + MyBatis Plus + Vue &amp; Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城、CRM、ERP、AI 大模型、IoT 物联网等功能。你的 ⭐️ Star ⭐",
@@ -7659,6 +7754,25 @@
     "aiSummary": "微软为Windows系统提供的Linux兼容环境允许运行Linux命令和应用。"
   },
   {
+    "id": "dimillian-skills",
+    "name": "Skills",
+    "description": "My Codex Skills",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 12,
+    "since": "daily",
+    "language": "all",
+    "starsToday": 115,
+    "github": "Dimillian/Skills",
+    "link": "https://github.com/Dimillian/Skills",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:11.011Z"
+  },
+  {
     "id": "nanmicoder-mediacrawler",
     "name": "MediaCrawler",
     "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
@@ -7832,6 +7946,25 @@
       "daily"
     ],
     "fetchedAt": "2026-03-21T02:30:52.748Z"
+  },
+  {
+    "id": "5rahim-seanime",
+    "name": "seanime",
+    "description": "Open-source media server with a web interface and desktop app for anime and manga.",
+    "domain": "DevTools",
+    "subCategory": "私人影音",
+    "maturity": "trending",
+    "trendingRank": 49,
+    "since": "daily",
+    "language": "go",
+    "starsToday": 106,
+    "github": "5rahim/seanime",
+    "link": "https://github.com/5rahim/seanime",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:18.793Z"
   },
   {
     "id": "cachix-devenv",
@@ -8184,6 +8317,25 @@
     ],
     "fetchedAt": "2026-03-14T02:48:47.404Z",
     "aiSummary": "Signal-iOS是iOS平台的私密即时通讯应用，提供端到端加密消息和通话功能。"
+  },
+  {
+    "id": "neovim-neovim",
+    "name": "neovim",
+    "description": "Vim-fork focused on extensibility and usability",
+    "domain": "AI & ML",
+    "subCategory": "IDE 插件",
+    "maturity": "trending",
+    "trendingRank": 13,
+    "since": "daily",
+    "language": "all",
+    "starsToday": 93,
+    "github": "neovim/neovim",
+    "link": "https://github.com/neovim/neovim",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:11.012Z"
   },
   {
     "id": "automatic1111-stable-diffusion-webui",
@@ -8972,6 +9124,25 @@
     "fetchedAt": "2026-03-31T02:51:53.165Z"
   },
   {
+    "id": "knadh-listmonk",
+    "name": "listmonk",
+    "description": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.",
+    "domain": "AI & ML",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 218,
+    "since": "weekly",
+    "language": "go",
+    "starsToday": 76,
+    "github": "knadh/listmonk",
+    "link": "https://github.com/knadh/listmonk",
+    "tags": [
+      "ai-&-ml",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-01T03:22:42.038Z"
+  },
+  {
     "id": "zcshou-gogogo",
     "name": "GoGoGo",
     "description": "一个基于 Android 调试 API + 百度地图实现的虚拟定位工具，并且同时实现了一个可以自由移动的摇杆",
@@ -9067,6 +9238,44 @@
     ],
     "fetchedAt": "2026-03-14T02:48:20.984Z",
     "aiSummary": "KernelSU-Next是一款基于内核的高级安卓Root解决方案，提供稳定可靠的系统权限管理功能。"
+  },
+  {
+    "id": "langfuse-langfuse",
+    "name": "langfuse",
+    "description": "🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 45,
+    "since": "daily",
+    "language": "typescript",
+    "starsToday": 71,
+    "github": "langfuse/langfuse",
+    "link": "https://github.com/langfuse/langfuse",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:16.959Z"
+  },
+  {
+    "id": "gitui-org-gitui",
+    "name": "gitui",
+    "description": "Blazing 💥 fast terminal-ui for git written in rust 🦀",
+    "domain": "DevTools",
+    "subCategory": "UI 组件库",
+    "maturity": "geek",
+    "trendingRank": 227,
+    "since": "weekly",
+    "language": "rust",
+    "starsToday": 71,
+    "github": "gitui-org/gitui",
+    "link": "https://github.com/gitui-org/gitui",
+    "tags": [
+      "devtools",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-01T03:22:44.185Z"
   },
   {
     "id": "fredolx-open-tv",
@@ -9305,6 +9514,25 @@
     "fetchedAt": "2026-03-23T02:47:18.702Z"
   },
   {
+    "id": "tencent-ncnn",
+    "name": "ncnn",
+    "description": "ncnn is a high-performance neural network inference framework optimized for the mobile platform",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 256,
+    "since": "weekly",
+    "language": "c++",
+    "starsToday": 66,
+    "github": "Tencent/ncnn",
+    "link": "https://github.com/Tencent/ncnn",
+    "tags": [
+      "ai-&-ml",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-01T03:22:49.263Z"
+  },
+  {
     "id": "fxpool-fxminerproxy",
     "name": "FXMinerProxy",
     "description": "🔥minerproxy,minerproxy,minerproxy,minerproxy,minerproxy,minerproxy,minerproxy,minerproxy,minerproxy,minerproxy,矿池抽水,矿池中转,矿场运维专用",
@@ -9480,6 +9708,25 @@
       "daily"
     ],
     "fetchedAt": "2026-03-23T02:47:14.966Z"
+  },
+  {
+    "id": "supermemoryai-claude-supermemory",
+    "name": "claude-supermemory",
+    "description": "Enable Claude Code to learn in real-time, update it's knowledge, and grow with you, using supermemory.",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 202,
+    "since": "weekly",
+    "language": "javascript",
+    "starsToday": 62,
+    "github": "supermemoryai/claude-supermemory",
+    "link": "https://github.com/supermemoryai/claude-supermemory",
+    "tags": [
+      "ai-&-ml",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-01T03:22:37.752Z"
   },
   {
     "id": "ankitpokhrel-jira-cli",
@@ -9694,6 +9941,25 @@
       "daily"
     ],
     "fetchedAt": "2026-03-19T02:46:05.309Z"
+  },
+  {
+    "id": "0xerr0r-blocky",
+    "name": "blocky",
+    "description": "Fast and lightweight DNS proxy as ad-blocker for local network with many features",
+    "domain": "AI & ML",
+    "subCategory": "本地大模型",
+    "maturity": "trending",
+    "trendingRank": 53,
+    "since": "daily",
+    "language": "go",
+    "starsToday": 59,
+    "github": "0xERR0R/blocky",
+    "link": "https://github.com/0xERR0R/blocky",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:18.793Z"
   },
   {
     "id": "woheller69-freedroidwarn",
@@ -10810,6 +11076,25 @@
     "fetchedAt": "2026-03-27T02:52:54.508Z"
   },
   {
+    "id": "qxcnm-codex-manager",
+    "name": "Codex-Manager",
+    "description": "一个Codex cli 账号管理与切换工具。为 Codex cli提供本地网关转发。",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 70,
+    "since": "daily",
+    "language": "rust",
+    "starsToday": 43,
+    "github": "qxcnm/Codex-Manager",
+    "link": "https://github.com/qxcnm/Codex-Manager",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:20.722Z"
+  },
+  {
     "id": "agentscope-ai-agentscope-java",
     "name": "agentscope-java",
     "description": "AgentScope Java: Agent-Oriented Programming for Building LLM Applications",
@@ -11531,6 +11816,25 @@
     "fetchedAt": "2026-03-29T02:57:10.650Z"
   },
   {
+    "id": "chriswiles-claude-code-showcase",
+    "name": "claude-code-showcase",
+    "description": "Comprehensive Claude Code project configuration example with hooks, skills, agents, commands, and GitHub Actions workflows",
+    "domain": "AI & ML",
+    "subCategory": "AI Agent",
+    "maturity": "trending",
+    "trendingRank": 30,
+    "since": "daily",
+    "language": "javascript",
+    "starsToday": 37,
+    "github": "ChrisWiles/claude-code-showcase",
+    "link": "https://github.com/ChrisWiles/claude-code-showcase",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:14.981Z"
+  },
+  {
     "id": "ventoy-ventoy",
     "name": "Ventoy",
     "description": "A new bootable USB solution.",
@@ -11741,6 +12045,25 @@
       "weekly"
     ],
     "fetchedAt": "2026-03-25T02:44:04.664Z"
+  },
+  {
+    "id": "huggingface-transformers-js",
+    "name": "transformers.js",
+    "description": "State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!",
+    "domain": "DevTools",
+    "subCategory": "低代码",
+    "maturity": "trending",
+    "trendingRank": 31,
+    "since": "daily",
+    "language": "javascript",
+    "starsToday": 35,
+    "github": "huggingface/transformers.js",
+    "link": "https://github.com/huggingface/transformers.js",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:14.981Z"
   },
   {
     "id": "miromindai-mirothinker",
@@ -12053,6 +12376,25 @@
       "daily"
     ],
     "fetchedAt": "2026-03-29T02:56:47.890Z"
+  },
+  {
+    "id": "alienator88-pearcleaner",
+    "name": "Pearcleaner",
+    "description": "A free, source-available and fair-code licensed mac app cleaner",
+    "domain": "AI & ML",
+    "subCategory": "测试/调试",
+    "maturity": "trending",
+    "trendingRank": 143,
+    "since": "daily",
+    "language": "swift",
+    "starsToday": 33,
+    "github": "alienator88/Pearcleaner",
+    "link": "https://github.com/alienator88/Pearcleaner",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:29.411Z"
   },
   {
     "id": "nushell-nushell",
@@ -12403,6 +12745,25 @@
     "fetchedAt": "2026-03-29T02:56:44.064Z"
   },
   {
+    "id": "milvus-io-milvus",
+    "name": "milvus",
+    "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+    "domain": "Web Stack",
+    "subCategory": "AI RAG",
+    "maturity": "trending",
+    "trendingRank": 56,
+    "since": "daily",
+    "language": "go",
+    "starsToday": 31,
+    "github": "milvus-io/milvus",
+    "link": "https://github.com/milvus-io/milvus",
+    "tags": [
+      "web-stack",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:18.793Z"
+  },
+  {
     "id": "andreknieriem-headunit-revived",
     "name": "headunit-revived",
     "description": "Headunit App for displaying Android Auto",
@@ -12535,6 +12896,25 @@
       "daily"
     ],
     "fetchedAt": "2026-03-31T02:52:01.180Z"
+  },
+  {
+    "id": "aliasrobotics-cai",
+    "name": "cai",
+    "description": "Cybersecurity AI (CAI), the framework for AI Security",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 21,
+    "since": "daily",
+    "language": "python",
+    "starsToday": 30,
+    "github": "aliasrobotics/cai",
+    "link": "https://github.com/aliasrobotics/cai",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:13.043Z"
   },
   {
     "id": "mobile-dev-inc-maestro",
@@ -12751,6 +13131,25 @@
       "daily"
     ],
     "fetchedAt": "2026-03-21T02:30:41.805Z"
+  },
+  {
+    "id": "oros42-imsi-catcher",
+    "name": "IMSI-catcher",
+    "description": "This program show you IMSI numbers of cellphones around you.",
+    "domain": "AI & ML",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 22,
+    "since": "daily",
+    "language": "python",
+    "starsToday": 29,
+    "github": "Oros42/IMSI-catcher",
+    "link": "https://github.com/Oros42/IMSI-catcher",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:13.043Z"
   },
   {
     "id": "microsoft-terminal",
@@ -13123,6 +13522,25 @@
     "fetchedAt": "2026-03-27T02:52:58.233Z"
   },
   {
+    "id": "greensock-gsap",
+    "name": "GSAP",
+    "description": "GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web",
+    "domain": "DevTools",
+    "subCategory": "动效/可视化",
+    "maturity": "trending",
+    "trendingRank": 32,
+    "since": "daily",
+    "language": "javascript",
+    "starsToday": 27,
+    "github": "greensock/GSAP",
+    "link": "https://github.com/greensock/GSAP",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:14.981Z"
+  },
+  {
     "id": "haleclipse-ccometixline",
     "name": "CCometixLine",
     "description": "Claude Code statusline tool written in Rust",
@@ -13415,6 +13833,63 @@
     "fetchedAt": "2026-03-31T02:52:01.181Z"
   },
   {
+    "id": "idinging-freemail",
+    "name": "freemail",
+    "description": "Cloudflare 域名邮箱系统 临时邮箱系统 domain mail tempmail",
+    "domain": "AI & ML",
+    "subCategory": "云原生",
+    "maturity": "trending",
+    "trendingRank": 33,
+    "since": "daily",
+    "language": "javascript",
+    "starsToday": 26,
+    "github": "idinging/freemail",
+    "link": "https://github.com/idinging/freemail",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:14.981Z"
+  },
+  {
+    "id": "tencent-weknora",
+    "name": "WeKnora",
+    "description": "LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm.",
+    "domain": "AI & ML",
+    "subCategory": "AI RAG",
+    "maturity": "trending",
+    "trendingRank": 57,
+    "since": "daily",
+    "language": "go",
+    "starsToday": 26,
+    "github": "Tencent/WeKnora",
+    "link": "https://github.com/Tencent/WeKnora",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:18.793Z"
+  },
+  {
+    "id": "wailsapp-wails",
+    "name": "wails",
+    "description": "Create beautiful applications using Go",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 58,
+    "since": "daily",
+    "language": "go",
+    "starsToday": 26,
+    "github": "wailsapp/wails",
+    "link": "https://github.com/wailsapp/wails",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:18.793Z"
+  },
+  {
     "id": "surrealdb-surrealdb",
     "name": "surrealdb",
     "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
@@ -13566,6 +14041,44 @@
       "daily"
     ],
     "fetchedAt": "2026-03-31T02:52:07.078Z"
+  },
+  {
+    "id": "canner-wrenai",
+    "name": "WrenAI",
+    "description": "Open-source text-to-SQL and text-to-chart GenBI agent with a semantic layer. Ask your database questions in natural language — get accurate SQL, charts, and BI insights. Supports 12+ data sources (Pos",
+    "domain": "AI & ML",
+    "subCategory": "AI Agent",
+    "maturity": "trending",
+    "trendingRank": 47,
+    "since": "daily",
+    "language": "typescript",
+    "starsToday": 25,
+    "github": "Canner/WrenAI",
+    "link": "https://github.com/Canner/WrenAI",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:16.959Z"
+  },
+  {
+    "id": "coder-mux",
+    "name": "mux",
+    "description": "A desktop app for isolated, parallel agentic development",
+    "domain": "AI & ML",
+    "subCategory": "AI Agent",
+    "maturity": "trending",
+    "trendingRank": 48,
+    "since": "daily",
+    "language": "typescript",
+    "starsToday": 25,
+    "github": "coder/mux",
+    "link": "https://github.com/coder/mux",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:16.959Z"
   },
   {
     "id": "jordanbaird-ice",
@@ -14148,6 +14661,25 @@
       "daily"
     ],
     "fetchedAt": "2026-03-31T02:52:01.181Z"
+  },
+  {
+    "id": "be5invis-iosevka",
+    "name": "Iosevka",
+    "description": "Versatile typeface for code, from code.",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 34,
+    "since": "daily",
+    "language": "javascript",
+    "starsToday": 22,
+    "github": "be5invis/Iosevka",
+    "link": "https://github.com/be5invis/Iosevka",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:14.981Z"
   },
   {
     "id": "zitadel-zitadel",
@@ -14926,6 +15458,44 @@
     "fetchedAt": "2026-03-29T02:57:12.691Z"
   },
   {
+    "id": "aome510-spotify-player",
+    "name": "spotify-player",
+    "description": "A Spotify player in the terminal with full feature parity",
+    "domain": "AI & ML",
+    "subCategory": "动效/可视化",
+    "maturity": "trending",
+    "trendingRank": 72,
+    "since": "daily",
+    "language": "rust",
+    "starsToday": 19,
+    "github": "aome510/spotify-player",
+    "link": "https://github.com/aome510/spotify-player",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:20.722Z"
+  },
+  {
+    "id": "blinksh-blink",
+    "name": "blink",
+    "description": "Blink Mobile Shell for iOS (Mosh based)",
+    "domain": "Resources",
+    "subCategory": "终端增强",
+    "maturity": "geek",
+    "trendingRank": 287,
+    "since": "weekly",
+    "language": "swift",
+    "starsToday": 19,
+    "github": "blinksh/blink",
+    "link": "https://github.com/blinksh/blink",
+    "tags": [
+      "resources",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-01T03:22:54.290Z"
+  },
+  {
     "id": "cocoindex-io-cocoindex",
     "name": "cocoindex",
     "description": "Data transformation framework for AI. Ultra performant, with incremental processing. 🌟 Star if you like it!",
@@ -15276,6 +15846,25 @@
     "fetchedAt": "2026-03-27T02:52:54.508Z"
   },
   {
+    "id": "xpipe-io-xpipe",
+    "name": "xpipe",
+    "description": "Access your entire server infrastructure from your local desktop",
+    "domain": "DevTools",
+    "subCategory": "自动化",
+    "maturity": "trending",
+    "trendingRank": 82,
+    "since": "daily",
+    "language": "java",
+    "starsToday": 18,
+    "github": "xpipe-io/xpipe",
+    "link": "https://github.com/xpipe-io/xpipe",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:23.459Z"
+  },
+  {
     "id": "chromium-chromium",
     "name": "chromium",
     "description": "The official GitHub mirror of the Chromium source",
@@ -15371,6 +15960,25 @@
       "daily"
     ],
     "fetchedAt": "2026-03-23T02:47:26.742Z"
+  },
+  {
+    "id": "input-leap-input-leap",
+    "name": "input-leap",
+    "description": "Open-source KVM software",
+    "domain": "AI & ML",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 109,
+    "since": "daily",
+    "language": "c++",
+    "starsToday": 17,
+    "github": "input-leap/input-leap",
+    "link": "https://github.com/input-leap/input-leap",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:25.734Z"
   },
   {
     "id": "nvidia-nemo-gym",
@@ -15606,6 +16214,63 @@
       "daily"
     ],
     "fetchedAt": "2026-03-23T02:47:22.694Z"
+  },
+  {
+    "id": "filosottile-mkcert",
+    "name": "mkcert",
+    "description": "A simple zero-config tool to make locally trusted development certificates with any names you'd like.",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 60,
+    "since": "daily",
+    "language": "go",
+    "starsToday": 16,
+    "github": "FiloSottile/mkcert",
+    "link": "https://github.com/FiloSottile/mkcert",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:18.793Z"
+  },
+  {
+    "id": "facebook-react-native",
+    "name": "react-native",
+    "description": "A framework for building native applications using React",
+    "domain": "DevTools",
+    "subCategory": "全栈框架",
+    "maturity": "stable",
+    "trendingRank": 111,
+    "since": "daily",
+    "language": "c++",
+    "starsToday": 16,
+    "github": "facebook/react-native",
+    "link": "https://github.com/facebook/react-native",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:25.734Z"
+  },
+  {
+    "id": "debugtheworldbot-keystats",
+    "name": "keyStats",
+    "description": "Keyboard &amp; Mouse Stats for macOS/Windows",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "trendingRank": 145,
+    "since": "daily",
+    "language": "swift",
+    "starsToday": 16,
+    "github": "debugtheworldbot/keyStats",
+    "link": "https://github.com/debugtheworldbot/keyStats",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:29.412Z"
   },
   {
     "id": "steipete-wacli",
@@ -15899,6 +16564,25 @@
     "fetchedAt": "2026-03-31T02:52:07.078Z"
   },
   {
+    "id": "kunal-kushwaha-dsa-bootcamp-java",
+    "name": "DSA-Bootcamp-Java",
+    "description": "This repository consists of the code samples, assignments, and notes for the Java data structures &amp; algorithms + interview preparation bootcamp of WeMakeDevs.",
+    "domain": "DevTools",
+    "subCategory": "测试/调试",
+    "maturity": "trending",
+    "trendingRank": 85,
+    "since": "daily",
+    "language": "java",
+    "starsToday": 15,
+    "github": "kunal-kushwaha/DSA-Bootcamp-Java",
+    "link": "https://github.com/kunal-kushwaha/DSA-Bootcamp-Java",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:23.459Z"
+  },
+  {
     "id": "kong-insomnia",
     "name": "insomnia",
     "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
@@ -16152,6 +16836,25 @@
       "daily"
     ],
     "fetchedAt": "2026-03-31T02:51:59.229Z"
+  },
+  {
+    "id": "lessica-trollfools",
+    "name": "TrollFools",
+    "description": "In-place tweak injection with insert_dylib and ChOma.",
+    "domain": "Resources",
+    "subCategory": "学习资源",
+    "maturity": "geek",
+    "trendingRank": 288,
+    "since": "weekly",
+    "language": "swift",
+    "starsToday": 14,
+    "github": "Lessica/TrollFools",
+    "link": "https://github.com/Lessica/TrollFools",
+    "tags": [
+      "resources",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-01T03:22:54.290Z"
   },
   {
     "id": "fishjar-kiss-translator",
@@ -16583,6 +17286,25 @@
     "fetchedAt": "2026-03-27T02:52:54.508Z"
   },
   {
+    "id": "streetpea-chiaki-ng",
+    "name": "chiaki-ng",
+    "description": "Next-Generation of Chiaki (the open-source remote play client for PlayStation)",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "trendingRank": 276,
+    "since": "weekly",
+    "language": "c",
+    "starsToday": 13,
+    "github": "streetpea/chiaki-ng",
+    "link": "https://github.com/streetpea/chiaki-ng",
+    "tags": [
+      "devtools",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-01T03:22:52.076Z"
+  },
+  {
     "id": "ai-dynamo-dynamo",
     "name": "dynamo",
     "description": "A Datacenter Scale Distributed Inference Serving Framework",
@@ -16985,6 +17707,44 @@
       "daily"
     ],
     "fetchedAt": "2026-03-31T02:52:09.268Z"
+  },
+  {
+    "id": "mikefarah-yq",
+    "name": "yq",
+    "description": "yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL and properties processor",
+    "domain": "AI & ML",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 62,
+    "since": "daily",
+    "language": "go",
+    "starsToday": 12,
+    "github": "mikefarah/yq",
+    "link": "https://github.com/mikefarah/yq",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:18.793Z"
+  },
+  {
+    "id": "maxwai-nclientv3",
+    "name": "NClientV3",
+    "description": "An unofficial NHentai android client",
+    "domain": "AI & ML",
+    "subCategory": "终端增强",
+    "maturity": "trending",
+    "trendingRank": 87,
+    "since": "daily",
+    "language": "java",
+    "starsToday": 12,
+    "github": "maxwai/NClientV3",
+    "link": "https://github.com/maxwai/NClientV3",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:23.459Z"
   },
   {
     "id": "devilxd-twitchdropsminer",
@@ -17510,6 +18270,25 @@
     "fetchedAt": "2026-03-31T02:52:09.268Z"
   },
   {
+    "id": "mardous-boomingmusic",
+    "name": "BoomingMusic",
+    "description": "Clean, fast, and Material-driven music player with powerful features for Android.",
+    "domain": "AI & ML",
+    "subCategory": "测试/调试",
+    "maturity": "trending",
+    "trendingRank": 165,
+    "since": "daily",
+    "language": "kotlin",
+    "starsToday": 11,
+    "github": "mardous/BoomingMusic",
+    "link": "https://github.com/mardous/BoomingMusic",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:31.582Z"
+  },
+  {
     "id": "coolsnowwolf-lede",
     "name": "lede",
     "description": "Lean's LEDE source",
@@ -17777,6 +18556,44 @@
       "daily"
     ],
     "fetchedAt": "2026-03-31T02:52:07.078Z"
+  },
+  {
+    "id": "codephiliax-chat2db",
+    "name": "Chat2DB",
+    "description": "AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
+    "domain": "AI & ML",
+    "subCategory": "数据库",
+    "maturity": "trending",
+    "trendingRank": 90,
+    "since": "daily",
+    "language": "java",
+    "starsToday": 10,
+    "github": "CodePhiliaX/Chat2DB",
+    "link": "https://github.com/CodePhiliaX/Chat2DB",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:23.459Z"
+  },
+  {
+    "id": "lmarzen-esp32-weather-epd",
+    "name": "esp32-weather-epd",
+    "description": "A low-power E-Paper weather display powered by an ESP32 microcontroller. Utilizes the OpenWeatherMap API.",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "trendingRank": 125,
+    "since": "daily",
+    "language": "c",
+    "starsToday": 10,
+    "github": "lmarzen/esp32-weather-epd",
+    "link": "https://github.com/lmarzen/esp32-weather-epd",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:27.618Z"
   },
   {
     "id": "zed-industries-claude-agent-acp",
@@ -18203,6 +19020,82 @@
       "daily"
     ],
     "fetchedAt": "2026-03-31T02:52:07.078Z"
+  },
+  {
+    "id": "skyworkai-matrix-game",
+    "name": "Matrix-Game",
+    "description": "Matrix-Game 3.0: Real-Time and Streaming Interactive World Model with Long-Horizon Memory",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 23,
+    "since": "daily",
+    "language": "python",
+    "starsToday": 9,
+    "github": "SkyworkAI/Matrix-Game",
+    "link": "https://github.com/SkyworkAI/Matrix-Game",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:13.043Z"
+  },
+  {
+    "id": "dispatcharr-dispatcharr",
+    "name": "Dispatcharr",
+    "description": "",
+    "domain": "Web Stack",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 36,
+    "since": "daily",
+    "language": "javascript",
+    "starsToday": 9,
+    "github": "Dispatcharr/Dispatcharr",
+    "link": "https://github.com/Dispatcharr/Dispatcharr",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:14.981Z"
+  },
+  {
+    "id": "facebook-yoga",
+    "name": "yoga",
+    "description": "Yoga is an embeddable layout engine targeting web standards.",
+    "domain": "Web Stack",
+    "subCategory": "AI RAG",
+    "maturity": "geek",
+    "trendingRank": 115,
+    "since": "daily",
+    "language": "c++",
+    "starsToday": 9,
+    "github": "facebook/yoga",
+    "link": "https://github.com/facebook/yoga",
+    "tags": [
+      "web-stack",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:25.734Z"
+  },
+  {
+    "id": "lnh-team-pico-launcher",
+    "name": "pico-launcher",
+    "description": "Rom browser frontend for Pico Loader.",
+    "domain": "Web Stack",
+    "subCategory": "Web 开发",
+    "maturity": "geek",
+    "trendingRank": 126,
+    "since": "daily",
+    "language": "c",
+    "starsToday": 9,
+    "github": "LNH-team/pico-launcher",
+    "link": "https://github.com/LNH-team/pico-launcher",
+    "tags": [
+      "web-stack",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:27.618Z"
   },
   {
     "id": "spring-projects-spring-framework",
@@ -18839,6 +19732,25 @@
       "daily"
     ],
     "fetchedAt": "2026-03-31T02:52:07.078Z"
+  },
+  {
+    "id": "lance-format-lance",
+    "name": "lance",
+    "description": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and ",
+    "domain": "AI & ML",
+    "subCategory": "数据库",
+    "maturity": "trending",
+    "trendingRank": 76,
+    "since": "daily",
+    "language": "rust",
+    "starsToday": 8,
+    "github": "lance-format/lance",
+    "link": "https://github.com/lance-format/lance",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:20.722Z"
   },
   {
     "id": "protocolbuffers-protobuf",
@@ -19535,6 +20447,25 @@
       "daily"
     ],
     "fetchedAt": "2026-03-31T02:52:07.078Z"
+  },
+  {
+    "id": "codewithharry-sigma-web-dev-course",
+    "name": "Sigma-Web-Dev-Course",
+    "description": "Source Code for Sigma Web Development Course",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 37,
+    "since": "daily",
+    "language": "javascript",
+    "starsToday": 7,
+    "github": "CodeWithHarry/Sigma-Web-Dev-Course",
+    "link": "https://github.com/CodeWithHarry/Sigma-Web-Dev-Course",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:14.981Z"
   },
   {
     "id": "atlassian-atlassian-mcp-server",
@@ -20332,6 +21263,44 @@
       "daily"
     ],
     "fetchedAt": "2026-03-31T02:52:11.394Z"
+  },
+  {
+    "id": "quickjs-ng-quickjs",
+    "name": "quickjs",
+    "description": "QuickJS, the Next Generation: a mighty JavaScript engine",
+    "domain": "Web Stack",
+    "subCategory": "UI 组件库",
+    "maturity": "geek",
+    "trendingRank": 130,
+    "since": "daily",
+    "language": "c",
+    "starsToday": 6,
+    "github": "quickjs-ng/quickjs",
+    "link": "https://github.com/quickjs-ng/quickjs",
+    "tags": [
+      "web-stack",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:27.618Z"
+  },
+  {
+    "id": "jacklandrin-onlyswitch",
+    "name": "OnlySwitch",
+    "description": "⚙️ All-in-One menu bar app, hide 💻MacBook Pro's notch, dark mode, AirPods, Shortcuts",
+    "domain": "AI & ML",
+    "subCategory": "自动化",
+    "maturity": "trending",
+    "trendingRank": 148,
+    "since": "daily",
+    "language": "swift",
+    "starsToday": 6,
+    "github": "jacklandrin/OnlySwitch",
+    "link": "https://github.com/jacklandrin/OnlySwitch",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:29.412Z"
   },
   {
     "id": "eugenp-tutorials",
@@ -21146,6 +22115,82 @@
       "daily"
     ],
     "fetchedAt": "2026-03-29T02:56:55.494Z"
+  },
+  {
+    "id": "vectordotdev-vector",
+    "name": "vector",
+    "description": "A high-performance observability data pipeline.",
+    "domain": "DevTools",
+    "subCategory": "AI RAG",
+    "maturity": "trending",
+    "trendingRank": 77,
+    "since": "daily",
+    "language": "rust",
+    "starsToday": 5,
+    "github": "vectordotdev/vector",
+    "link": "https://github.com/vectordotdev/vector",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:20.722Z"
+  },
+  {
+    "id": "jbeder-yaml-cpp",
+    "name": "yaml-cpp",
+    "description": "A YAML parser and emitter in C++",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "trendingRank": 119,
+    "since": "daily",
+    "language": "c++",
+    "starsToday": 5,
+    "github": "jbeder/yaml-cpp",
+    "link": "https://github.com/jbeder/yaml-cpp",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:25.735Z"
+  },
+  {
+    "id": "nvidia-cuda-samples",
+    "name": "cuda-samples",
+    "description": "Samples for CUDA Developers which demonstrates features in CUDA Toolkit",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "trendingRank": 131,
+    "since": "daily",
+    "language": "c",
+    "starsToday": 5,
+    "github": "NVIDIA/cuda-samples",
+    "link": "https://github.com/NVIDIA/cuda-samples",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:27.618Z"
+  },
+  {
+    "id": "guardianproject-orbot-android",
+    "name": "orbot-android",
+    "description": "The Github home of Orbot: Tor on Android (Also available on gitlab!)",
+    "domain": "AI & ML",
+    "subCategory": "测试/调试",
+    "maturity": "trending",
+    "trendingRank": 170,
+    "since": "daily",
+    "language": "kotlin",
+    "starsToday": 5,
+    "github": "guardianproject/orbot-android",
+    "link": "https://github.com/guardianproject/orbot-android",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:31.582Z"
   },
   {
     "id": "comfy-org-comfyui-frontend",
@@ -22019,6 +23064,44 @@
       "daily"
     ],
     "fetchedAt": "2026-03-29T02:56:45.831Z"
+  },
+  {
+    "id": "antlr-antlr4",
+    "name": "antlr4",
+    "description": "ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files.",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 92,
+    "since": "daily",
+    "language": "java",
+    "starsToday": 4,
+    "github": "antlr/antlr4",
+    "link": "https://github.com/antlr/antlr4",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:23.459Z"
+  },
+  {
+    "id": "nlnetlabs-unbound",
+    "name": "unbound",
+    "description": "Unbound is a validating, recursive, and caching DNS resolver.",
+    "domain": "Infra",
+    "subCategory": "数据库",
+    "maturity": "geek",
+    "trendingRank": 132,
+    "since": "daily",
+    "language": "c",
+    "starsToday": 4,
+    "github": "NLnetLabs/unbound",
+    "link": "https://github.com/NLnetLabs/unbound",
+    "tags": [
+      "infra",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:27.619Z"
   },
   {
     "id": "projectdiscovery-nuclei-templates",
@@ -23312,6 +24395,25 @@
     "fetchedAt": "2026-03-31T02:52:09.268Z"
   },
   {
+    "id": "swiftlang-swift-java",
+    "name": "swift-java",
+    "description": "Java interopability support for Swift",
+    "domain": "AI & ML",
+    "subCategory": "测试/调试",
+    "maturity": "trending",
+    "trendingRank": 151,
+    "since": "daily",
+    "language": "swift",
+    "starsToday": 3,
+    "github": "swiftlang/swift-java",
+    "link": "https://github.com/swiftlang/swift-java",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:29.412Z"
+  },
+  {
     "id": "kubernetes-sigs-gateway-api",
     "name": "gateway-api",
     "description": "Repository for the next iteration of composite service (e.g. Ingress) and load balancing APIs.",
@@ -23935,6 +25037,63 @@
       "daily"
     ],
     "fetchedAt": "2026-03-31T02:52:04.872Z"
+  },
+  {
+    "id": "pygame-pygame",
+    "name": "pygame",
+    "description": "🐍🎮 pygame (the library) is a Free and Open Source python programming language library for making multimedia applications like games built on top of the excellent SDL library. C, Python, Native, Open",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "trendingRank": 137,
+    "since": "daily",
+    "language": "c",
+    "starsToday": 2,
+    "github": "pygame/pygame",
+    "link": "https://github.com/pygame/pygame",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:27.619Z"
+  },
+  {
+    "id": "libimobiledevice-libimobiledevice",
+    "name": "libimobiledevice",
+    "description": "A cross-platform protocol library to communicate with iOS devices",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "trendingRank": 139,
+    "since": "daily",
+    "language": "c",
+    "starsToday": 2,
+    "github": "libimobiledevice/libimobiledevice",
+    "link": "https://github.com/libimobiledevice/libimobiledevice",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:27.619Z"
+  },
+  {
+    "id": "riscv-software-src-riscv-isa-sim",
+    "name": "riscv-isa-sim",
+    "description": "Spike, a RISC-V ISA Simulator",
+    "domain": "AI & ML",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 140,
+    "since": "daily",
+    "language": "c",
+    "starsToday": 2,
+    "github": "riscv-software-src/riscv-isa-sim",
+    "link": "https://github.com/riscv-software-src/riscv-isa-sim",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:27.619Z"
   },
   {
     "id": "runatlantis-atlantis",
@@ -24978,6 +26137,25 @@
       "daily"
     ],
     "fetchedAt": "2026-03-31T02:52:11.394Z"
+  },
+  {
+    "id": "livox-sdk-livox-ros-driver2",
+    "name": "livox_ros_driver2",
+    "description": "Livox device driver under Ros(Compatible with ros and ros2), support Lidar HAP and Mid-360.",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "trendingRank": 122,
+    "since": "daily",
+    "language": "c++",
+    "starsToday": 1,
+    "github": "Livox-SDK/livox_ros_driver2",
+    "link": "https://github.com/Livox-SDK/livox_ros_driver2",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:25.735Z"
   },
   {
     "id": "ollama",
@@ -27759,5 +28937,43 @@
       "daily"
     ],
     "fetchedAt": "2026-03-31T02:52:09.268Z"
+  },
+  {
+    "id": "libjpeg-turbo-libjpeg-turbo",
+    "name": "libjpeg-turbo",
+    "description": "Main libjpeg-turbo repository",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 141,
+    "since": "daily",
+    "language": "c",
+    "starsToday": 0,
+    "github": "libjpeg-turbo/libjpeg-turbo",
+    "link": "https://github.com/libjpeg-turbo/libjpeg-turbo",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:27.619Z"
+  },
+  {
+    "id": "snapkit-snapkit",
+    "name": "SnapKit",
+    "description": "A Swift Autolayout DSL for iOS &amp; OS X",
+    "domain": "AI & ML",
+    "subCategory": "AI Agent",
+    "maturity": "trending",
+    "trendingRank": 156,
+    "since": "daily",
+    "language": "swift",
+    "starsToday": 0,
+    "github": "SnapKit/SnapKit",
+    "link": "https://github.com/SnapKit/SnapKit",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-01T03:22:29.412Z"
   }
 ]
