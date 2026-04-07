@@ -3341,6 +3341,25 @@
     "aiSummary": "Hindsight是强化学习中的智能体记忆系统能提升决策能力。"
   },
   {
+    "id": "accomplish-ai-accomplish",
+    "name": "accomplish",
+    "description": "Accomplish™ is the open source Al coworker that lives on your desktop",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 190,
+    "since": "weekly",
+    "language": "typescript",
+    "starsToday": 594,
+    "github": "accomplish-ai/accomplish",
+    "link": "https://github.com/accomplish-ai/accomplish",
+    "tags": [
+      "ai-&-ml",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-07T02:54:05.324Z"
+  },
+  {
     "id": "gosom-google-maps-scraper",
     "name": "google-maps-scraper",
     "description": "scrape data data from Google Maps. Extracts data such as the name, address, phone number, website URL, rating, reviews number, latitude and longitude, reviews,email and more for each place",
@@ -4182,6 +4201,25 @@
     ],
     "fetchedAt": "2026-03-14T02:48:28.569Z",
     "aiSummary": "JavaScript代码问题检测与修复工具"
+  },
+  {
+    "id": "kepano-obsidian-skills",
+    "name": "obsidian-skills",
+    "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+    "domain": "AI & ML",
+    "subCategory": "AI Agent",
+    "maturity": "trending",
+    "trendingRank": 7,
+    "since": "daily",
+    "language": "all",
+    "starsToday": 429,
+    "github": "kepano/obsidian-skills",
+    "link": "https://github.com/kepano/obsidian-skills",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:34.115Z"
   },
   {
     "id": "wzh4869-appports",
@@ -5104,6 +5142,25 @@
     ],
     "fetchedAt": "2026-03-14T02:47:35.131Z",
     "aiSummary": "Gemini-Voyager是Google Gemini与AI Studio的增强工具集，支持时间线导航、文件夹管理、提示库及聊天导出。"
+  },
+  {
+    "id": "nvidia-personaplex",
+    "name": "personaplex",
+    "description": "PersonaPlex code.",
+    "domain": "DevTools",
+    "subCategory": "私人影音",
+    "maturity": "trending",
+    "trendingRank": 9,
+    "since": "daily",
+    "language": "all",
+    "starsToday": 295,
+    "github": "NVIDIA/personaplex",
+    "link": "https://github.com/NVIDIA/personaplex",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:34.115Z"
   },
   {
     "id": "wei-shaw-sub2api",
@@ -6182,6 +6239,25 @@
     "fetchedAt": "2026-04-03T02:51:14.583Z"
   },
   {
+    "id": "love2d-love",
+    "name": "love",
+    "description": "LÖVE is an awesome 2D game framework for Lua.",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 85,
+    "since": "daily",
+    "language": "c++",
+    "starsToday": 211,
+    "github": "love2d/love",
+    "link": "https://github.com/love2d/love",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:49.932Z"
+  },
+  {
     "id": "antinomyhq-forge",
     "name": "forge",
     "description": "AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models",
@@ -6356,6 +6432,25 @@
       "weekly"
     ],
     "fetchedAt": "2026-03-21T02:31:09.622Z"
+  },
+  {
+    "id": "researai-deepscientist",
+    "name": "DeepScientist",
+    "description": "Now, Stronger AI Pushes Frontiers, Stronger Our Shared Future.",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 32,
+    "since": "daily",
+    "language": "typescript",
+    "starsToday": 204,
+    "github": "ResearAI/DeepScientist",
+    "link": "https://github.com/ResearAI/DeepScientist",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:40.360Z"
   },
   {
     "id": "sam1am-anyapk",
@@ -6827,6 +6922,25 @@
       "weekly"
     ],
     "fetchedAt": "2026-03-19T02:46:27.537Z"
+  },
+  {
+    "id": "hkuds-deeptutor",
+    "name": "DeepTutor",
+    "description": "\"DeepTutor: Agent-Native Personalized Learning Assistant\"",
+    "domain": "AI & ML",
+    "subCategory": "AI Agent",
+    "maturity": "trending",
+    "trendingRank": 17,
+    "since": "daily",
+    "language": "python",
+    "starsToday": 164,
+    "github": "HKUDS/DeepTutor",
+    "link": "https://github.com/HKUDS/DeepTutor",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:35.907Z"
   },
   {
     "id": "crimera-piko",
@@ -7803,6 +7917,25 @@
     "fetchedAt": "2026-03-29T02:57:04.684Z"
   },
   {
+    "id": "ericlbuehler-mistral-rs",
+    "name": "mistral.rs",
+    "description": "Fast, flexible LLM inference",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 210,
+    "since": "weekly",
+    "language": "rust",
+    "starsToday": 130,
+    "github": "EricLBuehler/mistral.rs",
+    "link": "https://github.com/EricLBuehler/mistral.rs",
+    "tags": [
+      "ai-&-ml",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-07T02:54:10.142Z"
+  },
+  {
     "id": "handbrake-handbrake",
     "name": "HandBrake",
     "description": "HandBrake's development repository",
@@ -8269,6 +8402,25 @@
     "fetchedAt": "2026-03-19T02:46:32.079Z"
   },
   {
+    "id": "nvim-treesitter-nvim-treesitter",
+    "name": "nvim-treesitter",
+    "description": "Nvim Treesitter configurations and abstraction layer",
+    "domain": "Resources",
+    "subCategory": "IDE 插件",
+    "maturity": "trending",
+    "trendingRank": 168,
+    "since": "weekly",
+    "language": "all",
+    "starsToday": 113,
+    "github": "nvim-treesitter/nvim-treesitter",
+    "link": "https://github.com/nvim-treesitter/nvim-treesitter",
+    "tags": [
+      "resources",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-07T02:53:58.771Z"
+  },
+  {
     "id": "vllm-project-vllm-omni",
     "name": "vllm-omni",
     "description": "A framework for efficient model inference with omni-modality models",
@@ -8658,6 +8810,25 @@
     "aiSummary": "mGBA是一款高效Game Boy Advance模拟器支持多平台运行可流畅运行经典游戏。"
   },
   {
+    "id": "qwibitai-nanoclaw",
+    "name": "nanoclaw",
+    "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs direct",
+    "domain": "AI & ML",
+    "subCategory": "AI Agent",
+    "maturity": "trending",
+    "trendingRank": 35,
+    "since": "daily",
+    "language": "typescript",
+    "starsToday": 98,
+    "github": "qwibitai/nanoclaw",
+    "link": "https://github.com/qwibitai/nanoclaw",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:40.360Z"
+  },
+  {
     "id": "sigoden-aichat",
     "name": "aichat",
     "description": "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools &amp; Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.",
@@ -8732,6 +8903,25 @@
       "daily"
     ],
     "fetchedAt": "2026-04-05T03:17:15.179Z"
+  },
+  {
+    "id": "playcanvas-engine",
+    "name": "engine",
+    "description": "Powerful web graphics runtime built on WebGL, WebGPU, WebXR and glTF",
+    "domain": "Web Stack",
+    "subCategory": "全栈框架",
+    "maturity": "geek",
+    "trendingRank": 185,
+    "since": "weekly",
+    "language": "javascript",
+    "starsToday": 96,
+    "github": "playcanvas/engine",
+    "link": "https://github.com/playcanvas/engine",
+    "tags": [
+      "web-stack",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-07T02:54:03.010Z"
   },
   {
     "id": "zed-industries-zed",
@@ -9713,6 +9903,25 @@
     "fetchedAt": "2026-03-31T02:52:19.568Z"
   },
   {
+    "id": "dimensiondev-flare",
+    "name": "Flare",
+    "description": "Browse Mastodon, Bluesky, X, Misskey, Nostr and RSS all in one app. One timeline, all your accounts, cross-post everywhere.",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "trendingRank": 145,
+    "since": "daily",
+    "language": "kotlin",
+    "starsToday": 73,
+    "github": "DimensionDev/Flare",
+    "link": "https://github.com/DimensionDev/Flare",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:56.602Z"
+  },
+  {
     "id": "dimensionalos-dimos",
     "name": "dimos",
     "description": "The Dimensional Framework",
@@ -9827,6 +10036,25 @@
       "weekly"
     ],
     "fetchedAt": "2026-04-01T03:22:44.185Z"
+  },
+  {
+    "id": "vercel-labs-agent-skills",
+    "name": "agent-skills",
+    "description": "Vercel's official collection of agent skills",
+    "domain": "AI & ML",
+    "subCategory": "AI Agent",
+    "maturity": "trending",
+    "trendingRank": 21,
+    "since": "daily",
+    "language": "javascript",
+    "starsToday": 71,
+    "github": "vercel-labs/agent-skills",
+    "link": "https://github.com/vercel-labs/agent-skills",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:38.164Z"
   },
   {
     "id": "fredolx-open-tv",
@@ -9965,6 +10193,25 @@
     ],
     "fetchedAt": "2026-03-14T02:47:39.998Z",
     "aiSummary": "fff.nvim是为AI和Neovim设计的快速文件查找工具内置记忆功能提升效率"
+  },
+  {
+    "id": "luanti-org-luanti",
+    "name": "luanti",
+    "description": "Luanti (formerly Minetest) is an open source voxel game-creation platform with easy modding and game creation",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 88,
+    "since": "daily",
+    "language": "c++",
+    "starsToday": 68,
+    "github": "luanti-org/luanti",
+    "link": "https://github.com/luanti-org/luanti",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:49.932Z"
   },
   {
     "id": "dwarvesf-hidden",
@@ -10922,6 +11169,25 @@
       "daily"
     ],
     "fetchedAt": "2026-03-27T02:52:56.277Z"
+  },
+  {
+    "id": "sagernet-sing-box",
+    "name": "sing-box",
+    "description": "The universal proxy platform",
+    "domain": "AI & ML",
+    "subCategory": "低代码",
+    "maturity": "trending",
+    "trendingRank": 40,
+    "since": "daily",
+    "language": "go",
+    "starsToday": 55,
+    "github": "SagerNet/sing-box",
+    "link": "https://github.com/SagerNet/sing-box",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:42.989Z"
   },
   {
     "id": "songquanpeng-one-api",
@@ -12072,6 +12338,25 @@
     "fetchedAt": "2026-03-21T02:30:48.921Z"
   },
   {
+    "id": "zhom-donutbrowser",
+    "name": "donutbrowser",
+    "description": "Simple Yet Powerful Anti-Detect Browser 🍩",
+    "domain": "Web Stack",
+    "subCategory": "Web 开发",
+    "maturity": "trending",
+    "trendingRank": 60,
+    "since": "daily",
+    "language": "rust",
+    "starsToday": 41,
+    "github": "zhom/donutbrowser",
+    "link": "https://github.com/zhom/donutbrowser",
+    "tags": [
+      "web-stack",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:45.062Z"
+  },
+  {
     "id": "hathach-tinyusb",
     "name": "tinyusb",
     "description": "An open source cross-platform USB stack for embedded system",
@@ -12748,6 +13033,25 @@
     "fetchedAt": "2026-04-05T03:17:12.912Z"
   },
   {
+    "id": "syncthing-syncthing",
+    "name": "syncthing",
+    "description": "Open Source Continuous File Synchronization",
+    "domain": "AI & ML",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 43,
+    "since": "daily",
+    "language": "go",
+    "starsToday": 36,
+    "github": "syncthing/syncthing",
+    "link": "https://github.com/syncthing/syncthing",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:42.989Z"
+  },
+  {
     "id": "keploy-keploy",
     "name": "keploy",
     "description": "API, Integration, E2E Testing Agent for Developers that actually work. Generate tests, mocks/stubs for your APIs!",
@@ -12862,6 +13166,25 @@
       "daily"
     ],
     "fetchedAt": "2026-04-01T03:22:14.981Z"
+  },
+  {
+    "id": "glanceapp-glance",
+    "name": "glance",
+    "description": "A self-hosted dashboard that puts all your feeds in one place",
+    "domain": "AI & ML",
+    "subCategory": "云服务替代品",
+    "maturity": "trending",
+    "trendingRank": 45,
+    "since": "daily",
+    "language": "go",
+    "starsToday": 35,
+    "github": "glanceapp/glance",
+    "link": "https://github.com/glanceapp/glance",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:42.989Z"
   },
   {
     "id": "miromindai-mirothinker",
@@ -13810,6 +14133,25 @@
     "fetchedAt": "2026-04-01T03:22:13.043Z"
   },
   {
+    "id": "j178-prek",
+    "name": "prek",
+    "description": "⚡ A Git hook manager written in Rust, designed as a drop-in alternative to pre-commit.",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 61,
+    "since": "daily",
+    "language": "rust",
+    "starsToday": 30,
+    "github": "j178/prek",
+    "link": "https://github.com/j178/prek",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:45.062Z"
+  },
+  {
     "id": "mobile-dev-inc-maestro",
     "name": "Maestro",
     "description": "Painless E2E Automation for Mobile and Web",
@@ -14314,6 +14656,25 @@
     "fetchedAt": "2026-04-05T03:17:09.161Z"
   },
   {
+    "id": "go-vikunja-vikunja",
+    "name": "vikunja",
+    "description": "The to-do app to organize your life.",
+    "domain": "AI & ML",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 46,
+    "since": "daily",
+    "language": "go",
+    "starsToday": 28,
+    "github": "go-vikunja/vikunja",
+    "link": "https://github.com/go-vikunja/vikunja",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:42.989Z"
+  },
+  {
     "id": "jgraph-drawio",
     "name": "drawio",
     "description": "draw.io is a JavaScript, client-side editor for general diagramming.",
@@ -14508,6 +14869,25 @@
       "daily"
     ],
     "fetchedAt": "2026-04-01T03:22:14.981Z"
+  },
+  {
+    "id": "ashishps1-awesome-low-level-design",
+    "name": "awesome-low-level-design",
+    "description": "Learn Low Level Design (LLD) and prepare for interviews using free resources.",
+    "domain": "Resources",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 68,
+    "since": "daily",
+    "language": "java",
+    "starsToday": 27,
+    "github": "ashishps1/awesome-low-level-design",
+    "link": "https://github.com/ashishps1/awesome-low-level-design",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:47.507Z"
   },
   {
     "id": "haleclipse-ccometixline",
@@ -14876,6 +15256,25 @@
       "daily"
     ],
     "fetchedAt": "2026-04-05T03:17:26.703Z"
+  },
+  {
+    "id": "mcrcortex-voxy",
+    "name": "voxy",
+    "description": "An LoD rendering mod for minecraft",
+    "domain": "Resources",
+    "subCategory": "学习资源",
+    "maturity": "geek",
+    "trendingRank": 228,
+    "since": "weekly",
+    "language": "java",
+    "starsToday": 26,
+    "github": "MCRcortex/voxy",
+    "link": "https://github.com/MCRcortex/voxy",
+    "tags": [
+      "resources",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-07T02:54:12.730Z"
   },
   {
     "id": "surrealdb-surrealdb",
@@ -15497,6 +15896,44 @@
     "fetchedAt": "2026-03-31T02:52:31.098Z"
   },
   {
+    "id": "getarcaneapp-arcane",
+    "name": "arcane",
+    "description": "Modern Docker Management, Designed for Everyone",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 49,
+    "since": "daily",
+    "language": "go",
+    "starsToday": 23,
+    "github": "getarcaneapp/arcane",
+    "link": "https://github.com/getarcaneapp/arcane",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:42.989Z"
+  },
+  {
+    "id": "rustpython-rustpython",
+    "name": "RustPython",
+    "description": "A Python Interpreter written in Rust",
+    "domain": "AI & ML",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 62,
+    "since": "daily",
+    "language": "rust",
+    "starsToday": 23,
+    "github": "RustPython/RustPython",
+    "link": "https://github.com/RustPython/RustPython",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:45.062Z"
+  },
+  {
     "id": "mui-material-ui",
     "name": "material-ui",
     "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
@@ -16057,6 +16494,25 @@
     "fetchedAt": "2026-03-31T02:52:02.957Z"
   },
   {
+    "id": "copy-v86",
+    "name": "v86",
+    "description": "x86 PC emulator and x86-to-wasm JIT, running in the browser",
+    "domain": "Web Stack",
+    "subCategory": "Web 开发",
+    "maturity": "trending",
+    "trendingRank": 24,
+    "since": "daily",
+    "language": "javascript",
+    "starsToday": 21,
+    "github": "copy/v86",
+    "link": "https://github.com/copy/v86",
+    "tags": [
+      "web-stack",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:38.164Z"
+  },
+  {
     "id": "eythaann-seelen-ui",
     "name": "Seelen-UI",
     "description": "The Fully Customizable Desktop Environment for Windows 10/11.",
@@ -16539,6 +16995,25 @@
       "weekly"
     ],
     "fetchedAt": "2026-04-01T03:22:54.290Z"
+  },
+  {
+    "id": "raysan5-raylib",
+    "name": "raylib",
+    "description": "A simple and easy-to-use library to enjoy videogames programming",
+    "domain": "AI & ML",
+    "subCategory": "图像/视频生成",
+    "maturity": "trending",
+    "trendingRank": 112,
+    "since": "daily",
+    "language": "c",
+    "starsToday": 19,
+    "github": "raysan5/raylib",
+    "link": "https://github.com/raysan5/raylib",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:52.242Z"
   },
   {
     "id": "cocoindex-io-cocoindex",
@@ -17740,6 +18215,25 @@
       "daily"
     ],
     "fetchedAt": "2026-04-01T03:22:23.459Z"
+  },
+  {
+    "id": "ashishps1-awesome-leetcode-resources",
+    "name": "awesome-leetcode-resources",
+    "description": "Awesome LeetCode resources to learn Data Structures and Algorithms and prepare for Coding Interviews.",
+    "domain": "DevTools",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 70,
+    "since": "daily",
+    "language": "java",
+    "starsToday": 15,
+    "github": "ashishps1/awesome-leetcode-resources",
+    "link": "https://github.com/ashishps1/awesome-leetcode-resources",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:47.507Z"
   },
   {
     "id": "kong-insomnia",
@@ -19020,6 +19514,25 @@
     "fetchedAt": "2026-04-05T03:17:17.346Z"
   },
   {
+    "id": "official-stockfish-stockfish",
+    "name": "Stockfish",
+    "description": "A free and strong UCI chess engine",
+    "domain": "DevTools",
+    "subCategory": "终端增强",
+    "maturity": "trending",
+    "trendingRank": 98,
+    "since": "daily",
+    "language": "c++",
+    "starsToday": 12,
+    "github": "official-stockfish/Stockfish",
+    "link": "https://github.com/official-stockfish/Stockfish",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:49.932Z"
+  },
+  {
     "id": "devilxd-twitchdropsminer",
     "name": "TwitchDropsMiner",
     "description": "An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.",
@@ -19962,6 +20475,44 @@
       "weekly"
     ],
     "fetchedAt": "2026-04-05T03:17:49.552Z"
+  },
+  {
+    "id": "heyitsnoah-claudesidian",
+    "name": "claudesidian",
+    "description": "",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 27,
+    "since": "daily",
+    "language": "javascript",
+    "starsToday": 10,
+    "github": "heyitsnoah/claudesidian",
+    "link": "https://github.com/heyitsnoah/claudesidian",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:38.164Z"
+  },
+  {
+    "id": "google-gemma-cpp",
+    "name": "gemma.cpp",
+    "description": "lightweight, standalone C++ inference engine for Google's Gemma models.",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 99,
+    "since": "daily",
+    "language": "c++",
+    "starsToday": 10,
+    "github": "google/gemma.cpp",
+    "link": "https://github.com/google/gemma.cpp",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:49.932Z"
   },
   {
     "id": "zed-industries-claude-agent-acp",
@@ -21195,6 +21746,25 @@
       "daily"
     ],
     "fetchedAt": "2026-04-05T03:17:22.162Z"
+  },
+  {
+    "id": "pbatard-rufus",
+    "name": "rufus",
+    "description": "The Reliable USB Formatting Utility",
+    "domain": "AI & ML",
+    "subCategory": "开发工具",
+    "maturity": "stable",
+    "trendingRank": 117,
+    "since": "daily",
+    "language": "c",
+    "starsToday": 8,
+    "github": "pbatard/rufus",
+    "link": "https://github.com/pbatard/rufus",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:52.242Z"
   },
   {
     "id": "protocolbuffers-protobuf",
@@ -22937,6 +23507,44 @@
     "fetchedAt": "2026-04-05T03:17:24.476Z"
   },
   {
+    "id": "fortawesome-font-awesome",
+    "name": "Font-Awesome",
+    "description": "The iconic SVG, font, and CSS toolkit",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 28,
+    "since": "daily",
+    "language": "javascript",
+    "starsToday": 6,
+    "github": "FortAwesome/Font-Awesome",
+    "link": "https://github.com/FortAwesome/Font-Awesome",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:38.164Z"
+  },
+  {
+    "id": "openwrt-luci",
+    "name": "luci",
+    "description": "LuCI - OpenWrt Configuration Interface",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 29,
+    "since": "daily",
+    "language": "javascript",
+    "starsToday": 6,
+    "github": "openwrt/luci",
+    "link": "https://github.com/openwrt/luci",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:38.164Z"
+  },
+  {
     "id": "eugenp-tutorials",
     "name": "tutorials",
     "description": "Getting Started with Spring Boot 3:",
@@ -23901,6 +24509,63 @@
       "weekly"
     ],
     "fetchedAt": "2026-04-05T03:17:47.217Z"
+  },
+  {
+    "id": "istoreos-istoreos",
+    "name": "istoreos",
+    "description": "提供一个人人会用的的路由、NAS系统 （目前活跃的分支是 istoreos-24.10，main或master分支不维护请勿使用）",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 118,
+    "since": "daily",
+    "language": "c",
+    "starsToday": 5,
+    "github": "istoreos/istoreos",
+    "link": "https://github.com/istoreos/istoreos",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:52.242Z"
+  },
+  {
+    "id": "krishkrosh-trackweight",
+    "name": "TrackWeight",
+    "description": "Use your Mac trackpad as a weighing scale",
+    "domain": "AI & ML",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 137,
+    "since": "daily",
+    "language": "swift",
+    "starsToday": 5,
+    "github": "KrishKrosh/TrackWeight",
+    "link": "https://github.com/KrishKrosh/TrackWeight",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:54.615Z"
+  },
+  {
+    "id": "ml-explore-mlx-swift-examples",
+    "name": "mlx-swift-examples",
+    "description": "Examples using MLX Swift",
+    "domain": "AI & ML",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 138,
+    "since": "daily",
+    "language": "swift",
+    "starsToday": 5,
+    "github": "ml-explore/mlx-swift-examples",
+    "link": "https://github.com/ml-explore/mlx-swift-examples",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:54.615Z"
   },
   {
     "id": "comfy-org-comfyui-frontend",
@@ -24945,6 +25610,82 @@
       "daily"
     ],
     "fetchedAt": "2026-04-05T03:17:26.703Z"
+  },
+  {
+    "id": "xcollateral-vulkanmod",
+    "name": "VulkanMod",
+    "description": "Vulkan renderer mod for Minecraft.",
+    "domain": "AI & ML",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 77,
+    "since": "daily",
+    "language": "java",
+    "starsToday": 4,
+    "github": "xCollateral/VulkanMod",
+    "link": "https://github.com/xCollateral/VulkanMod",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:47.507Z"
+  },
+  {
+    "id": "bazelbuild-bazel",
+    "name": "bazel",
+    "description": "a fast, scalable, multi-language and extensible build system",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 78,
+    "since": "daily",
+    "language": "java",
+    "starsToday": 4,
+    "github": "bazelbuild/bazel",
+    "link": "https://github.com/bazelbuild/bazel",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:47.507Z"
+  },
+  {
+    "id": "caffeinemc-sodium",
+    "name": "sodium",
+    "description": "A Minecraft mod designed to improve frame rates and reduce micro-stutter",
+    "domain": "AI & ML",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 79,
+    "since": "daily",
+    "language": "java",
+    "starsToday": 4,
+    "github": "CaffeineMC/sodium",
+    "link": "https://github.com/CaffeineMC/sodium",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:47.507Z"
+  },
+  {
+    "id": "azerothcore-azerothcore-wotlk",
+    "name": "azerothcore-wotlk",
+    "description": "Complete Open Source and Modular solution for MMO",
+    "domain": "AI & ML",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 104,
+    "since": "daily",
+    "language": "c++",
+    "starsToday": 4,
+    "github": "azerothcore/azerothcore-wotlk",
+    "link": "https://github.com/azerothcore/azerothcore-wotlk",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:49.932Z"
   },
   {
     "id": "projectdiscovery-nuclei-templates",
@@ -26390,6 +27131,44 @@
     "fetchedAt": "2026-04-03T02:51:17.176Z"
   },
   {
+    "id": "epezent-implot",
+    "name": "implot",
+    "description": "Immediate Mode Plotting",
+    "domain": "AI & ML",
+    "subCategory": "私人影音",
+    "maturity": "trending",
+    "trendingRank": 106,
+    "since": "daily",
+    "language": "c++",
+    "starsToday": 3,
+    "github": "epezent/implot",
+    "link": "https://github.com/epezent/implot",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:49.933Z"
+  },
+  {
+    "id": "zalithlauncher-zalithlauncher",
+    "name": "ZalithLauncher",
+    "description": "Zalith Launcher is a Minecraft launcher developed based on PojavLauncher, capable of running Minecraft: Java Edition on Android devices.",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "trendingRank": 121,
+    "since": "daily",
+    "language": "c",
+    "starsToday": 3,
+    "github": "ZalithLauncher/ZalithLauncher",
+    "link": "https://github.com/ZalithLauncher/ZalithLauncher",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:52.242Z"
+  },
+  {
     "id": "kubernetes-sigs-gateway-api",
     "name": "gateway-api",
     "description": "Repository for the next iteration of composite service (e.g. Ingress) and load balancing APIs.",
@@ -27165,6 +27944,25 @@
       "daily"
     ],
     "fetchedAt": "2026-04-05T03:17:24.476Z"
+  },
+  {
+    "id": "trustwallet-assets",
+    "name": "assets",
+    "description": "A comprehensive, up-to-date collection of information about several thousands (!) of crypto tokens.",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 54,
+    "since": "daily",
+    "language": "go",
+    "starsToday": 2,
+    "github": "trustwallet/assets",
+    "link": "https://github.com/trustwallet/assets",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:42.989Z"
   },
   {
     "id": "runatlantis-atlantis",
@@ -28398,6 +29196,25 @@
       "daily"
     ],
     "fetchedAt": "2026-04-05T03:17:26.703Z"
+  },
+  {
+    "id": "sandermertens-flecs",
+    "name": "flecs",
+    "description": "A fast entity component system (ECS) for C &amp; C++",
+    "domain": "Web Stack",
+    "subCategory": "UI 组件库",
+    "maturity": "geek",
+    "trendingRank": 124,
+    "since": "daily",
+    "language": "c",
+    "starsToday": 1,
+    "github": "SanderMertens/flecs",
+    "link": "https://github.com/SanderMertens/flecs",
+    "tags": [
+      "web-stack",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:52.242Z"
   },
   {
     "id": "ollama",
@@ -31312,5 +32129,43 @@
       "daily"
     ],
     "fetchedAt": "2026-04-05T03:17:24.476Z"
+  },
+  {
+    "id": "teammates-teammates",
+    "name": "teammates",
+    "description": "TEAMMATES is a feedback management tool for education",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 83,
+    "since": "daily",
+    "language": "java",
+    "starsToday": 0,
+    "github": "TEAMMATES/teammates",
+    "link": "https://github.com/TEAMMATES/teammates",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:47.507Z"
+  },
+  {
+    "id": "loopkit-loop",
+    "name": "Loop",
+    "description": "An automated insulin delivery app for iOS, built on LoopKit",
+    "domain": "Web Stack",
+    "subCategory": "AI Agent",
+    "maturity": "geek",
+    "trendingRank": 142,
+    "since": "daily",
+    "language": "swift",
+    "starsToday": 0,
+    "github": "LoopKit/Loop",
+    "link": "https://github.com/LoopKit/Loop",
+    "tags": [
+      "web-stack",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-07T02:53:54.615Z"
   }
 ]
