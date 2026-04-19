@@ -20,6 +20,25 @@
     "aiSummary": "开源AI助手支持多平台多系统提供便捷智能服务"
   },
   {
+    "id": "multica-ai-andrej-karpathy-skills",
+    "name": "andrej-karpathy-skills",
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 168,
+    "since": "weekly",
+    "language": "all",
+    "starsToday": 44465,
+    "github": "multica-ai/andrej-karpathy-skills",
+    "link": "https://github.com/multica-ai/andrej-karpathy-skills",
+    "tags": [
+      "ai-&-ml",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-19T03:29:46.929Z"
+  },
+  {
     "id": "koala73-worldmonitor",
     "name": "worldmonitor",
     "description": "Real-time global intelligence dashboard — AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
@@ -1990,6 +2009,25 @@
     ],
     "fetchedAt": "2026-03-14T02:48:31.244Z",
     "aiSummary": "构建并部署AI代理的云平台"
+  },
+  {
+    "id": "bradygaster-squad",
+    "name": "squad",
+    "description": "Squad: AI agent teams for any project",
+    "domain": "AI & ML",
+    "subCategory": "AI Agent",
+    "maturity": "trending",
+    "trendingRank": 325,
+    "since": "monthly",
+    "language": "typescript",
+    "starsToday": 1328,
+    "github": "bradygaster/squad",
+    "link": "https://github.com/bradygaster/squad",
+    "tags": [
+      "ai-&-ml",
+      "monthly"
+    ],
+    "fetchedAt": "2026-04-19T03:30:19.573Z"
   },
   {
     "id": "quantumnous-new-api",
@@ -4132,6 +4170,25 @@
     "aiSummary": "知乎++是一款去广告、低占用、AI驱动的第三方安卓客户端提升用户体验。"
   },
   {
+    "id": "zhayujie-cowagent",
+    "name": "CowAgent",
+    "description": "CowAgent (chatgpt-on-wechat) 是基于大模型的超级AI助理，能主动思考和任务规划、访问操作系统和外部资源、创造和执行Skills、通过长期记忆和知识库不断成长，比OpenClaw更轻量和便捷。同时支持微信、飞书、钉钉、企微、QQ、公众号、网页等接入，可选择OpenAI/Claude/Gemini/DeepSeek/ Qwen/GLM/Kimi/LinkAI，能处理文本、语",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 181,
+    "since": "weekly",
+    "language": "python",
+    "starsToday": 543,
+    "github": "zhayujie/CowAgent",
+    "link": "https://github.com/zhayujie/CowAgent",
+    "tags": [
+      "ai-&-ml",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-19T03:29:48.934Z"
+  },
+  {
     "id": "microsoft-vibevoice",
     "name": "VibeVoice",
     "description": "Open-Source Frontier Voice AI",
@@ -4714,6 +4771,25 @@
     "fetchedAt": "2026-04-09T02:49:22.406Z"
   },
   {
+    "id": "thunderbird-thunderbolt",
+    "name": "thunderbolt",
+    "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 5,
+    "since": "daily",
+    "language": "all",
+    "starsToday": 447,
+    "github": "thunderbird/thunderbolt",
+    "link": "https://github.com/thunderbird/thunderbolt",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:22.739Z"
+  },
+  {
     "id": "letta-ai-claude-subconscious",
     "name": "claude-subconscious",
     "description": "Give Claude Code a subconscious",
@@ -4887,6 +4963,25 @@
     ],
     "fetchedAt": "2026-03-14T02:47:54.772Z",
     "aiSummary": "一个无需提示只需指定的自动化工具用于高效任务处理和流程控制"
+  },
+  {
+    "id": "codeforreal1-compresso",
+    "name": "compressO",
+    "description": "Convert any video/image into a tiny size. 100% free &amp; open-source. Available for Mac, Windows &amp; Linux.",
+    "domain": "AI & ML",
+    "subCategory": "图像/视频生成",
+    "maturity": "trending",
+    "trendingRank": 203,
+    "since": "weekly",
+    "language": "typescript",
+    "starsToday": 413,
+    "github": "codeforreal1/compressO",
+    "link": "https://github.com/codeforreal1/compressO",
+    "tags": [
+      "ai-&-ml",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-19T03:29:52.842Z"
   },
   {
     "id": "gopeedlab-gopeed",
@@ -5548,6 +5643,25 @@
     ],
     "fetchedAt": "2026-03-14T02:47:59.775Z",
     "aiSummary": "为用户提供美观的'.is-a.dev'子域名注册服务。"
+  },
+  {
+    "id": "openmoss-moss-tts",
+    "name": "MOSS-TTS",
+    "description": "MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team. It is designed for high‑fidelity, high‑expressiveness, and complex real‑world scenarios, ",
+    "domain": "AI & ML",
+    "subCategory": "AI 语音",
+    "maturity": "trending",
+    "trendingRank": 182,
+    "since": "weekly",
+    "language": "python",
+    "starsToday": 330,
+    "github": "OpenMOSS/MOSS-TTS",
+    "link": "https://github.com/OpenMOSS/MOSS-TTS",
+    "tags": [
+      "ai-&-ml",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-19T03:29:48.934Z"
   },
   {
     "id": "ahrm-sioyek",
@@ -7887,6 +8001,25 @@
     "fetchedAt": "2026-04-17T03:22:06.824Z"
   },
   {
+    "id": "resend-react-email",
+    "name": "react-email",
+    "description": "💌 Build and send emails using React",
+    "domain": "AI & ML",
+    "subCategory": "全栈框架",
+    "maturity": "stable",
+    "trendingRank": 41,
+    "since": "daily",
+    "language": "typescript",
+    "starsToday": 172,
+    "github": "resend/react-email",
+    "link": "https://github.com/resend/react-email",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:29.140Z"
+  },
+  {
     "id": "circuit-digest-esp-drone",
     "name": "ESP-Drone",
     "description": "",
@@ -9018,6 +9151,25 @@
     "fetchedAt": "2026-04-13T03:32:00.062Z"
   },
   {
+    "id": "tractorjuice-arc-kit",
+    "name": "arc-kit",
+    "description": "Enterprise Architecture Governance &amp; Vendor Procurement Toolkit",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 8,
+    "since": "daily",
+    "language": "all",
+    "starsToday": 135,
+    "github": "tractorjuice/arc-kit",
+    "link": "https://github.com/tractorjuice/arc-kit",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:22.739Z"
+  },
+  {
     "id": "tabler-tabler-icons",
     "name": "tabler-icons",
     "description": "A set of over 5900 free MIT-licensed high-quality SVG icons for you to use in your web projects.",
@@ -9808,6 +9960,25 @@
     "fetchedAt": "2026-04-07T02:53:58.771Z"
   },
   {
+    "id": "ltaoo-wx-channels-download",
+    "name": "wx_channels_download",
+    "description": "微信视频号下载器",
+    "domain": "Resources",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 214,
+    "since": "weekly",
+    "language": "go",
+    "starsToday": 113,
+    "github": "ltaoo/wx_channels_download",
+    "link": "https://github.com/ltaoo/wx_channels_download",
+    "tags": [
+      "resources",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-19T03:29:55.180Z"
+  },
+  {
     "id": "diegosouzapw-omniroute",
     "name": "OmniRoute",
     "description": "OmniRoute is an AI gateway for multi-provider LLMs: an OpenAI-compatible endpoint with smart routing, load balancing, retries, and fallbacks. Add policies, rate limits, caching, and observability for ",
@@ -10481,6 +10652,25 @@
       "daily"
     ],
     "fetchedAt": "2026-03-21T02:30:45.223Z"
+  },
+  {
+    "id": "davidhdev-react-bits",
+    "name": "react-bits",
+    "description": "An open source collection of animated, interactive &amp; fully customizable React components for building memorable websites.",
+    "domain": "DevTools",
+    "subCategory": "全栈框架",
+    "maturity": "stable",
+    "trendingRank": 23,
+    "since": "daily",
+    "language": "javascript",
+    "starsToday": 94,
+    "github": "DavidHDev/react-bits",
+    "link": "https://github.com/DavidHDev/react-bits",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:26.976Z"
   },
   {
     "id": "dataease-dataease",
@@ -11363,6 +11553,25 @@
     "fetchedAt": "2026-03-29T02:57:04.684Z"
   },
   {
+    "id": "valvesoftware-proton",
+    "name": "Proton",
+    "description": "Compatibility tool for Steam Play based on Wine and additional components",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 98,
+    "since": "daily",
+    "language": "c++",
+    "starsToday": 79,
+    "github": "ValveSoftware/Proton",
+    "link": "https://github.com/ValveSoftware/Proton",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:37.963Z"
+  },
+  {
     "id": "saladday-cc-switch-cli",
     "name": "cc-switch-cli",
     "description": "⭐️ A cross-platform CLI All-in-One assistant tool for Claude Code, Codex &amp; Gemini CLI.",
@@ -11688,6 +11897,25 @@
       "daily"
     ],
     "fetchedAt": "2026-04-17T03:22:08.730Z"
+  },
+  {
+    "id": "thealgorithms-java",
+    "name": "Java",
+    "description": "All Algorithms implemented in Java",
+    "domain": "Resources",
+    "subCategory": "测试/调试",
+    "maturity": "geek",
+    "trendingRank": 238,
+    "since": "weekly",
+    "language": "java",
+    "starsToday": 72,
+    "github": "TheAlgorithms/Java",
+    "link": "https://github.com/TheAlgorithms/Java",
+    "tags": [
+      "resources",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-19T03:29:59.731Z"
   },
   {
     "id": "kernelsu-next-kernelsu-next",
@@ -12191,6 +12419,25 @@
       "weekly"
     ],
     "fetchedAt": "2026-04-01T03:22:49.263Z"
+  },
+  {
+    "id": "nv-tlabs-lyra",
+    "name": "lyra",
+    "description": "Project Lyra: Open Generative 3D World Models",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 17,
+    "since": "daily",
+    "language": "python",
+    "starsToday": 66,
+    "github": "nv-tlabs/lyra",
+    "link": "https://github.com/nv-tlabs/lyra",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:24.776Z"
   },
   {
     "id": "fxpool-fxminerproxy",
@@ -13204,6 +13451,25 @@
     "fetchedAt": "2026-04-11T02:46:28.060Z"
   },
   {
+    "id": "tontinton-maki",
+    "name": "maki",
+    "description": "An efficient AI coding agent",
+    "domain": "AI & ML",
+    "subCategory": "AI Agent",
+    "maturity": "trending",
+    "trendingRank": 226,
+    "since": "weekly",
+    "language": "rust",
+    "starsToday": 55,
+    "github": "tontinton/maki",
+    "link": "https://github.com/tontinton/maki",
+    "tags": [
+      "ai-&-ml",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-19T03:29:57.359Z"
+  },
+  {
     "id": "songquanpeng-one-api",
     "name": "one-api",
     "description": "LLM API 管理 &amp; 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management &a",
@@ -14135,6 +14401,25 @@
     "fetchedAt": "2026-04-03T02:50:50.863Z"
   },
   {
+    "id": "aaddrick-claude-desktop-debian",
+    "name": "claude-desktop-debian",
+    "description": "Claude Desktop for Debian-based Linux distributions",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 9,
+    "since": "daily",
+    "language": "all",
+    "starsToday": 44,
+    "github": "aaddrick/claude-desktop-debian",
+    "link": "https://github.com/aaddrick/claude-desktop-debian",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:22.740Z"
+  },
+  {
     "id": "jdx-mise",
     "name": "mise",
     "description": "dev tools, env vars, task runner",
@@ -14403,6 +14688,25 @@
       "daily"
     ],
     "fetchedAt": "2026-03-27T02:53:02.580Z"
+  },
+  {
+    "id": "thealgorithms-c",
+    "name": "C",
+    "description": "Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented in C for educational purposes.",
+    "domain": "DevTools",
+    "subCategory": "学习资源",
+    "maturity": "geek",
+    "trendingRank": 267,
+    "since": "weekly",
+    "language": "c",
+    "starsToday": 42,
+    "github": "TheAlgorithms/C",
+    "link": "https://github.com/TheAlgorithms/C",
+    "tags": [
+      "devtools",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-19T03:30:05.541Z"
   },
   {
     "id": "keycloak-keycloak",
@@ -15198,6 +15502,25 @@
     "fetchedAt": "2026-04-11T02:46:33.960Z"
   },
   {
+    "id": "kgretzky-evilginx2",
+    "name": "evilginx2",
+    "description": "Standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication",
+    "domain": "DevTools",
+    "subCategory": "全栈框架",
+    "maturity": "trending",
+    "trendingRank": 54,
+    "since": "daily",
+    "language": "go",
+    "starsToday": 37,
+    "github": "kgretzky/evilginx2",
+    "link": "https://github.com/kgretzky/evilginx2",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:31.195Z"
+  },
+  {
     "id": "ventoy-ventoy",
     "name": "Ventoy",
     "description": "A new bootable USB solution.",
@@ -15349,6 +15672,44 @@
       "daily"
     ],
     "fetchedAt": "2026-04-07T02:53:42.989Z"
+  },
+  {
+    "id": "cadquery-cadquery",
+    "name": "cadquery",
+    "description": "A python parametric CAD scripting framework based on OCCT",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 19,
+    "since": "daily",
+    "language": "python",
+    "starsToday": 36,
+    "github": "CadQuery/cadquery",
+    "link": "https://github.com/CadQuery/cadquery",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:24.776Z"
+  },
+  {
+    "id": "microsoft-power-platform-skills",
+    "name": "power-platform-skills",
+    "description": "A plugin marketplace for Claude Code/GitHub Copilot that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
+    "domain": "AI & ML",
+    "subCategory": "低代码",
+    "maturity": "trending",
+    "trendingRank": 196,
+    "since": "weekly",
+    "language": "javascript",
+    "starsToday": 36,
+    "github": "microsoft/power-platform-skills",
+    "link": "https://github.com/microsoft/power-platform-skills",
+    "tags": [
+      "ai-&-ml",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-19T03:29:50.954Z"
   },
   {
     "id": "keploy-keploy",
@@ -16488,6 +16849,25 @@
     "fetchedAt": "2026-04-01T03:22:18.793Z"
   },
   {
+    "id": "deepseek-ai-deepgemm",
+    "name": "DeepGEMM",
+    "description": "DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 10,
+    "since": "daily",
+    "language": "all",
+    "starsToday": 31,
+    "github": "deepseek-ai/DeepGEMM",
+    "link": "https://github.com/deepseek-ai/DeepGEMM",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:22.740Z"
+  },
+  {
     "id": "andreknieriem-headunit-revived",
     "name": "headunit-revived",
     "description": "Headunit App for displaying Android Auto",
@@ -17569,6 +17949,25 @@
     "fetchedAt": "2026-04-13T03:31:01.479Z"
   },
   {
+    "id": "livekit-livekit",
+    "name": "livekit",
+    "description": "End-to-end realtime stack for connecting humans and AI",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 56,
+    "since": "daily",
+    "language": "go",
+    "starsToday": 27,
+    "github": "livekit/livekit",
+    "link": "https://github.com/livekit/livekit",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:31.195Z"
+  },
+  {
     "id": "haleclipse-ccometixline",
     "name": "CCometixLine",
     "description": "Claude Code statusline tool written in Rust",
@@ -18278,6 +18677,25 @@
       "daily"
     ],
     "fetchedAt": "2026-04-17T03:22:14.379Z"
+  },
+  {
+    "id": "connectbot-connectbot",
+    "name": "connectbot",
+    "description": "ConnectBot is the first SSH client for Android.",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "trendingRank": 297,
+    "since": "weekly",
+    "language": "kotlin",
+    "starsToday": 25,
+    "github": "connectbot/connectbot",
+    "link": "https://github.com/connectbot/connectbot",
+    "tags": [
+      "devtools",
+      "weekly"
+    ],
+    "fetchedAt": "2026-04-19T03:30:10.280Z"
   },
   {
     "id": "jordanbaird-ice",
@@ -19071,6 +19489,25 @@
     "fetchedAt": "2026-04-15T03:19:33.421Z"
   },
   {
+    "id": "eu-digital-identity-wallet-av-app-android-wallet-ui",
+    "name": "av-app-android-wallet-ui",
+    "description": "",
+    "domain": "DevTools",
+    "subCategory": "UI 组件库",
+    "maturity": "geek",
+    "trendingRank": 153,
+    "since": "daily",
+    "language": "kotlin",
+    "starsToday": 22,
+    "github": "eu-digital-identity-wallet/av-app-android-wallet-ui",
+    "link": "https://github.com/eu-digital-identity-wallet/av-app-android-wallet-ui",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:44.819Z"
+  },
+  {
     "id": "zitadel-zitadel",
     "name": "zitadel",
     "description": "ZITADEL - Identity infrastructure, simplified for you.",
@@ -19709,6 +20146,25 @@
       "daily"
     ],
     "fetchedAt": "2026-04-15T03:19:07.360Z"
+  },
+  {
+    "id": "temporalio-temporal",
+    "name": "temporal",
+    "description": "Temporal service",
+    "domain": "AI & ML",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 59,
+    "since": "daily",
+    "language": "go",
+    "starsToday": 20,
+    "github": "temporalio/temporal",
+    "link": "https://github.com/temporalio/temporal",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:31.195Z"
   },
   {
     "id": "netdata-netdata",
@@ -21156,6 +21612,25 @@
     "fetchedAt": "2026-04-13T03:30:54.676Z"
   },
   {
+    "id": "iawia002-lux",
+    "name": "lux",
+    "description": "👾 Fast and simple video download library and CLI tool written in Go",
+    "domain": "AI & ML",
+    "subCategory": "图像/视频生成",
+    "maturity": "trending",
+    "trendingRank": 60,
+    "since": "daily",
+    "language": "go",
+    "starsToday": 16,
+    "github": "iawia002/lux",
+    "link": "https://github.com/iawia002/lux",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:31.195Z"
+  },
+  {
     "id": "steipete-wacli",
     "name": "wacli",
     "description": "WhatsApp CLI",
@@ -21597,6 +22072,25 @@
       "daily"
     ],
     "fetchedAt": "2026-04-17T03:22:14.379Z"
+  },
+  {
+    "id": "assistant-ui-assistant-ui",
+    "name": "assistant-ui",
+    "description": "Typescript/React Library for AI Chat💬🚀",
+    "domain": "AI & ML",
+    "subCategory": "UI 组件库",
+    "maturity": "trending",
+    "trendingRank": 46,
+    "since": "daily",
+    "language": "typescript",
+    "starsToday": 15,
+    "github": "assistant-ui/assistant-ui",
+    "link": "https://github.com/assistant-ui/assistant-ui",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:29.140Z"
   },
   {
     "id": "kong-insomnia",
@@ -23029,6 +23523,44 @@
     "fetchedAt": "2026-04-17T03:22:24.024Z"
   },
   {
+    "id": "ai4finance-foundation-finrl-trading",
+    "name": "FinRL-Trading",
+    "description": "FinRL-X: An AI-Native Modular Infrastructure for Quantitative Trading",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 20,
+    "since": "daily",
+    "language": "python",
+    "starsToday": 12,
+    "github": "AI4Finance-Foundation/FinRL-Trading",
+    "link": "https://github.com/AI4Finance-Foundation/FinRL-Trading",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:24.776Z"
+  },
+  {
+    "id": "electerm-electerm",
+    "name": "electerm",
+    "description": "📻Terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(linux, mac, win)",
+    "domain": "DevTools",
+    "subCategory": "终端增强",
+    "maturity": "trending",
+    "trendingRank": 28,
+    "since": "daily",
+    "language": "javascript",
+    "starsToday": 12,
+    "github": "electerm/electerm",
+    "link": "https://github.com/electerm/electerm",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:26.976Z"
+  },
+  {
     "id": "devilxd-twitchdropsminer",
     "name": "TwitchDropsMiner",
     "description": "An app that allows you to AFK mine timed Twitch drops, with automatic drop claiming and channel switching.",
@@ -23664,6 +24196,25 @@
       "daily"
     ],
     "fetchedAt": "2026-04-13T03:31:15.201Z"
+  },
+  {
+    "id": "0xjacky-nginx-ui",
+    "name": "nginx-ui",
+    "description": "Yet another WebUI for Nginx",
+    "domain": "Web Stack",
+    "subCategory": "全栈框架",
+    "maturity": "stable",
+    "trendingRank": 61,
+    "since": "daily",
+    "language": "go",
+    "starsToday": 11,
+    "github": "0xJacky/nginx-ui",
+    "link": "https://github.com/0xJacky/nginx-ui",
+    "tags": [
+      "web-stack",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:31.195Z"
   },
   {
     "id": "coolsnowwolf-lede",
@@ -25700,6 +26251,63 @@
     "fetchedAt": "2026-04-17T03:22:14.379Z"
   },
   {
+    "id": "prem-k-r-materialyounewtab",
+    "name": "MaterialYouNewTab",
+    "description": "MY NewTab: A Simple New Tab (browser's home page) inspired with Google's 'Material You' design",
+    "domain": "Web Stack",
+    "subCategory": "终端增强",
+    "maturity": "trending",
+    "trendingRank": 29,
+    "since": "daily",
+    "language": "javascript",
+    "starsToday": 8,
+    "github": "prem-k-r/MaterialYouNewTab",
+    "link": "https://github.com/prem-k-r/MaterialYouNewTab",
+    "tags": [
+      "web-stack",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:26.976Z"
+  },
+  {
+    "id": "processing-p5-js",
+    "name": "p5.js",
+    "description": "",
+    "domain": "AI & ML",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 30,
+    "since": "daily",
+    "language": "javascript",
+    "starsToday": 8,
+    "github": "processing/p5.js",
+    "link": "https://github.com/processing/p5.js",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:26.976Z"
+  },
+  {
+    "id": "homarr-labs-homarr",
+    "name": "homarr",
+    "description": "A modern and easy to use dashboard. 40+ integrations. 10K+ icons built in. Authentication out of the box. No YAML, drag and drop configuration.",
+    "domain": "AI & ML",
+    "subCategory": "AI RAG",
+    "maturity": "trending",
+    "trendingRank": 47,
+    "since": "daily",
+    "language": "typescript",
+    "starsToday": 8,
+    "github": "homarr-labs/homarr",
+    "link": "https://github.com/homarr-labs/homarr",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:29.140Z"
+  },
+  {
     "id": "protocolbuffers-protobuf",
     "name": "protobuf",
     "description": "Protocol Buffers - Google's data interchange format",
@@ -26660,6 +27268,25 @@
       "daily"
     ],
     "fetchedAt": "2026-04-17T03:22:12.527Z"
+  },
+  {
+    "id": "actions-checkout",
+    "name": "checkout",
+    "description": "Action for checking out a repo",
+    "domain": "AI & ML",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 48,
+    "since": "daily",
+    "language": "typescript",
+    "starsToday": 7,
+    "github": "actions/checkout",
+    "link": "https://github.com/actions/checkout",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:29.140Z"
   },
   {
     "id": "atlassian-atlassian-mcp-server",
@@ -27761,6 +28388,44 @@
       "daily"
     ],
     "fetchedAt": "2026-04-17T03:22:18.232Z"
+  },
+  {
+    "id": "sfml-sfml",
+    "name": "SFML",
+    "description": "Simple and Fast Multimedia Library",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "trendingRank": 106,
+    "since": "daily",
+    "language": "c++",
+    "starsToday": 6,
+    "github": "SFML/SFML",
+    "link": "https://github.com/SFML/SFML",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:37.963Z"
+  },
+  {
+    "id": "fossifyorg-gallery",
+    "name": "Gallery",
+    "description": "Browse your memories without any interruptions with this photo and video gallery",
+    "domain": "AI & ML",
+    "subCategory": "图像/视频生成",
+    "maturity": "trending",
+    "trendingRank": 162,
+    "since": "daily",
+    "language": "kotlin",
+    "starsToday": 6,
+    "github": "FossifyOrg/Gallery",
+    "link": "https://github.com/FossifyOrg/Gallery",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:44.819Z"
   },
   {
     "id": "eugenp-tutorials",
@@ -30400,6 +31065,101 @@
     "fetchedAt": "2026-04-17T03:22:20.125Z"
   },
   {
+    "id": "saleor-saleor",
+    "name": "saleor",
+    "description": "Saleor Core: the high performance, composable, headless commerce API.",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 21,
+    "since": "daily",
+    "language": "python",
+    "starsToday": 4,
+    "github": "saleor/saleor",
+    "link": "https://github.com/saleor/saleor",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:24.776Z"
+  },
+  {
+    "id": "bitwarden-ai-plugins",
+    "name": "ai-plugins",
+    "description": "AI plugin marketplace.",
+    "domain": "AI & ML",
+    "subCategory": "IDE 插件",
+    "maturity": "trending",
+    "trendingRank": 49,
+    "since": "daily",
+    "language": "typescript",
+    "starsToday": 4,
+    "github": "bitwarden/ai-plugins",
+    "link": "https://github.com/bitwarden/ai-plugins",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:29.140Z"
+  },
+  {
+    "id": "unitreerobotics-unitree-ros",
+    "name": "unitree_ros",
+    "description": "",
+    "domain": "AI & ML",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 107,
+    "since": "daily",
+    "language": "c++",
+    "starsToday": 4,
+    "github": "unitreerobotics/unitree_ros",
+    "link": "https://github.com/unitreerobotics/unitree_ros",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:37.963Z"
+  },
+  {
+    "id": "coteditor-coteditor",
+    "name": "CotEditor",
+    "description": "Lightweight Plain Text Editor for macOS",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 143,
+    "since": "daily",
+    "language": "swift",
+    "starsToday": 4,
+    "github": "coteditor/CotEditor",
+    "link": "https://github.com/coteditor/CotEditor",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:42.851Z"
+  },
+  {
+    "id": "android-security-samples",
+    "name": "security-samples",
+    "description": "Multiple samples showing the best practices in security APIs on Android.",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "trendingRank": 164,
+    "since": "daily",
+    "language": "kotlin",
+    "starsToday": 4,
+    "github": "android/security-samples",
+    "link": "https://github.com/android/security-samples",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:44.820Z"
+  },
+  {
     "id": "projectdiscovery-nuclei-templates",
     "name": "nuclei-templates",
     "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
@@ -32033,6 +32793,82 @@
     "fetchedAt": "2026-04-17T03:22:16.306Z"
   },
   {
+    "id": "kokkos-kokkos",
+    "name": "kokkos",
+    "description": "Kokkos C++ Performance Portability Programming Ecosystem: The Programming Model - Parallel Execution and Memory Abstraction",
+    "domain": "AI & ML",
+    "subCategory": "低代码",
+    "maturity": "trending",
+    "trendingRank": 108,
+    "since": "daily",
+    "language": "c++",
+    "starsToday": 3,
+    "github": "kokkos/kokkos",
+    "link": "https://github.com/kokkos/kokkos",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:37.963Z"
+  },
+  {
+    "id": "apple-foundationdb",
+    "name": "foundationdb",
+    "description": "FoundationDB - the open source, distributed, transactional key-value store",
+    "domain": "Infra",
+    "subCategory": "数据库",
+    "maturity": "geek",
+    "trendingRank": 110,
+    "since": "daily",
+    "language": "c++",
+    "starsToday": 3,
+    "github": "apple/foundationdb",
+    "link": "https://github.com/apple/foundationdb",
+    "tags": [
+      "infra",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:37.963Z"
+  },
+  {
+    "id": "trustwallet-wallet-core",
+    "name": "wallet-core",
+    "description": "Cross-platform, cross-blockchain wallet library.",
+    "domain": "AI & ML",
+    "subCategory": "低代码",
+    "maturity": "trending",
+    "trendingRank": 111,
+    "since": "daily",
+    "language": "c++",
+    "starsToday": 3,
+    "github": "trustwallet/wallet-core",
+    "link": "https://github.com/trustwallet/wallet-core",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:37.963Z"
+  },
+  {
+    "id": "ktorio-ktor",
+    "name": "ktor",
+    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "trendingRank": 166,
+    "since": "daily",
+    "language": "kotlin",
+    "starsToday": 3,
+    "github": "ktorio/ktor",
+    "link": "https://github.com/ktorio/ktor",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:44.820Z"
+  },
+  {
     "id": "kubernetes-sigs-gateway-api",
     "name": "gateway-api",
     "description": "Repository for the next iteration of composite service (e.g. Ingress) and load balancing APIs.",
@@ -32903,6 +33739,63 @@
       "daily"
     ],
     "fetchedAt": "2026-04-15T03:19:09.517Z"
+  },
+  {
+    "id": "firebase-agent-skills",
+    "name": "agent-skills",
+    "description": "Agent Skills for Firebase",
+    "domain": "AI & ML",
+    "subCategory": "AI Agent",
+    "maturity": "trending",
+    "trendingRank": 34,
+    "since": "daily",
+    "language": "javascript",
+    "starsToday": 2,
+    "github": "firebase/agent-skills",
+    "link": "https://github.com/firebase/agent-skills",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:26.976Z"
+  },
+  {
+    "id": "openrefine-openrefine",
+    "name": "OpenRefine",
+    "description": "OpenRefine is a free, open source power tool for working with messy data and improving it",
+    "domain": "DevTools",
+    "subCategory": "低代码",
+    "maturity": "trending",
+    "trendingRank": 90,
+    "since": "daily",
+    "language": "java",
+    "starsToday": 2,
+    "github": "OpenRefine/OpenRefine",
+    "link": "https://github.com/OpenRefine/OpenRefine",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:35.687Z"
+  },
+  {
+    "id": "google-draco",
+    "name": "draco",
+    "description": "Draco is a library for compressing and decompressing 3D geometric meshes and point clouds. It is intended to improve the storage and transmission of 3D graphics.",
+    "domain": "AI & ML",
+    "subCategory": "LLM 框架",
+    "maturity": "trending",
+    "trendingRank": 112,
+    "since": "daily",
+    "language": "c++",
+    "starsToday": 2,
+    "github": "google/draco",
+    "link": "https://github.com/google/draco",
+    "tags": [
+      "ai-&-ml",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:37.963Z"
   },
   {
     "id": "runatlantis-atlantis",
@@ -34364,6 +35257,25 @@
       "daily"
     ],
     "fetchedAt": "2026-04-17T03:22:22.209Z"
+  },
+  {
+    "id": "jaegertracing-jaeger-ui",
+    "name": "jaeger-ui",
+    "description": "Web UI for Jaeger",
+    "domain": "DevTools",
+    "subCategory": "UI 组件库",
+    "maturity": "trending",
+    "trendingRank": 35,
+    "since": "daily",
+    "language": "javascript",
+    "starsToday": 1,
+    "github": "jaegertracing/jaeger-ui",
+    "link": "https://github.com/jaegertracing/jaeger-ui",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:26.976Z"
   },
   {
     "id": "ollama",
@@ -37392,5 +38304,81 @@
       "daily"
     ],
     "fetchedAt": "2026-04-17T03:22:20.125Z"
+  },
+  {
+    "id": "eclipse-vertx-vert-x",
+    "name": "vert.x",
+    "description": "Vert.x is a tool-kit for building reactive applications on the JVM",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 94,
+    "since": "daily",
+    "language": "java",
+    "starsToday": 0,
+    "github": "eclipse-vertx/vert.x",
+    "link": "https://github.com/eclipse-vertx/vert.x",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:35.687Z"
+  },
+  {
+    "id": "azuread-microsoft-authentication-library-common-for-android",
+    "name": "microsoft-authentication-library-common-for-android",
+    "description": "Common code used by both the Active Directory Authentication Library (ADAL) and the Microsoft Authentication Library (MSAL)",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "trending",
+    "trendingRank": 95,
+    "since": "daily",
+    "language": "java",
+    "starsToday": 0,
+    "github": "AzureAD/microsoft-authentication-library-common-for-android",
+    "link": "https://github.com/AzureAD/microsoft-authentication-library-common-for-android",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:35.687Z"
+  },
+  {
+    "id": "unitreerobotics-unitree-ros2",
+    "name": "unitree_ros2",
+    "description": "",
+    "domain": "AI & ML",
+    "subCategory": "学习资源",
+    "maturity": "trending",
+    "trendingRank": 115,
+    "since": "daily",
+    "language": "c++",
+    "starsToday": 0,
+    "github": "unitreerobotics/unitree_ros2",
+    "link": "https://github.com/unitreerobotics/unitree_ros2",
+    "tags": [
+      "resources",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:37.963Z"
+  },
+  {
+    "id": "facebookincubator-velox",
+    "name": "velox",
+    "description": "A composable and fully extensible C++ execution engine library for data management systems.",
+    "domain": "DevTools",
+    "subCategory": "开发工具",
+    "maturity": "geek",
+    "trendingRank": 116,
+    "since": "daily",
+    "language": "c++",
+    "starsToday": 0,
+    "github": "facebookincubator/velox",
+    "link": "https://github.com/facebookincubator/velox",
+    "tags": [
+      "devtools",
+      "daily"
+    ],
+    "fetchedAt": "2026-04-19T03:29:37.964Z"
   }
 ]
